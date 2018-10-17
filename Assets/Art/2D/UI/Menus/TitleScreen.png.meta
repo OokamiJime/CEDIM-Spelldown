@@ -8,6 +8,8 @@ TextureImporter:
     21300006: TitleScreen_23
     21300008: TitleScreen_10
     21300010: TitleScreen_1
+    21300012: TitleScreen_2
+    21300014: TitleScreen_3
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -238,6 +240,46 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 31e803eac558b174487ef6afaeaa56b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleScreen_2
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 543
+        width: 412
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e6428030cc1804eb7acfc51aa9f648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TitleScreen_3
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 510
+        width: 389
+        height: 625
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe68ec69e00e5d544a73430f3f06f032
       vertices: []
       indices: 
       edges: []
