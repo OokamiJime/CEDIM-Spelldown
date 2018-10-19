@@ -3,12 +3,13 @@ using System.Collections.Generic;
 
 // This class manages which player behaviour is active or overriding, and call its local functions.
 // Contains basic setup and common functions used by all the player behaviours.
-public class BasicBehaviour : MonoBehaviour
+public class BasicBehaviourB : MonoBehaviour
 {
 	public Transform playerCamera;                        // Reference to the camera that focus the player.
 	public float turnSmoothing = 0.06f;                   // Speed of turn when moving to match camera facing.
 	public float sprintFOV = 100f;                        // the FOV to use on the camera when player is sprinting.
 	public string sprintButton = "Sprint";                // Default sprint button input name.
+ 
 
 	private float h;                                      // Horizontal Axis.
 	private float v;                                      // Vertical Axis.
@@ -63,8 +64,8 @@ public class BasicBehaviour : MonoBehaviour
 	void Update()
 	{
 		// Store the input axes.
-		h = Input.GetAxis("HorizontalA");
-		v = Input.GetAxis("VerticalA");
+        h = Input.GetAxis("HorizontalB");
+		v = Input.GetAxis("VerticalB");
 
 		// Set the input axes on the Animator Controller.
 		anim.SetFloat(hFloat, h, 0.1f, Time.deltaTime);
@@ -328,10 +329,11 @@ public class BasicBehaviour : MonoBehaviour
 
 // This is the base class for all player behaviours, any custom behaviour must inherit from this.
 // Contains references to local components that may differ according to the behaviour itself.
-public abstract class GenericBehaviour : MonoBehaviour
+public abstract class GenericBehaviourB : MonoBehaviour
 {
 	//protected Animator anim;                       // Reference to the Animator component.
-	protected int speedFloat;                      // Speed parameter on the Animator.
+    public GameObject playerObjectB;
+    protected int speedFloat;                      // Speed parameter on the Animator.
 	protected BasicBehaviour behaviourManager;     // Reference to the basic behaviour manager.
 	protected int behaviourCode;                   // The code that identifies a behaviour.
 	protected bool canSprint;                      // Boolean to store if the behaviour allows the player to sprint.
@@ -339,7 +341,7 @@ public abstract class GenericBehaviour : MonoBehaviour
 	void Awake()
 	{
 		// Set up the references.
-		behaviourManager = GetComponent<BasicBehaviour> ();
+		behaviourManager = playerObjectB.GetComponent<BasicBehaviour> ();
 		speedFloat = Animator.StringToHash("Speed");
 		canSprint = true;
 
