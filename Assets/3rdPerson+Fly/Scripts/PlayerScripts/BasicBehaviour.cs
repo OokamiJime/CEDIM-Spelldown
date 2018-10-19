@@ -63,8 +63,8 @@ public class BasicBehaviour : MonoBehaviour
 	void Update()
 	{
 		// Store the input axes.
-		h = Input.GetAxis("HorizontalA");
-		v = Input.GetAxis("VerticalA");
+		h = Input.GetAxis("Horizontal");
+		v = Input.GetAxis("Vertical");
 
 		// Set the input axes on the Animator Controller.
 		anim.SetFloat(hFloat, h, 0.1f, Time.deltaTime);
