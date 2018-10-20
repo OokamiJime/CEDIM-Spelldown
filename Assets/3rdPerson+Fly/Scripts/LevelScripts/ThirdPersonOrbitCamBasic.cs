@@ -29,8 +29,11 @@ public class ThirdPersonOrbitCamBasic : MonoBehaviour
 
 	// Get the camera horizontal angle.
 	public float GetH { get { return angleH; } }
+    public string movementAngleX = "Mouse X";
+    public string movementAngleY = "Mouse Y";
+    public bool useJoystick = false;
 
-	void Awake()
+    void Awake()
 	{
 		// Reference to the camera transform.
 		cam = transform;
@@ -56,13 +59,20 @@ public class ThirdPersonOrbitCamBasic : MonoBehaviour
 
 	void Update()
 	{
-		// Get mouse movement to orbit the camera.
-		// Mouse:
-		angleH += Mathf.Clamp(Input.GetAxis("Mouse X"), -1, 1) * horizontalAimingSpeed;
-		angleV += Mathf.Clamp(Input.GetAxis("Mouse Y"), -1, 1) * verticalAimingSpeed;
-		// Joystick:
-		angleH += Mathf.Clamp(Input.GetAxis(XAxis), -1, 1) * 60 * horizontalAimingSpeed * Time.deltaTime;
-		angleV += Mathf.Clamp(Input.GetAxis(YAxis), -1, 1) * 60 * verticalAimingSpeed * Time.deltaTime;
+        // Get mouse movement to orbit the camera.
+        // Mouse:
+        if (!useJoystick)
+        {
+            angleH += Mathf.Clamp(Input.GetAxis(movementAngleX), -1, 1) * horizontalAimingSpeed;
+            angleV += Mathf.Clamp(Input.GetAxis(movementAngleY), -1, 1) * verticalAimingSpeed;
+        }
+        else
+        {
+            // Joystick:
+            angleH += Mathf.Clamp(Input.GetAxis(XAxis), -1, 1) * 60 * horizontalAimingSpeed * Time.deltaTime;
+            angleV += Mathf.Clamp(Input.GetAxis(YAxis), -1, 1) * 60 * verticalAimingSpeed * Time.deltaTime;
+        }
+
 
 		// Set vertical movement limit.
 		angleV = Mathf.Clamp(angleV, minVerticalAngle, targetMaxVerticalAngle);
