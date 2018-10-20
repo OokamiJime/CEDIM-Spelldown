@@ -43,7 +43,8 @@ public class BasicBehaviour : MonoBehaviour
 
 	// Get current default behaviour.
 	public int GetDefaultBehaviour {  get { return defaultBehaviour; } }
-
+    public string horizontalAxis = "Horizontal";
+    public string verticalAxis = "Vertical";
 	void Awake ()
 	{
 		// Set up the references.
@@ -63,8 +64,8 @@ public class BasicBehaviour : MonoBehaviour
 	void Update()
 	{
 		// Store the input axes.
-		h = Input.GetAxis("Horizontal");
-		v = Input.GetAxis("Vertical");
+		h = Input.GetAxis(horizontalAxis);
+		v = Input.GetAxis(verticalAxis);
 
 		// Set the input axes on the Animator Controller.
 		anim.SetFloat(hFloat, h, 0.1f, Time.deltaTime);
