@@ -45,7 +45,15 @@ public class BasicBehaviour : MonoBehaviour
 	public int GetDefaultBehaviour {  get { return defaultBehaviour; } }
     public string horizontalAxis = "Horizontal";
     public string verticalAxis = "Vertical";
-	void Awake ()
+
+
+    public Vector3 groundDetectionOffset;
+    public Vector3 groundDetectionDirection;
+    public float groundDetectionRadius;
+    public float groundDetectionDistance;
+    public LayerMask groundDetectionLayer;
+
+    void Awake ()
 	{
 		// Set up the references.
 		behaviours = new List<GenericBehaviour> ();
@@ -322,9 +330,24 @@ public class BasicBehaviour : MonoBehaviour
 	// Function to tell whether or not the player is on ground.
 	public bool IsGrounded()
 	{
-		Ray ray = new Ray(this.transform.position + Vector3.up * 2 * colExtents.x, Vector3.down);
-		return Physics.SphereCast(ray, colExtents.x, colExtents.x + 0.2f);
+        //Ray ray = new Ray(this.transform.position + Vector3.up * 2 * colExtents.x, Vector3.down);
+        //return Physics.SphereCast(ray, colExtents.x, colExtents.x + 0.2f);
+
+        Vector3 origin = transform.position + groundDetectionOffset;
+        RaycastHit hitInfo; 
+        bool grounded = Physics.SphereCast(origin: origin, radius: groundDetectionRadius, direction: groundDetectionDirection, hitInfo: out hitInfo, maxDistance: groundDetectionDistance, layerMask: groundDetectionLayer);
+        Debug.Log("Hit Info: " + hitInfo.collider);
+        Debug.Log("Is Grounded: " + grounded, this);
+        return grounded;
+
 	}
+
+    private void OnDrawGizmos()
+    {
+        Vector3 origin = transform.position + groundDetectionOffset;
+        Gizmos.color = Color.black;
+        Gizmos.DrawWireSphere(origin, groundDetectionRadius);
+    }
 }
 
 // This is the base class for all player behaviours, any custom behaviour must inherit from this.
