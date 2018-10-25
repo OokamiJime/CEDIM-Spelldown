@@ -4,19 +4,84 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: FemaleStudent
+    100004: polySurface1
+    100006: polySurface10
+    100008: polySurface11
+    100010: polySurface12
+    100012: polySurface2
+    100014: polySurface3
+    100016: polySurface3 1
+    100018: polySurface4
+    100020: polySurface5
+    100022: polySurface5 1
+    100024: polySurface6
+    100026: polySurface7
+    100028: polySurface8
+    100030: polySurface8 1
+    100032: polySurface9
+    100034: transform1
+    100036: transform10
+    100038: transform11
+    100040: transform12
+    100042: transform13
+    100044: transform14
+    100046: transform15
+    100048: transform2
+    100050: transform3
+    100052: transform4
+    100054: transform5
+    100056: transform6
+    100058: transform7
+    100060: transform8
+    100062: transform9
     400000: //RootNode
+    400002: FemaleStudent
+    400004: polySurface1
+    400006: polySurface10
+    400008: polySurface11
+    400010: polySurface12
+    400012: polySurface2
+    400014: polySurface3
+    400016: polySurface3 1
+    400018: polySurface4
+    400020: polySurface5
+    400022: polySurface5 1
+    400024: polySurface6
+    400026: polySurface7
+    400028: polySurface8
+    400030: polySurface8 1
+    400032: polySurface9
+    400034: transform1
+    400036: transform10
+    400038: transform11
+    400040: transform12
+    400042: transform13
+    400044: transform14
+    400046: transform15
+    400048: transform2
+    400050: transform3
+    400052: transform4
+    400054: transform5
+    400056: transform6
+    400058: transform7
+    400060: transform8
+    400062: transform9
     2100000: lambert5
     2100002: lambert3
     2300000: //RootNode
+    2300002: polySurface12
     3300000: //RootNode
+    3300002: polySurface12
     4300000: FemaleStudent
+    4300002: polySurface12
     9500000: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: lambert3
-    second: {fileID: 2100000, guid: 9916d3b7e5e5ab84398e65d0d0d8565c, type: 2}
+    second: {fileID: 2100000, guid: ba8831aa551b0194cb3b3921dc140cd5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -71,7 +136,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 1
+    useFileScale: 0
     previousCalculatedGlobalScale: 1
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
