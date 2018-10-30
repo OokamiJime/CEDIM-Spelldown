@@ -17,7 +17,7 @@ namespace Invector.CharacterController
         public KeyCode sprintInput = KeyCode.LeftShift;
 
         [Header("Camera Settings")]
-        public string rotateCameraXInput ="Mouse X";
+        public string rotateCameraXInput = "Mouse X";
         public string rotateCameraYInput = "Mouse Y";
 
         protected vThirdPersonCamera tpCamera;                // acess camera info        
@@ -47,7 +47,7 @@ namespace Invector.CharacterController
             if (cc != null)
                 cc.Init();
 
-            tpCamera = FindObjectOfType<vThirdPersonCamera>();
+            tpCamera = GetComponentInChildren<vThirdPersonCamera>();
             if (tpCamera) tpCamera.SetMainTarget(this.transform);
 
             Cursor.visible = false;
@@ -90,7 +90,7 @@ namespace Invector.CharacterController
         #region Basic Locomotion Inputs      
 
         protected virtual void MoveCharacter()
-        {            
+        {
             cc.input.x = Input.GetAxis(horizontalInput);
             cc.input.y = Input.GetAxis(verticallInput);
         }
@@ -105,7 +105,7 @@ namespace Invector.CharacterController
         {
             if (Input.GetKeyDown(sprintInput))
                 cc.Sprint(true);
-            else if(Input.GetKeyUp(sprintInput))
+            else if (Input.GetKeyUp(sprintInput))
                 cc.Sprint(false);
         }
 
@@ -139,12 +139,11 @@ namespace Invector.CharacterController
             var X = Input.GetAxis(rotateCameraXInput);
 
             tpCamera.RotateCamera(X, Y);
-
             // tranform Character direction from camera if not KeepDirection
             if (!keepDirection)
                 cc.UpdateTargetDirection(tpCamera != null ? tpCamera.transform : null);
             // rotate the character with the camera while strafing        
-            RotateWithCamera(tpCamera != null ? tpCamera.transform : null);            
+            RotateWithCamera(tpCamera != null ? tpCamera.transform : null);
         }
 
         protected virtual void UpdateCameraStates()
@@ -160,14 +159,14 @@ namespace Invector.CharacterController
                     tpCamera.SetMainTarget(this.transform);
                     tpCamera.Init();
                 }
-            }            
+            }
         }
 
         protected virtual void RotateWithCamera(Transform cameraTransform)
         {
             if (cc.isStrafing && !cc.lockMovement && !cc.lockMovement)
-            {                
-                cc.RotateWithAnotherTransform(cameraTransform);                
+            {
+                cc.RotateWithAnotherTransform(cameraTransform);
             }
         }
 
