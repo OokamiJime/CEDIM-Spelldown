@@ -28,7 +28,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Sleep
-  m_Speed: 1
+  m_Speed: 3
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -40,7 +40,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 39b2d96b5ccd8944199641e0577d2792, type: 3}
+  m_Motion: {fileID: 7400004, guid: 17a4905d1935c4f6e94d611509a7e46c, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -65,7 +65,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: bd7905d630474b14986ade1b675331b0, type: 2}
+  m_Motion: {fileID: 7400000, guid: 17a4905d1935c4f6e94d611509a7e46c, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -90,7 +90,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 09a5e138a43a991418e59dc4a3f8916e, type: 2}
+  m_Motion: {fileID: 7400002, guid: 17a4905d1935c4f6e94d611509a7e46c, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

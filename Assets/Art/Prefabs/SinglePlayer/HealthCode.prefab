@@ -19,9 +19,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4355849296201336}
+  - component: {fileID: 114946679318675480}
   - component: {fileID: 114012789267307648}
   - component: {fileID: 114180533307345960}
-  - component: {fileID: 114946679318675480}
   - component: {fileID: 114169865019021590}
   m_Layer: 0
   m_Name: HealthCode
