@@ -54,6 +54,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4728070563674952}
+  - component: {fileID: 114119140045812448}
+  - component: {fileID: 114673204921410690}
   - component: {fileID: 114544412498836392}
   - component: {fileID: 114418176373938064}
   - component: {fileID: 114057841100747984}
@@ -581,7 +583,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114768983489799250}
@@ -778,7 +780,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114768983489799250}
@@ -789,7 +791,7 @@ MonoBehaviour:
   _parameters:
   - {fileID: 114610717799139210}
   - {fileID: 114645562649774802}
-  _showParameters: 0
+  _showParameters: 1
   _showSettings: 1
   _actionsFoldout: 1
   _ignorePause: 0
@@ -893,7 +895,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114410540252755686}
@@ -902,6 +904,30 @@ MonoBehaviour:
   _breakpoint: 0
   _target: {fileID: 65379964578119322}
   _targetVar: {fileID: 0}
+--- !u!114 &114119140045812448
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1419637094, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114410540252755686}
+  editor: {fileID: 0}
+  _caption: Wait
+  _breakpoint: 0
+  _duration: 0.5
+  _durationVar: {fileID: 0}
 --- !u!114 &114129511395943536
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -917,7 +943,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114410540252755686}
@@ -941,7 +967,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114410540252755686}
@@ -965,7 +991,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114768983489799250}
@@ -998,7 +1024,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114410540252755686}
@@ -1022,7 +1048,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114410540252755686}
@@ -1046,7 +1072,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114768983489799250}
@@ -1079,7 +1105,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114410540252755686}
@@ -1119,7 +1145,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114768983489799250}
@@ -1127,6 +1153,8 @@ MonoBehaviour:
   _id: Start Hazzard
   _actions:
   - {fileID: 114367679862209692}
+  - {fileID: 114119140045812448}
+  - {fileID: 114673204921410690}
   - {fileID: 114336167816666936}
   - {fileID: 114452800922323504}
   - {fileID: 114129511395943536}
@@ -1238,7 +1266,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114410540252755686}
@@ -1262,7 +1290,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114410540252755686}
@@ -1302,7 +1330,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114410540252755686}
@@ -1841,6 +1869,32 @@ MonoBehaviour:
   _hidden: 0
   _display: 1
   _label: Parameter
+--- !u!114 &114673204921410690
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1125990795, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114410540252755686}
+  editor: {fileID: 0}
+  _caption: Play Sound
+  _breakpoint: 0
+  _audioClip: {fileID: 0}
+  _audioClipVar: {fileID: 0}
+  _volume: 1
+  _volumeVar: {fileID: 0}
 --- !u!114 &114682449852430546
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1856,7 +1910,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114768983489799250}
@@ -1972,7 +2026,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114768983489799250}
@@ -2117,7 +2171,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114768983489799250}

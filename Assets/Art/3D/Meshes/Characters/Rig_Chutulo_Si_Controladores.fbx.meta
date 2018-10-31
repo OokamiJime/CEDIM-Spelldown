@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: 4d12004c308834e3cafe0778047e9a7f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Chest_Control
+    100002: Head_Control
+    100004: Head_Joint
+    100006: Head_Top_Joint
+    100008: Hip_Control
+    100010: Hip_Joint
+    100012: ik_Handle_L_Hand
+    100014: ik_Handle_L_Leg
+    100016: ik_Handle_R_Hand
+    100018: ik_Handle_R_Leg
+    100020: ik_Handle_Spine
+    100022: L_Arm_Control
+    100024: L_Bottom_Arm_Joint
+    100026: L_Bottom_Leg_Joint
+    100028: L_Feet_Joint
+    100030: L_Hand_Joint
+    100032: L_Index_1_Joint
+    100034: L_Index_2_Joint
+    100036: L_Index_3_L
+    100038: L_Leg_Control
+    100040: L_Middle_1_Joint
+    100042: L_Middle_2_Joint
+    100044: L_Middle_3_Joint
+    100046: L_Pinky_1_Joint
+    100048: L_Pinky_2_Joint
+    100050: L_Pinky_3_Joint
+    100052: L_Ring_1_Joint
+    100054: L_Ring_2_Joint
+    100056: L_Ring_3_Joint
+    100058: L_Shoulder_Joint
+    100060: L_Thumb_1_Joint
+    100062: L_Thumb_2_Joint
+    100064: L_Thumb_3_Joint
+    100066: L_Toes_Joint
+    100068: L_Upper_Arm_Joint
+    100070: L_Upper_Leg_Joint
+    100072: Master_Control
+    100074: R_Arm_Control
+    100076: R_Bottom_Arm_Joint
+    100078: R_Bottom_Leg_Joint
+    100080: R_Feet_Joint
+    100082: R_Hand_Joint
+    100084: R_Index_1_Joint
+    100086: R_Index_2_Joint
+    100088: R_Index_3_L
+    100090: R_Leg_Control
+    100092: R_Middle_1_Joint
+    100094: R_Middle_2_Joint
+    100096: R_Middle_3_Joint
+    100098: R_Pinky_1_Joint
+    100100: R_Pinky_2_Joint
+    100102: R_Pinky_3_Joint
+    100104: R_Ring_1_Joint
+    100106: R_Ring_2_Joint
+    100108: R_Ring_3_Joint
+    100110: R_Shoulder_Joint
+    100112: R_Thumb_1_Joint
+    100114: R_Thumb_2_Joint
+    100116: R_Thumb_3_Joint
+    100118: R_Toes_Joint
+    100120: R_Upper_Arm_Joint
+    100122: R_Upper_Leg_Joint
+    100124: //RootNode
+    100126: Spine_1_Joint
+    100128: Spine_2_Joint
+    100130: Spine_3_Joint
+    100132: Spine_Curve
+    400000: Chest_Control
+    400002: Head_Control
+    400004: Head_Joint
+    400006: Head_Top_Joint
+    400008: Hip_Control
+    400010: Hip_Joint
+    400012: ik_Handle_L_Hand
+    400014: ik_Handle_L_Leg
+    400016: ik_Handle_R_Hand
+    400018: ik_Handle_R_Leg
+    400020: ik_Handle_Spine
+    400022: L_Arm_Control
+    400024: L_Bottom_Arm_Joint
+    400026: L_Bottom_Leg_Joint
+    400028: L_Feet_Joint
+    400030: L_Hand_Joint
+    400032: L_Index_1_Joint
+    400034: L_Index_2_Joint
+    400036: L_Index_3_L
+    400038: L_Leg_Control
+    400040: L_Middle_1_Joint
+    400042: L_Middle_2_Joint
+    400044: L_Middle_3_Joint
+    400046: L_Pinky_1_Joint
+    400048: L_Pinky_2_Joint
+    400050: L_Pinky_3_Joint
+    400052: L_Ring_1_Joint
+    400054: L_Ring_2_Joint
+    400056: L_Ring_3_Joint
+    400058: L_Shoulder_Joint
+    400060: L_Thumb_1_Joint
+    400062: L_Thumb_2_Joint
+    400064: L_Thumb_3_Joint
+    400066: L_Toes_Joint
+    400068: L_Upper_Arm_Joint
+    400070: L_Upper_Leg_Joint
+    400072: Master_Control
+    400074: R_Arm_Control
+    400076: R_Bottom_Arm_Joint
+    400078: R_Bottom_Leg_Joint
+    400080: R_Feet_Joint
+    400082: R_Hand_Joint
+    400084: R_Index_1_Joint
+    400086: R_Index_2_Joint
+    400088: R_Index_3_L
+    400090: R_Leg_Control
+    400092: R_Middle_1_Joint
+    400094: R_Middle_2_Joint
+    400096: R_Middle_3_Joint
+    400098: R_Pinky_1_Joint
+    400100: R_Pinky_2_Joint
+    400102: R_Pinky_3_Joint
+    400104: R_Ring_1_Joint
+    400106: R_Ring_2_Joint
+    400108: R_Ring_3_Joint
+    400110: R_Shoulder_Joint
+    400112: R_Thumb_1_Joint
+    400114: R_Thumb_2_Joint
+    400116: R_Thumb_3_Joint
+    400118: R_Toes_Joint
+    400120: R_Upper_Arm_Joint
+    400122: R_Upper_Leg_Joint
+    400124: //RootNode
+    400126: Spine_1_Joint
+    400128: Spine_2_Joint
+    400130: Spine_3_Joint
+    400132: Spine_Curve
+    2100000: lambert2
+    2100002: lambert3
+    4300000: Chutulo1
+    9500000: //RootNode
+    13700000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

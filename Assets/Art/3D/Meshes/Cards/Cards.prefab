@@ -101,6 +101,8 @@ GameObject:
   - component: {fileID: 114821850514978432}
   - component: {fileID: 114388778546194182}
   - component: {fileID: 114720643267551744}
+  - component: {fileID: 114385398777915904}
+  - component: {fileID: 114494045320804380}
   - component: {fileID: 114704113751612896}
   - component: {fileID: 114003083869379244}
   - component: {fileID: 114130409789090198}
@@ -589,6 +591,8 @@ MonoBehaviour:
   _id: Start Hazzard
   _actions:
   - {fileID: 114704113751612896}
+  - {fileID: 114494045320804380}
+  - {fileID: 114385398777915904}
   - {fileID: 114720643267551744}
   - {fileID: 114388778546194182}
   - {fileID: 114821850514978432}
@@ -617,7 +621,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114003083869379244}
@@ -831,7 +835,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114003083869379244}
@@ -1120,6 +1124,32 @@ MonoBehaviour:
   _hidden: 0
   _display: 1
   _label: Parameter
+--- !u!114 &114385398777915904
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1768663022786608}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1125990795, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114003083869379244}
+  editor: {fileID: 0}
+  _caption: Play Sound
+  _breakpoint: 0
+  _audioClip: {fileID: 0}
+  _audioClipVar: {fileID: 0}
+  _volume: 1
+  _volumeVar: {fileID: 0}
 --- !u!114 &114388778546194182
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1135,7 +1165,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114003083869379244}
@@ -1160,6 +1190,30 @@ MonoBehaviour:
   _transitionDurationVar: {fileID: 0}
   _restart: 0
   _restartVar: {fileID: 0}
+--- !u!114 &114494045320804380
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1768663022786608}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1419637094, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114003083869379244}
+  editor: {fileID: 0}
+  _caption: Wait
+  _breakpoint: 0
+  _duration: 0.5
+  _durationVar: {fileID: 0}
 --- !u!114 &114539879794675394
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1304,7 +1358,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114003083869379244}
@@ -1642,7 +1696,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114003083869379244}
@@ -1815,7 +1869,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114003083869379244}
@@ -1839,7 +1893,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114003083869379244}
@@ -2140,7 +2194,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114003083869379244}
@@ -2413,7 +2467,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114003083869379244}
