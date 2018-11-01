@@ -148,10 +148,10 @@ TextureImporter:
       name: TitleScreen_21
       rect:
         serializedVersion: 2
-        x: 896
-        y: 1194
-        width: 483
-        height: 237
+        x: 847
+        y: 1251
+        width: 515
+        height: 271
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,7 +253,7 @@ TextureImporter:
         width: 412
         height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -273,7 +273,7 @@ TextureImporter:
         width: 389
         height: 625
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
