@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Maceta04
+  m_Controller: {fileID: 9100000, guid: 028685477ab938a4f9a90496a3876d59, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: b3b8d8ab45624f841b0d3a3bf9281fb8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0da2d923efd57407bb8631430c84c203, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4ffacdf61369fa44bbb599ad903a26f6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9c4ee15d3cc004518b8485b484f3a532, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ad6563a2912f94af89d104eeb2f6b52e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f272c2975efd24c8eaba6ab0224c96cd, type: 2}

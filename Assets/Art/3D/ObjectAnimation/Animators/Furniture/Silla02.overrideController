@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Silla02
+  m_Controller: {fileID: 9100000, guid: 028685477ab938a4f9a90496a3876d59, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: b3b8d8ab45624f841b0d3a3bf9281fb8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6035fb1ff1a8b4e5c96ecd7d605e7213, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4ffacdf61369fa44bbb599ad903a26f6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d796f2033ce5f443fb72903ed1f8e867, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ad6563a2912f94af89d104eeb2f6b52e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 666dfc02940d144a3ba516c33ce3555f, type: 2}
