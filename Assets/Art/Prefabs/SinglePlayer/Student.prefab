@@ -298,25 +298,25 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4198076219334994}
-  - component: {fileID: 114093702501464274}
-  - component: {fileID: 114698148340557888}
-  - component: {fileID: 114853209471509478}
-  - component: {fileID: 114295905349948104}
-  - component: {fileID: 114080675182610144}
   - component: {fileID: 114546263863932732}
   - component: {fileID: 114808027368645854}
-  - component: {fileID: 114937770920202010}
-  - component: {fileID: 114698773007103422}
-  - component: {fileID: 114619054503656104}
-  - component: {fileID: 114656030400103210}
-  - component: {fileID: 114832169497743864}
-  - component: {fileID: 114787394034311870}
-  - component: {fileID: 114347470045186624}
-  - component: {fileID: 114669619399347352}
   - component: {fileID: 114510143186850128}
+  - component: {fileID: 114698773007103422}
+  - component: {fileID: 114937770920202010}
   - component: {fileID: 114392142735529826}
+  - component: {fileID: 114787394034311870}
+  - component: {fileID: 114093702501464274}
+  - component: {fileID: 114080675182610144}
+  - component: {fileID: 114669619399347352}
+  - component: {fileID: 114853209471509478}
+  - component: {fileID: 114656030400103210}
   - component: {fileID: 114483831070666898}
+  - component: {fileID: 114619054503656104}
   - component: {fileID: 114261331376490320}
+  - component: {fileID: 114832169497743864}
+  - component: {fileID: 114698148340557888}
+  - component: {fileID: 114347470045186624}
+  - component: {fileID: 114295905349948104}
   - component: {fileID: 95702224893135558}
   - component: {fileID: 33046914432394016}
   - component: {fileID: 23047359656358652}
@@ -469,7 +469,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 01ec791ed95116347896285b929302d2, type: 3}
+  - {fileID: 2100000, guid: 4adb3886f1ffe944ab39111784be4e58, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

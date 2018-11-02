@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Florero01
+  m_Controller: {fileID: 9100000, guid: 028685477ab938a4f9a90496a3876d59, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: b3b8d8ab45624f841b0d3a3bf9281fb8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0b6d0205319452f459270fee1855179f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4ffacdf61369fa44bbb599ad903a26f6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4ed91fb4fe6ccda479a44b57b9854a84, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ad6563a2912f94af89d104eeb2f6b52e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e9e7eb838e69a2544b92c0230ad763b6, type: 2}

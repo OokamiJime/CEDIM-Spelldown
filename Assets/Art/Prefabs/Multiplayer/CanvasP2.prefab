@@ -19,9 +19,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 224672512680319440}
-  - component: {fileID: 114674809753321466}
-  - component: {fileID: 114036952844122208}
   - component: {fileID: 114515702573835496}
+  - component: {fileID: 114617703323750340}
+  - component: {fileID: 114036952844122208}
+  - component: {fileID: 114674809753321466}
   - component: {fileID: 114405952008595890}
   - component: {fileID: 114003695618837218}
   m_Layer: 5
@@ -261,7 +262,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 0
+  _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114003695618837218}
@@ -269,6 +270,7 @@ MonoBehaviour:
   _id: On Update
   _actions:
   - {fileID: 114674809753321466}
+  - {fileID: 114617703323750340}
   _parameters: []
   _showParameters: 0
   _showSettings: 0
@@ -725,6 +727,67 @@ MonoBehaviour:
   _vector4Value: {x: 0, y: 0, z: 0, w: 0}
   _valueVar: {fileID: 0}
   _variable: {fileID: 0}
+--- !u!114 &114617703323750340
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1080546976983168}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 71163790, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114036952844122208}
+  editor: {fileID: 0}
+  _caption: Limit Variable Value
+  _breakpoint: 0
+  _stringValue: 
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 0
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _colorValue: {r: 0, g: 0, b: 0, a: 1}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _animationCurveValue:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _valueVar: {fileID: 0}
+  _maxIntValue: 100
+  _maxFloatValue: 0
+  _maxRectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _maxVector2Value: {x: 0, y: 0}
+  _maxVector3Value: {x: 0, y: 0, z: 0}
+  _maxValueVar: {fileID: 0}
+  _variable: {fileID: 114515702573835496}
 --- !u!114 &114674809753321466
 MonoBehaviour:
   m_ObjectHideFlags: 3

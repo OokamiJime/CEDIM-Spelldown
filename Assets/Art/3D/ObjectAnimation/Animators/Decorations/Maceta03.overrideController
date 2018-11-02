@@ -7,4 +7,10 @@ AnimatorOverrideController:
   m_PrefabInternal: {fileID: 0}
   m_Name: Maceta03
   m_Controller: {fileID: 9100000, guid: 028685477ab938a4f9a90496a3876d59, type: 2}
-  m_Clips: []
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: b3b8d8ab45624f841b0d3a3bf9281fb8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5c5d13895658a4923b6b4bfd875763de, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4ffacdf61369fa44bbb599ad903a26f6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7efd83f5e8d33448d910d054ce144bc0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ad6563a2912f94af89d104eeb2f6b52e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 55cb669541fc547fd840a80a99f328ec, type: 2}
