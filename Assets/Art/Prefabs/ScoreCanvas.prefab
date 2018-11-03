@@ -136,39 +136,39 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 224500103462838828}
-  - component: {fileID: 114921613421818340}
-  - component: {fileID: 114792156968687258}
-  - component: {fileID: 114873053979598526}
-  - component: {fileID: 114209159466408404}
-  - component: {fileID: 114222360070922034}
-  - component: {fileID: 114319194979001500}
-  - component: {fileID: 114523595340277724}
-  - component: {fileID: 114279283382301818}
-  - component: {fileID: 114943247754356098}
-  - component: {fileID: 114243655975963892}
-  - component: {fileID: 114968328553411900}
-  - component: {fileID: 114215407394410136}
-  - component: {fileID: 114065444923799030}
-  - component: {fileID: 114773579391199928}
-  - component: {fileID: 114770037559876728}
   - component: {fileID: 114026173306313540}
-  - component: {fileID: 114252370070369918}
-  - component: {fileID: 114068783840237380}
   - component: {fileID: 114923350311417386}
-  - component: {fileID: 114616591782099594}
-  - component: {fileID: 114134006556377838}
-  - component: {fileID: 114630280006441640}
-  - component: {fileID: 114326325555646614}
-  - component: {fileID: 114219908686137996}
-  - component: {fileID: 114874399250172938}
-  - component: {fileID: 114848937288681046}
-  - component: {fileID: 114362504813931388}
-  - component: {fileID: 114955147995326164}
   - component: {fileID: 114519501516834532}
-  - component: {fileID: 114617284424601946}
+  - component: {fileID: 114848937288681046}
+  - component: {fileID: 114065444923799030}
   - component: {fileID: 114151747665735726}
-  - component: {fileID: 114837514730670178}
+  - component: {fileID: 114279283382301818}
+  - component: {fileID: 114243655975963892}
+  - component: {fileID: 114770037559876728}
+  - component: {fileID: 114874399250172938}
   - component: {fileID: 114276754642793422}
+  - component: {fileID: 114523595340277724}
+  - component: {fileID: 114616591782099594}
+  - component: {fileID: 114326325555646614}
+  - component: {fileID: 114362504813931388}
+  - component: {fileID: 114319194979001500}
+  - component: {fileID: 114134006556377838}
+  - component: {fileID: 114943247754356098}
+  - component: {fileID: 114215407394410136}
+  - component: {fileID: 114968328553411900}
+  - component: {fileID: 114837514730670178}
+  - component: {fileID: 114617284424601946}
+  - component: {fileID: 114873053979598526}
+  - component: {fileID: 114773579391199928}
+  - component: {fileID: 114209159466408404}
+  - component: {fileID: 114219908686137996}
+  - component: {fileID: 114252370070369918}
+  - component: {fileID: 114630280006441640}
+  - component: {fileID: 114222360070922034}
+  - component: {fileID: 114068783840237380}
+  - component: {fileID: 114792156968687258}
+  - component: {fileID: 114955147995326164}
+  - component: {fileID: 114921613421818340}
   - component: {fileID: 114626207878670894}
   - component: {fileID: 114695576600518088}
   - component: {fileID: 114922891917491056}
@@ -492,7 +492,7 @@ MonoBehaviour:
     m_Extent: {x: 0, y: 0, z: 0}
   _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
   _stringValue: 
-  _intValue: 0
+  _intValue: -2
   _floatValue: 0
   _boolValue: 1
   _vector2Value: {x: 0, y: 0}
