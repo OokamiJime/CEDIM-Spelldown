@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 17a4905d1935c4f6e94d611509a7e46c
+guid: d6b4f90e794cf23408951af31ada5d9f
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -144,7 +144,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Awake
       takeName: Take 001
-      firstFrame: 0
+      firstFrame: 1
       lastFrame: 80
       wrapMode: 0
       orientationOffsetY: 0
@@ -232,7 +232,7 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
-    importBlendShapes: 1
+    importBlendShapes: 0
     importCameras: 0
     importLights: 0
     swapUVChannels: 0
