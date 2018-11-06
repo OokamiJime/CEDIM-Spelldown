@@ -380,6 +380,16 @@ Prefab:
       propertyPath: editor
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 114504171134982768, guid: d6e6809714150434494176fe3aa6fe64,
+        type: 2}
+      propertyPath: _foldout
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114504171134982768, guid: d6e6809714150434494176fe3aa6fe64,
+        type: 2}
+      propertyPath: editor
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114978726276823762, guid: d6e6809714150434494176fe3aa6fe64, type: 2}
     - {fileID: 114533399506247780, guid: d6e6809714150434494176fe3aa6fe64, type: 2}

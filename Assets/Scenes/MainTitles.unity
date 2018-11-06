@@ -2804,7 +2804,7 @@ MonoBehaviour:
   container: {fileID: 611443025}
   editor: {fileID: 0}
   _id: Enter
-  _code: 13
+  _code: 330
   _codeVar: {fileID: 0}
   _enabledInPause: 1
   _enabledInPauseVar: {fileID: 0}
@@ -2994,7 +2994,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 611443025}
@@ -4371,7 +4371,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 611443025}
@@ -7687,6 +7687,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1925905921}
+  - component: {fileID: 1925905937}
+  - component: {fileID: 1925905936}
+  - component: {fileID: 1925905935}
+  - component: {fileID: 1925905934}
   - component: {fileID: 1925905933}
   - component: {fileID: 1925905930}
   - component: {fileID: 1925905929}
@@ -7729,6 +7733,8 @@ MonoBehaviour:
   _moved: 0
   _blocks:
   - {fileID: 1925905917}
+  - {fileID: 1925905934}
+  - {fileID: 1925905935}
   - {fileID: 1925905916}
   - {fileID: 1925905922}
   - {fileID: 1925905925}
@@ -7787,8 +7793,8 @@ MonoBehaviour:
   enabledInEditor: 1
   container: {fileID: 1925905915}
   editor: {fileID: 0}
-  _id: Start
-  _code: 97
+  _id: Start1
+  _code: 337
   _codeVar: {fileID: 0}
   _enabledInPause: 0
   _enabledInPauseVar: {fileID: 0}
@@ -7816,6 +7822,8 @@ MonoBehaviour:
   _breakpoint: 0
   _conditions:
   - {fileID: 1925905919}
+  - {fileID: 1925905936}
+  - {fileID: 1925905937}
   _actions:
   - {fileID: 1925905920}
   _elseActions: []
@@ -7841,7 +7849,7 @@ MonoBehaviour:
   container: {fileID: 1925905918}
   editor: {fileID: 0}
   _caption: 
-  _connective: 0
+  _connective: 1
   _inputType: 0
   _key: {fileID: 1925905917}
   _keyVar: {fileID: 0}
@@ -8572,6 +8580,112 @@ MonoBehaviour:
   editor: {fileID: 0}
   _caption: Exit Game
   _breakpoint: 0
+--- !u!114 &1925905934
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1925905914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1187461405, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 1925905915}
+  editor: {fileID: 0}
+  _id: Start2
+  _code: 357
+  _codeVar: {fileID: 0}
+  _enabledInPause: 0
+  _enabledInPauseVar: {fileID: 0}
+--- !u!114 &1925905935
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1925905914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1187461405, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 1925905915}
+  editor: {fileID: 0}
+  _id: Start3
+  _code: 377
+  _codeVar: {fileID: 0}
+  _enabledInPause: 0
+  _enabledInPauseVar: {fileID: 0}
+--- !u!114 &1925905936
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1925905914}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1810492686, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 1925905918}
+  editor: {fileID: 0}
+  _caption: 
+  _connective: 1
+  _inputType: 0
+  _key: {fileID: 1925905934}
+  _keyVar: {fileID: 0}
+  _keyCode: 0
+  _keyCodeVar: {fileID: 0}
+  _comparison: 0
+--- !u!114 &1925905937
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1925905914}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1810492686, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 1925905918}
+  editor: {fileID: 0}
+  _caption: 
+  _connective: 0
+  _inputType: 0
+  _key: {fileID: 1925905935}
+  _keyVar: {fileID: 0}
+  _keyCode: 0
+  _keyCodeVar: {fileID: 0}
+  _comparison: 0
 --- !u!1 &2007548147
 GameObject:
   m_ObjectHideFlags: 0

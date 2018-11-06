@@ -11,6 +11,21 @@ Prefab:
   m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1062740591651722}
   m_IsPrefabAsset: 1
+--- !u!1 &1013715662478104
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4006757143687642}
+  m_Layer: 0
+  m_Name: Look At sequence
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1022588047563404
 GameObject:
   m_ObjectHideFlags: 1
@@ -363,97 +378,98 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4753776194993148}
-  - component: {fileID: 114190829917793648}
-  - component: {fileID: 114645589838261658}
-  - component: {fileID: 114339291798735842}
-  - component: {fileID: 114473630173751232}
-  - component: {fileID: 114085481168092122}
-  - component: {fileID: 114840571886243490}
-  - component: {fileID: 114323239236772788}
+  - component: {fileID: 114762721242340032}
+  - component: {fileID: 114431149426480796}
+  - component: {fileID: 114836684241495544}
   - component: {fileID: 114746970418768362}
-  - component: {fileID: 114161337681800600}
-  - component: {fileID: 114460240261118732}
-  - component: {fileID: 114375967331812122}
-  - component: {fileID: 114766001904485182}
-  - component: {fileID: 114223707293714768}
-  - component: {fileID: 114026850512749070}
+  - component: {fileID: 114516216427346124}
+  - component: {fileID: 114695464671278438}
+  - component: {fileID: 114236723068546532}
+  - component: {fileID: 114190829917793648}
+  - component: {fileID: 114365595986001058}
+  - component: {fileID: 114232251236113378}
+  - component: {fileID: 114208484680376428}
+  - component: {fileID: 114006620691950360}
+  - component: {fileID: 114327848756025910}
+  - component: {fileID: 114544507146938982}
+  - component: {fileID: 114936457325106968}
+  - component: {fileID: 114840571886243490}
+  - component: {fileID: 114238210859143704}
+  - component: {fileID: 114551362894350560}
   - component: {fileID: 114877249710728214}
+  - component: {fileID: 114119579083136632}
+  - component: {fileID: 114559553618086608}
+  - component: {fileID: 114538399749378460}
+  - component: {fileID: 114223707293714768}
   - component: {fileID: 114212799401628608}
-  - component: {fileID: 114469568687916998}
-  - component: {fileID: 114787409871147470}
-  - component: {fileID: 114483032153284798}
-  - component: {fileID: 114274264766163622}
+  - component: {fileID: 114590625407625962}
+  - component: {fileID: 114242261406436256}
+  - component: {fileID: 114853150862927224}
+  - component: {fileID: 114578740998997856}
   - component: {fileID: 114617338256863142}
   - component: {fileID: 114279703979945484}
-  - component: {fileID: 114029630948141868}
   - component: {fileID: 114311569469152650}
-  - component: {fileID: 114938165503857486}
-  - component: {fileID: 114243175931827820}
-  - component: {fileID: 114538399749378460}
-  - component: {fileID: 114646109850420922}
-  - component: {fileID: 114827671824874310}
-  - component: {fileID: 114869418272692926}
-  - component: {fileID: 114578733201346924}
-  - component: {fileID: 114119705868034082}
-  - component: {fileID: 114290171481289094}
-  - component: {fileID: 114936457325106968}
-  - component: {fileID: 114431149426480796}
-  - component: {fileID: 114704516445406134}
-  - component: {fileID: 114695464671278438}
-  - component: {fileID: 114951989732355936}
-  - component: {fileID: 114006620691950360}
-  - component: {fileID: 114826882862588046}
-  - component: {fileID: 114120863882698900}
-  - component: {fileID: 114957658381475790}
-  - component: {fileID: 114823408343599792}
-  - component: {fileID: 114770244066108344}
-  - component: {fileID: 114551362894350560}
-  - component: {fileID: 114997907540931264}
   - component: {fileID: 114690979408543098}
-  - component: {fileID: 114544507146938982}
-  - component: {fileID: 114836684241495544}
-  - component: {fileID: 114613254846029980}
-  - component: {fileID: 114119583855721864}
-  - component: {fileID: 114131102837302734}
-  - component: {fileID: 114242261406436256}
-  - component: {fileID: 114032803038791904}
-  - component: {fileID: 114111765165053346}
-  - component: {fileID: 114593427432461032}
+  - component: {fileID: 114274264766163622}
+  - component: {fileID: 114826882862588046}
+  - component: {fileID: 114039128267807034}
   - component: {fileID: 114538806288352394}
-  - component: {fileID: 114208484680376428}
-  - component: {fileID: 114516216427346124}
-  - component: {fileID: 114100579158116208}
-  - component: {fileID: 114905514165790054}
-  - component: {fileID: 114784258695878746}
-  - component: {fileID: 114725571822124008}
-  - component: {fileID: 114762721242340032}
-  - component: {fileID: 114943217002063014}
-  - component: {fileID: 114646278527346710}
-  - component: {fileID: 114712666432450746}
-  - component: {fileID: 114327848756025910}
+  - component: {fileID: 114957658381475790}
+  - component: {fileID: 114435093747244426}
+  - component: {fileID: 114473630173751232}
   - component: {fileID: 114860699228357736}
-  - component: {fileID: 114944658306373012}
-  - component: {fileID: 114632225355494364}
-  - component: {fileID: 114232251236113378}
-  - component: {fileID: 114559553618086608}
+  - component: {fileID: 114928441498617220}
+  - component: {fileID: 114339291798735842}
+  - component: {fileID: 114111765165053346}
+  - component: {fileID: 114420701636459758}
+  - component: {fileID: 114613254846029980}
+  - component: {fileID: 114704516445406134}
+  - component: {fileID: 114120863882698900}
+  - component: {fileID: 114323239236772788}
+  - component: {fileID: 114787409871147470}
+  - component: {fileID: 114951989732355936}
+  - component: {fileID: 114646278527346710}
+  - component: {fileID: 114375967331812122}
+  - component: {fileID: 114823408343599792}
+  - component: {fileID: 114646109850420922}
+  - component: {fileID: 114131102837302734}
+  - component: {fileID: 114869418272692926}
   - component: {fileID: 114685913623614164}
   - component: {fileID: 114539099435637242}
-  - component: {fileID: 114238210859143704}
-  - component: {fileID: 114420701636459758}
-  - component: {fileID: 114236723068546532}
-  - component: {fileID: 114220141263936432}
-  - component: {fileID: 114590625407625962}
-  - component: {fileID: 114578740998997856}
-  - component: {fileID: 114884551277183330}
+  - component: {fileID: 114944658306373012}
+  - component: {fileID: 114645589838261658}
   - component: {fileID: 114784343842683678}
-  - component: {fileID: 114119579083136632}
-  - component: {fileID: 114928441498617220}
-  - component: {fileID: 114435093747244426}
-  - component: {fileID: 114039128267807034}
+  - component: {fileID: 114483032153284798}
+  - component: {fileID: 114593427432461032}
+  - component: {fileID: 114119705868034082}
+  - component: {fileID: 114220141263936432}
+  - component: {fileID: 114032803038791904}
+  - component: {fileID: 114290171481289094}
+  - component: {fileID: 114632225355494364}
   - component: {fileID: 114472792603530530}
+  - component: {fileID: 114119583855721864}
+  - component: {fileID: 114085481168092122}
+  - component: {fileID: 114100579158116208}
+  - component: {fileID: 114578733201346924}
+  - component: {fileID: 114827671824874310}
+  - component: {fileID: 114026850512749070}
+  - component: {fileID: 114712666432450746}
+  - component: {fileID: 114161337681800600}
   - component: {fileID: 114085818469312050}
-  - component: {fileID: 114365595986001058}
-  - component: {fileID: 114853150862927224}
+  - component: {fileID: 114784258695878746}
+  - component: {fileID: 114029630948141868}
+  - component: {fileID: 114460240261118732}
+  - component: {fileID: 114469568687916998}
+  - component: {fileID: 114943217002063014}
+  - component: {fileID: 114770244066108344}
+  - component: {fileID: 114884551277183330}
+  - component: {fileID: 114997907540931264}
+  - component: {fileID: 114243175931827820}
+  - component: {fileID: 114938165503857486}
+  - component: {fileID: 114905514165790054}
+  - component: {fileID: 114725571822124008}
+  - component: {fileID: 114766001904485182}
+  - component: {fileID: 114225275656530808}
   - component: {fileID: 114964176343192644}
   - component: {fileID: 114620067674265966}
   - component: {fileID: 114631497449592074}
@@ -566,6 +582,21 @@ GameObject:
   - component: {fileID: 4761178651537952}
   m_Layer: 0
   m_Name: L_Ring_1_Joint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1291293678805282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4434806661616240}
+  m_Layer: 0
+  m_Name: Empty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1082,91 +1113,92 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4716426507251582}
-  - component: {fileID: 114858714744496140}
-  - component: {fileID: 114016353460868698}
-  - component: {fileID: 114134677590833228}
-  - component: {fileID: 114267214866788726}
-  - component: {fileID: 114420951403508718}
-  - component: {fileID: 114995851497730292}
-  - component: {fileID: 114163441306353532}
-  - component: {fileID: 114153539618489282}
-  - component: {fileID: 114419717323775526}
-  - component: {fileID: 114555266337257100}
-  - component: {fileID: 114909382866517528}
-  - component: {fileID: 114062411656432058}
-  - component: {fileID: 114353654489282674}
-  - component: {fileID: 114056845877981674}
-  - component: {fileID: 114877044038024124}
-  - component: {fileID: 114490674291872788}
-  - component: {fileID: 114822432945927582}
-  - component: {fileID: 114488752432327720}
-  - component: {fileID: 114657112252321100}
-  - component: {fileID: 114760119814016422}
-  - component: {fileID: 114309556240752156}
-  - component: {fileID: 114577013272621186}
-  - component: {fileID: 114778157084438208}
-  - component: {fileID: 114420150112513474}
-  - component: {fileID: 114950379688399076}
-  - component: {fileID: 114541140672919906}
-  - component: {fileID: 114053618060058454}
-  - component: {fileID: 114225911983962498}
-  - component: {fileID: 114469261422315722}
-  - component: {fileID: 114442259066904894}
-  - component: {fileID: 114391952677974176}
-  - component: {fileID: 114365558527229634}
-  - component: {fileID: 114177925270282712}
-  - component: {fileID: 114711457452143120}
-  - component: {fileID: 114765154185796976}
-  - component: {fileID: 114617777745196730}
-  - component: {fileID: 114781542398503442}
-  - component: {fileID: 114125984444165262}
-  - component: {fileID: 114472848195506084}
-  - component: {fileID: 114565972655236554}
-  - component: {fileID: 114067546421319524}
-  - component: {fileID: 114809877659428670}
-  - component: {fileID: 114118142672805652}
-  - component: {fileID: 114635990174017286}
-  - component: {fileID: 114431138431211942}
-  - component: {fileID: 114467493234391756}
-  - component: {fileID: 114636447172858596}
-  - component: {fileID: 114823900445135750}
-  - component: {fileID: 114181854871395720}
-  - component: {fileID: 114656594660096126}
-  - component: {fileID: 114561448326992876}
-  - component: {fileID: 114151770078477964}
-  - component: {fileID: 114626624780723216}
-  - component: {fileID: 114672772724829826}
-  - component: {fileID: 114697550019958716}
-  - component: {fileID: 114982254751595400}
-  - component: {fileID: 114537888676721152}
-  - component: {fileID: 114625255467333456}
-  - component: {fileID: 114370080485868948}
-  - component: {fileID: 114230982836979234}
-  - component: {fileID: 114774006111431174}
-  - component: {fileID: 114459916100282188}
-  - component: {fileID: 114833970447215886}
-  - component: {fileID: 114094670960427362}
-  - component: {fileID: 114608872335459316}
-  - component: {fileID: 114617866356186864}
-  - component: {fileID: 114747065212738948}
-  - component: {fileID: 114174729455460918}
-  - component: {fileID: 114573090490840680}
-  - component: {fileID: 114064090303758408}
-  - component: {fileID: 114320291770665340}
-  - component: {fileID: 114450121338531174}
-  - component: {fileID: 114019363460982058}
-  - component: {fileID: 114171518432860018}
-  - component: {fileID: 114215759009231802}
-  - component: {fileID: 114915376635721772}
-  - component: {fileID: 114343885756525698}
-  - component: {fileID: 114783408669831322}
-  - component: {fileID: 114527642546037088}
   - component: {fileID: 114080869132300364}
-  - component: {fileID: 114312646417851618}
-  - component: {fileID: 114071188712471080}
-  - component: {fileID: 114914451660817596}
+  - component: {fileID: 114016353460868698}
+  - component: {fileID: 114915376635721772}
+  - component: {fileID: 114420951403508718}
+  - component: {fileID: 114765154185796976}
+  - component: {fileID: 114419717323775526}
+  - component: {fileID: 114469261422315722}
+  - component: {fileID: 114608872335459316}
+  - component: {fileID: 114053618060058454}
+  - component: {fileID: 114781542398503442}
+  - component: {fileID: 114225911983962498}
+  - component: {fileID: 114909382866517528}
+  - component: {fileID: 114823900445135750}
+  - component: {fileID: 114488752432327720}
+  - component: {fileID: 114118142672805652}
+  - component: {fileID: 114565972655236554}
   - component: {fileID: 114309609631640566}
+  - component: {fileID: 114858714744496140}
+  - component: {fileID: 114230982836979234}
+  - component: {fileID: 114312646417851618}
   - component: {fileID: 114454338867150620}
+  - component: {fileID: 114353654489282674}
+  - component: {fileID: 114822432945927582}
+  - component: {fileID: 114711457452143120}
+  - component: {fileID: 114467493234391756}
+  - component: {fileID: 114450121338531174}
+  - component: {fileID: 114181854871395720}
+  - component: {fileID: 114391952677974176}
+  - component: {fileID: 114561448326992876}
+  - component: {fileID: 114267214866788726}
+  - component: {fileID: 114177925270282712}
+  - component: {fileID: 114125984444165262}
+  - component: {fileID: 114490674291872788}
+  - component: {fileID: 114365558527229634}
+  - component: {fileID: 114472848195506084}
+  - component: {fileID: 114656594660096126}
+  - component: {fileID: 114657112252321100}
+  - component: {fileID: 114062411656432058}
+  - component: {fileID: 114555266337257100}
+  - component: {fileID: 114067546421319524}
+  - component: {fileID: 114760119814016422}
+  - component: {fileID: 114171518432860018}
+  - component: {fileID: 114625255467333456}
+  - component: {fileID: 114151770078477964}
+  - component: {fileID: 114774006111431174}
+  - component: {fileID: 114877044038024124}
+  - component: {fileID: 114833970447215886}
+  - component: {fileID: 114697550019958716}
+  - component: {fileID: 114071188712471080}
+  - component: {fileID: 114950379688399076}
+  - component: {fileID: 114914451660817596}
+  - component: {fileID: 114431138431211942}
+  - component: {fileID: 114019363460982058}
+  - component: {fileID: 114635990174017286}
+  - component: {fileID: 114537888676721152}
+  - component: {fileID: 114309556240752156}
+  - component: {fileID: 114982254751595400}
+  - component: {fileID: 114809877659428670}
+  - component: {fileID: 114163441306353532}
+  - component: {fileID: 114626624780723216}
+  - component: {fileID: 114215759009231802}
+  - component: {fileID: 114995851497730292}
+  - component: {fileID: 114747065212738948}
+  - component: {fileID: 114459916100282188}
+  - component: {fileID: 114153539618489282}
+  - component: {fileID: 114134677590833228}
+  - component: {fileID: 114442259066904894}
+  - component: {fileID: 114617777745196730}
+  - component: {fileID: 114370080485868948}
+  - component: {fileID: 114636447172858596}
+  - component: {fileID: 114617866356186864}
+  - component: {fileID: 114320291770665340}
+  - component: {fileID: 114577013272621186}
+  - component: {fileID: 114420150112513474}
+  - component: {fileID: 114783408669831322}
+  - component: {fileID: 114541140672919906}
+  - component: {fileID: 114460140130371322}
+  - component: {fileID: 114174729455460918}
+  - component: {fileID: 114056845877981674}
+  - component: {fileID: 114778157084438208}
+  - component: {fileID: 114064090303758408}
+  - component: {fileID: 114343885756525698}
+  - component: {fileID: 114672772724829826}
+  - component: {fileID: 114094670960427362}
+  - component: {fileID: 114573090490840680}
+  - component: {fileID: 114527642546037088}
   - component: {fileID: 114847667760466406}
   - component: {fileID: 114193205437242860}
   - component: {fileID: 114316707701697160}
@@ -1486,6 +1518,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &4006757143687642
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1013715662478104}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4434806661616240}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4015757909982962
 Transform:
   m_ObjectHideFlags: 1
@@ -1668,7 +1713,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1062740591651722}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 410.53174, y: -187.95, z: 19}
+  m_LocalPosition: {x: 8779.235, y: -187.95, z: 89.04443}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4640919950402426}
@@ -1686,6 +1731,7 @@ Transform:
   - {fileID: 4716426507251582}
   - {fileID: 4507544924934442}
   - {fileID: 4927644252869694}
+  - {fileID: 4434806661616240}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -1931,6 +1977,20 @@ Transform:
   - {fileID: 4015757909982962}
   m_Father: {fileID: 4556180537183272}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4434806661616240
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1291293678805282}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4006757143687642}
+  m_Father: {fileID: 4168855015049486}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4438099978213022
 Transform:
@@ -5423,6 +5483,29 @@ MonoBehaviour:
   _vector4Value: {x: 0, y: 0, z: 0, w: 0}
   _valueVar: {fileID: 114884551277183330}
   _caseSensitive: 1
+--- !u!114 &114225275656530808
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1263245634244494}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1696573904, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114964176343192644}
+  editor: {fileID: 0}
+  _caption: Reset Variable Value
+  _breakpoint: 0
+  _variable: {fileID: 114590625407625962}
 --- !u!114 &114225911983962498
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -5629,7 +5712,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 0
+  _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114485936571060896}
@@ -6598,7 +6681,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 0
+  _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114968308194852688}
@@ -7880,6 +7963,29 @@ MonoBehaviour:
   _vector4Value: {x: 0, y: 0, z: 0, w: 0}
   _valueVar: {fileID: 0}
   _caseSensitive: 1
+--- !u!114 &114460140130371322
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1799259214491060}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1696573904, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114847667760466406}
+  editor: {fileID: 0}
+  _caption: Reset Variable Value
+  _breakpoint: 0
+  _variable: {fileID: 114171518432860018}
 --- !u!114 &114460240261118732
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -12100,6 +12206,7 @@ MonoBehaviour:
   - {fileID: 114573090490840680}
   _actions:
   - {fileID: 114174729455460918}
+  - {fileID: 114460140130371322}
   _elseActions: []
   _elseVisible: 0
 --- !u!114 &114850417563004950
@@ -13346,7 +13453,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 0
+  _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114238210859143704}
@@ -13358,6 +13465,7 @@ MonoBehaviour:
   - {fileID: 114685913623614164}
   _actions:
   - {fileID: 114559553618086608}
+  - {fileID: 114225275656530808}
   _elseActions: []
   _elseVisible: 0
 --- !u!114 &114968308194852688
