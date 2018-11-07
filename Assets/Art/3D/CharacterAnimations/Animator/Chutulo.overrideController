@@ -6,7 +6,19 @@ AnimatorOverrideController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Chutulo
-  m_Controller: {fileID: 9100000, guid: 18901fc51041ac14e954c73dc84e0df8, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4eb84d25b3cf1104fa6406bdcdc62fb5, type: 2}
   m_Clips:
-  - m_OriginalClip: {fileID: 7400000, guid: e64fff4f9dcbff84c86e7aa1d97ca940, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: d0ae413997615476689be437599e4b50, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7fd0bb2d553e3084db5a9272c6b35b14, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 082b2abba55e87c4d86fea39ee636f33, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f78f0db12f82a564ebc6835e4d6fef77, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 3320f856495f44d469381c9a8ebb1dfb, type: 2}
+  - m_OriginalClip: {fileID: 7400008, guid: 73819641f301bbd4cbcc8857989b380b, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: e8182f5048453c843be716e5eb2e0720, type: 2}
+  - m_OriginalClip: {fileID: 7400002, guid: cc10c350e88d2ef46b5f6045fabd0901, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 0efec8f4cc3c6664abe188d8d6a80366, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: cc10c350e88d2ef46b5f6045fabd0901, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 5ad7632b10975594f85f7fd10905f6f9, type: 2}
+  - m_OriginalClip: {fileID: 7400002, guid: ccad39defc46ad04f97ef34173e7a703, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: fe516c84842f17645b77e5402123f502, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4bb7386b80981fc4ba8e701ff7b5a1ba, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: fe516c84842f17645b77e5402123f502, type: 2}

@@ -152,7 +152,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: lambert8
-    second: {fileID: 2100000, guid: 9916d3b7e5e5ab84398e65d0d0d8565c, type: 2}
+    second: {fileID: 2100000, guid: ba8831aa551b0194cb3b3921dc140cd5, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -188,8 +188,8 @@ ModelImporter:
     addColliders: 0
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
+    importCameras: 1
+    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -203,7 +203,7 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 1
+    previousCalculatedGlobalScale: 0.01
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
