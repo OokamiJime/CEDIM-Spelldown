@@ -16,7 +16,7 @@ ModelImporter:
     100020: ik_Spine
     100022: L_ArmBottom_Joint
     100024: L_ArmTop_Joint
-    100026: L_Elbow_Control
+    100026: L_Elbow_Controller
     100028: L_Elbow_locator
     100030: L_Feet_Control
     100032: L_Feet_Joint
@@ -25,7 +25,7 @@ ModelImporter:
     100038: L_Index_1_Joint
     100040: L_Index_2_Joint
     100042: L_Index_3_Joint
-    100044: L_KneeCap_Control
+    100044: L_KneeCap_Controller
     100046: L_KneeCap_locator
     100048: L_LegBottom_Joint
     100050: L_LegTop_Joint
@@ -46,7 +46,7 @@ ModelImporter:
     100080: Master_Control
     100082: R_ArmBottom_Joint
     100084: R_ArmTop_Joint
-    100086: R_Elbow_Control
+    100086: R_Elbow_Controller
     100088: R_Elbow_locator
     100090: R_Feet_Control
     100092: R_Feet_Joint
@@ -55,7 +55,7 @@ ModelImporter:
     100098: R_Index_1_Joint
     100100: R_Index_2_Joint
     100102: R_Index_3_Joint
-    100104: R_KneeCap_Control
+    100104: R_KneeCap_Controller
     100106: R_KneeCap_locator
     100108: R_LegBottom_Joint
     100110: R_LegTop_Joint
@@ -92,7 +92,7 @@ ModelImporter:
     400020: ik_Spine
     400022: L_ArmBottom_Joint
     400024: L_ArmTop_Joint
-    400026: L_Elbow_Control
+    400026: L_Elbow_Controller
     400028: L_Elbow_locator
     400030: L_Feet_Control
     400032: L_Feet_Joint
@@ -101,7 +101,7 @@ ModelImporter:
     400038: L_Index_1_Joint
     400040: L_Index_2_Joint
     400042: L_Index_3_Joint
-    400044: L_KneeCap_Control
+    400044: L_KneeCap_Controller
     400046: L_KneeCap_locator
     400048: L_LegBottom_Joint
     400050: L_LegTop_Joint
@@ -122,7 +122,7 @@ ModelImporter:
     400080: Master_Control
     400082: R_ArmBottom_Joint
     400084: R_ArmTop_Joint
-    400086: R_Elbow_Control
+    400086: R_Elbow_Controller
     400088: R_Elbow_locator
     400090: R_Feet_Control
     400092: R_Feet_Joint
@@ -131,7 +131,7 @@ ModelImporter:
     400098: R_Index_1_Joint
     400100: R_Index_2_Joint
     400102: R_Index_3_Joint
-    400104: R_KneeCap_Control
+    400104: R_KneeCap_Controller
     400106: R_KneeCap_locator
     400108: R_LegBottom_Joint
     400110: R_LegTop_Joint
@@ -162,11 +162,7 @@ ModelImporter:
     3300000: varita1
     4300000: Whodini1
     4300002: varita1
-    7400000: Jump
-    7400002: Airborne
-    7400004: Passing
-    7400006: Falling
-    7400008: Landing
+    7400000: Take 001
     9500000: //RootNode
     13700000: //RootNode
   externalObjects: {}
@@ -196,147 +192,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Jump
-      takeName: Take 001
-      firstFrame: 1
-      lastFrame: 80
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Airborne
-      takeName: Take 001
-      firstFrame: 81
-      lastFrame: 90
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Passing
-      takeName: Take 001
-      firstFrame: 91
-      lastFrame: 132
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Falling
-      takeName: Take 001
-      firstFrame: 133
-      lastFrame: 145
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Landing
-      takeName: Take 001
-      firstFrame: 146
-      lastFrame: 154
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -344,7 +200,7 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
-    importBlendShapes: 0
+    importBlendShapes: 1
     importCameras: 0
     importLights: 0
     swapUVChannels: 0
@@ -359,7 +215,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 1
+    useFileScale: 0
     previousCalculatedGlobalScale: 0.01
     hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
