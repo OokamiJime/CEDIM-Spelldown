@@ -19,23 +19,23 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 224852447510959432}
-  - component: {fileID: 114415709019409868}
   - component: {fileID: 114480610046320294}
+  - component: {fileID: 114144959908538142}
+  - component: {fileID: 114308693198550320}
+  - component: {fileID: 114615016298593870}
+  - component: {fileID: 114970299905172148}
+  - component: {fileID: 114098543849707542}
+  - component: {fileID: 114494578610553154}
+  - component: {fileID: 114196766370503552}
   - component: {fileID: 114933246210140544}
   - component: {fileID: 114011489550726838}
-  - component: {fileID: 114168154029214704}
-  - component: {fileID: 114970299905172148}
-  - component: {fileID: 114144959908538142}
   - component: {fileID: 114163413207510684}
-  - component: {fileID: 114943933527683480}
-  - component: {fileID: 114615016298593870}
-  - component: {fileID: 114978577076327622}
-  - component: {fileID: 114308693198550320}
-  - component: {fileID: 114098543849707542}
-  - component: {fileID: 114216191894110106}
-  - component: {fileID: 114375272650819964}
+  - component: {fileID: 114415709019409868}
   - component: {fileID: 114889265023886284}
-  - component: {fileID: 114494578610553154}
+  - component: {fileID: 114216191894110106}
+  - component: {fileID: 114168154029214704}
+  - component: {fileID: 114375272650819964}
+  - component: {fileID: 114943933527683480}
   - component: {fileID: 114307637784578804}
   - component: {fileID: 114544580601670872}
   m_Layer: 5
@@ -60,7 +60,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114544580601670872}
@@ -184,6 +184,28 @@ MonoBehaviour:
   _targetType: 0
   _target: {fileID: 0}
   _targetVar: {fileID: 114889265023886284}
+--- !u!114 &114196766370503552
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1059342775680936}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -75512088, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114307637784578804}
+  editor: {fileID: 0}
+  _caption: Pause Game
+  _breakpoint: 0
 --- !u!114 &114216191894110106
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -199,7 +221,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114544580601670872}
@@ -236,7 +258,7 @@ MonoBehaviour:
   - {fileID: 114480610046320294}
   - {fileID: 114415709019409868}
   _actions:
-  - {fileID: 114978577076327622}
+  - {fileID: 114196766370503552}
   _elseActions: []
   _elseVisible: 0
 --- !u!114 &114308693198550320
@@ -581,7 +603,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114544580601670872}
@@ -647,28 +669,6 @@ MonoBehaviour:
   _listeningRange: 0
   _listeningTarget: {fileID: 1059342775680936}
   _listeningList: {fileID: 0}
---- !u!114 &114978577076327622
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1059342775680936}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1673353149, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 1
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 114307637784578804}
-  editor: {fileID: 0}
-  _caption: Toggle Pause
-  _breakpoint: 0
 --- !u!224 &224852447510959432
 RectTransform:
   m_ObjectHideFlags: 1

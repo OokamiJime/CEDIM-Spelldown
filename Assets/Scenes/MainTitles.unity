@@ -121,6 +121,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 133232768}
+  - component: {fileID: 133232792}
+  - component: {fileID: 133232790}
   - component: {fileID: 133232791}
   - component: {fileID: 133232789}
   - component: {fileID: 133232788}
@@ -1012,7 +1014,9 @@ MonoBehaviour:
   - {fileID: 133232788}
   - {fileID: 133232789}
   _actions:
+  - {fileID: 133232792}
   - {fileID: 133232791}
+  - {fileID: 133232790}
   _elseActions: []
   _elseVisible: 0
 --- !u!114 &133232788
@@ -1092,6 +1096,28 @@ MonoBehaviour:
   _vector4Value: {x: 0, y: 0, z: 0, w: 0}
   _valueVar: {fileID: 0}
   _caseSensitive: 1
+--- !u!114 &133232790
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 133232767}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1135820031, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 133232787}
+  editor: {fileID: 0}
+  _caption: Break
+  _breakpoint: 0
 --- !u!114 &133232791
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1107,7 +1133,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 133232787}
@@ -1121,6 +1147,58 @@ MonoBehaviour:
   _sceneNameVar: {fileID: 0}
   _additive: 0
   _asynchronous: 0
+--- !u!114 &133232792
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 133232767}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553565607, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 133232787}
+  editor: {fileID: 0}
+  _caption: Set Variable Value
+  _breakpoint: 0
+  _stringValue: 
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 0
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _colorValue: {r: 0, g: 0, b: 0, a: 1}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _animationCurveValue:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _valueVar: {fileID: 0}
+  _variable: {fileID: 133232774}
+  _format: 
+  _formatVar: {fileID: 0}
 --- !u!1 &229749925
 GameObject:
   m_ObjectHideFlags: 0
@@ -1395,6 +1473,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 345482884}
+  - component: {fileID: 345482907}
   - component: {fileID: 345482905}
   - component: {fileID: 345482904}
   - component: {fileID: 345482903}
@@ -2209,6 +2288,7 @@ MonoBehaviour:
   - {fileID: 345482904}
   _actions:
   - {fileID: 345482905}
+  - {fileID: 345482907}
   _elseActions: []
   _elseVisible: 0
 --- !u!114 &345482903
@@ -2396,6 +2476,28 @@ MonoBehaviour:
   _showDescription: 0
   _description: <Description>
   _changeListeners: []
+--- !u!114 &345482907
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 345482883}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1135820031, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 345482902}
+  editor: {fileID: 0}
+  _caption: Break
+  _breakpoint: 0
 --- !u!1 &346526591
 GameObject:
   m_ObjectHideFlags: 0
@@ -2655,6 +2757,8 @@ GameObject:
   - component: {fileID: 611443027}
   - component: {fileID: 611443024}
   - component: {fileID: 611443061}
+  - component: {fileID: 611443063}
+  - component: {fileID: 611443062}
   - component: {fileID: 611443026}
   - component: {fileID: 611443034}
   - component: {fileID: 611443071}
@@ -2829,6 +2933,7 @@ MonoBehaviour:
   - {fileID: 611443071}
   - {fileID: 611443034}
   - {fileID: 611443026}
+  - {fileID: 611443062}
   - {fileID: 611443061}
   - {fileID: 611443024}
   - {fileID: 611443027}
@@ -4380,6 +4485,56 @@ MonoBehaviour:
     variable Previous V y empieza el programa On demand Options. Options lee si el
     valor en Y es positivo o negativo, incrementa o disminuye un valor de Key Compare,
     Limit hace que se tenga un limite de valores que puede tener."
+--- !u!114 &611443062
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 611443018}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 131294560, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 611443025}
+  editor: {fileID: 0}
+  _id: On Start
+  _actions:
+  - {fileID: 611443063}
+  _parameters: []
+  _showParameters: 0
+  _showSettings: 1
+  _actionsFoldout: 1
+  _ignorePause: 0
+--- !u!114 &611443063
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 611443018}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 333901895, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 611443062}
+  editor: {fileID: 0}
+  _caption: Start Game
+  _breakpoint: 0
 --- !u!114 &611443069
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -5275,6 +5430,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1168125913}
+  - component: {fileID: 1168125936}
   - component: {fileID: 1168125934}
   - component: {fileID: 1168125933}
   - component: {fileID: 1168125932}
@@ -6089,6 +6245,7 @@ MonoBehaviour:
   - {fileID: 1168125933}
   _actions:
   - {fileID: 1168125934}
+  - {fileID: 1168125936}
   _elseActions: []
   _elseVisible: 0
 --- !u!114 &1168125932
@@ -6269,6 +6426,28 @@ MonoBehaviour:
   _showDescription: 0
   _description: <Description>
   _changeListeners: []
+--- !u!114 &1168125936
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1168125912}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1135820031, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 1168125931}
+  editor: {fileID: 0}
+  _caption: Break
+  _breakpoint: 0
 --- !u!1 &1338006401
 GameObject:
   m_ObjectHideFlags: 0
@@ -6452,6 +6631,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1596020754}
+  - component: {fileID: 1596020778}
+  - component: {fileID: 1596020777}
   - component: {fileID: 1596020775}
   - component: {fileID: 1596020774}
   - component: {fileID: 1596020773}
@@ -6619,7 +6800,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 1596020765}
@@ -6689,7 +6870,9 @@ MonoBehaviour:
   - {fileID: 1596020773}
   - {fileID: 1596020774}
   _actions:
+  - {fileID: 1596020778}
   - {fileID: 1596020775}
+  - {fileID: 1596020777}
   _elseActions: []
   _elseVisible: 0
 --- !u!114 &1596020762
@@ -6944,7 +7127,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 1596020755}
@@ -7452,6 +7635,80 @@ MonoBehaviour:
   _showDescription: 0
   _description: <Description>
   _changeListeners: []
+--- !u!114 &1596020777
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1596020753}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1135820031, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 1596020761}
+  editor: {fileID: 0}
+  _caption: Break
+  _breakpoint: 0
+--- !u!114 &1596020778
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1596020753}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553565607, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 1596020761}
+  editor: {fileID: 0}
+  _caption: Set Variable Value
+  _breakpoint: 0
+  _stringValue: 
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 0
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _colorValue: {r: 0, g: 0, b: 0, a: 1}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _animationCurveValue:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _valueVar: {fileID: 0}
+  _variable: {fileID: 1596020762}
+  _format: 
+  _formatVar: {fileID: 0}
 --- !u!1001 &1661397753
 Prefab:
   m_ObjectHideFlags: 0
@@ -7687,25 +7944,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1925905921}
+  - component: {fileID: 1925905920}
   - component: {fileID: 1925905937}
   - component: {fileID: 1925905936}
-  - component: {fileID: 1925905935}
-  - component: {fileID: 1925905934}
-  - component: {fileID: 1925905933}
-  - component: {fileID: 1925905930}
-  - component: {fileID: 1925905929}
-  - component: {fileID: 1925905928}
-  - component: {fileID: 1925905932}
-  - component: {fileID: 1925905927}
-  - component: {fileID: 1925905926}
-  - component: {fileID: 1925905925}
-  - component: {fileID: 1925905931}
-  - component: {fileID: 1925905924}
-  - component: {fileID: 1925905923}
-  - component: {fileID: 1925905922}
-  - component: {fileID: 1925905920}
   - component: {fileID: 1925905919}
   - component: {fileID: 1925905916}
+  - component: {fileID: 1925905935}
+  - component: {fileID: 1925905934}
   - component: {fileID: 1925905917}
   - component: {fileID: 1925905918}
   - component: {fileID: 1925905915}
@@ -7736,9 +7981,6 @@ MonoBehaviour:
   - {fileID: 1925905934}
   - {fileID: 1925905935}
   - {fileID: 1925905916}
-  - {fileID: 1925905922}
-  - {fileID: 1925905925}
-  - {fileID: 1925905928}
   editor: {fileID: 0}
   _showSettings: 0
   _displayMode: 0
@@ -7796,7 +8038,7 @@ MonoBehaviour:
   _id: Start1
   _code: 337
   _codeVar: {fileID: 0}
-  _enabledInPause: 0
+  _enabledInPause: 1
   _enabledInPauseVar: {fileID: 0}
 --- !u!114 &1925905918
 MonoBehaviour:
@@ -7909,677 +8151,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1925905922
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1925905914}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1745572547, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 0
-  _drawSeparator: 0
-  enabledInEditor: 0
-  container: {fileID: 1925905915}
-  editor: {fileID: 0}
-  _id: NewGame
-  _actions:
-  - {fileID: 1925905931}
-  _parameters:
-  - {fileID: 1925905923}
-  - {fileID: 1925905924}
-  _showParameters: 0
-  _showSettings: 1
-  _actionsFoldout: 1
-  _ignorePause: 0
-  _listeningRange: 0
-  _listeningTarget: {fileID: 133232767}
-  _listeningList: {fileID: 0}
---- !u!114 &1925905923
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1925905914}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 280294710, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 0
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 1925905922}
-  editor: {fileID: 0}
-  _id: Source
-  _dataType: 8
-  _typeName: UnityEngine.GameObject
-  _indirectDataType: 0
-  _indirectTypeName: 
-  _defaultStringValue: 
-  _defaultIntValue: 0
-  _defaultFloatValue: 0
-  _defaultBoolValue: 0
-  _defaultVector2Value: {x: 0, y: 0}
-  _defaultVector3Value: {x: 0, y: 0, z: 0}
-  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _defaultRectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
-  _defaultEnumIntValue: 0
-  _defaultBoundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
-  _stringValue: 
-  _intValue: 0
-  _floatValue: 0
-  _boolValue: 1
-  _vector2Value: {x: 0, y: 0}
-  _vector3Value: {x: 0, y: 0, z: 0}
-  _rectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _colorValue: {r: 0, g: 0, b: 0, a: 1}
-  _objectValue: {fileID: 0}
-  _enumIntValue: 0
-  _enumCached: 0
-  _boundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
-  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _animationCurveValue:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  _readOnly: 1
-  _private: 1
-  _persistent: 0
-  _indirect: 0
-  _isVariant: 0
-  _showDescription: 1
-  _description: The GameObject where the event was originated.
-  _changeListeners: []
-  _hidden: 0
-  _display: 1
-  _label: Parameter
---- !u!114 &1925905924
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1925905914}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 280294710, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 0
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 1925905922}
-  editor: {fileID: 0}
-  _id: Position
-  _dataType: 4
-  _typeName: 
-  _indirectDataType: 0
-  _indirectTypeName: 
-  _defaultStringValue: 
-  _defaultIntValue: 0
-  _defaultFloatValue: 0
-  _defaultBoolValue: 0
-  _defaultVector2Value: {x: 0, y: 0}
-  _defaultVector3Value: {x: 0, y: 0, z: 0}
-  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _defaultRectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
-  _defaultEnumIntValue: 0
-  _defaultBoundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
-  _stringValue: 
-  _intValue: 0
-  _floatValue: 0
-  _boolValue: 1
-  _vector2Value: {x: 0, y: 0}
-  _vector3Value: {x: 0, y: 0, z: 0}
-  _rectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _colorValue: {r: 0, g: 0, b: 0, a: 1}
-  _objectValue: {fileID: 0}
-  _enumIntValue: 0
-  _enumCached: 0
-  _boundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
-  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _animationCurveValue:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  _readOnly: 1
-  _private: 1
-  _persistent: 0
-  _indirect: 0
-  _isVariant: 0
-  _showDescription: 1
-  _description: The current screen coordinates of the pointer.
-  _changeListeners: []
-  _hidden: 0
-  _display: 1
-  _label: Parameter
---- !u!114 &1925905925
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1925905914}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1745572547, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 0
-  _drawSeparator: 0
-  enabledInEditor: 0
-  container: {fileID: 1925905915}
-  editor: {fileID: 0}
-  _id: Credits
-  _actions:
-  - {fileID: 1925905932}
-  _parameters:
-  - {fileID: 1925905926}
-  - {fileID: 1925905927}
-  _showParameters: 0
-  _showSettings: 1
-  _actionsFoldout: 1
-  _ignorePause: 0
-  _listeningRange: 0
-  _listeningTarget: {fileID: 345482883}
-  _listeningList: {fileID: 0}
---- !u!114 &1925905926
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1925905914}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 280294710, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 0
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 1925905925}
-  editor: {fileID: 0}
-  _id: Source
-  _dataType: 8
-  _typeName: UnityEngine.GameObject
-  _indirectDataType: 0
-  _indirectTypeName: 
-  _defaultStringValue: 
-  _defaultIntValue: 0
-  _defaultFloatValue: 0
-  _defaultBoolValue: 0
-  _defaultVector2Value: {x: 0, y: 0}
-  _defaultVector3Value: {x: 0, y: 0, z: 0}
-  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _defaultRectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
-  _defaultEnumIntValue: 0
-  _defaultBoundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
-  _stringValue: 
-  _intValue: 0
-  _floatValue: 0
-  _boolValue: 1
-  _vector2Value: {x: 0, y: 0}
-  _vector3Value: {x: 0, y: 0, z: 0}
-  _rectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _colorValue: {r: 0, g: 0, b: 0, a: 1}
-  _objectValue: {fileID: 0}
-  _enumIntValue: 0
-  _enumCached: 0
-  _boundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
-  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _animationCurveValue:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  _readOnly: 1
-  _private: 1
-  _persistent: 0
-  _indirect: 0
-  _isVariant: 0
-  _showDescription: 1
-  _description: The GameObject where the event was originated.
-  _changeListeners: []
-  _hidden: 0
-  _display: 1
-  _label: Parameter
---- !u!114 &1925905927
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1925905914}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 280294710, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 0
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 1925905925}
-  editor: {fileID: 0}
-  _id: Position
-  _dataType: 4
-  _typeName: 
-  _indirectDataType: 0
-  _indirectTypeName: 
-  _defaultStringValue: 
-  _defaultIntValue: 0
-  _defaultFloatValue: 0
-  _defaultBoolValue: 0
-  _defaultVector2Value: {x: 0, y: 0}
-  _defaultVector3Value: {x: 0, y: 0, z: 0}
-  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _defaultRectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
-  _defaultEnumIntValue: 0
-  _defaultBoundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
-  _stringValue: 
-  _intValue: 0
-  _floatValue: 0
-  _boolValue: 1
-  _vector2Value: {x: 0, y: 0}
-  _vector3Value: {x: 0, y: 0, z: 0}
-  _rectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _colorValue: {r: 0, g: 0, b: 0, a: 1}
-  _objectValue: {fileID: 0}
-  _enumIntValue: 0
-  _enumCached: 0
-  _boundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
-  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _animationCurveValue:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  _readOnly: 1
-  _private: 1
-  _persistent: 0
-  _indirect: 0
-  _isVariant: 0
-  _showDescription: 1
-  _description: The current screen coordinates of the pointer.
-  _changeListeners: []
-  _hidden: 0
-  _display: 1
-  _label: Parameter
---- !u!114 &1925905928
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1925905914}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1745572547, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 0
-  _drawSeparator: 0
-  enabledInEditor: 0
-  container: {fileID: 1925905915}
-  editor: {fileID: 0}
-  _id: On Click
-  _actions:
-  - {fileID: 1925905933}
-  _parameters:
-  - {fileID: 1925905929}
-  - {fileID: 1925905930}
-  _showParameters: 0
-  _showSettings: 1
-  _actionsFoldout: 1
-  _ignorePause: 0
-  _listeningRange: 0
-  _listeningTarget: {fileID: 1168125912}
-  _listeningList: {fileID: 0}
---- !u!114 &1925905929
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1925905914}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 280294710, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 0
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 1925905928}
-  editor: {fileID: 0}
-  _id: Source
-  _dataType: 8
-  _typeName: UnityEngine.GameObject
-  _indirectDataType: 0
-  _indirectTypeName: 
-  _defaultStringValue: 
-  _defaultIntValue: 0
-  _defaultFloatValue: 0
-  _defaultBoolValue: 0
-  _defaultVector2Value: {x: 0, y: 0}
-  _defaultVector3Value: {x: 0, y: 0, z: 0}
-  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _defaultRectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
-  _defaultEnumIntValue: 0
-  _defaultBoundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
-  _stringValue: 
-  _intValue: 0
-  _floatValue: 0
-  _boolValue: 1
-  _vector2Value: {x: 0, y: 0}
-  _vector3Value: {x: 0, y: 0, z: 0}
-  _rectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _colorValue: {r: 0, g: 0, b: 0, a: 1}
-  _objectValue: {fileID: 0}
-  _enumIntValue: 0
-  _enumCached: 0
-  _boundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
-  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _animationCurveValue:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  _readOnly: 1
-  _private: 1
-  _persistent: 0
-  _indirect: 0
-  _isVariant: 0
-  _showDescription: 1
-  _description: The GameObject where the event was originated.
-  _changeListeners: []
-  _hidden: 0
-  _display: 1
-  _label: Parameter
---- !u!114 &1925905930
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1925905914}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 280294710, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 0
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 1925905928}
-  editor: {fileID: 0}
-  _id: Position
-  _dataType: 4
-  _typeName: 
-  _indirectDataType: 0
-  _indirectTypeName: 
-  _defaultStringValue: 
-  _defaultIntValue: 0
-  _defaultFloatValue: 0
-  _defaultBoolValue: 0
-  _defaultVector2Value: {x: 0, y: 0}
-  _defaultVector3Value: {x: 0, y: 0, z: 0}
-  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _defaultRectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
-  _defaultEnumIntValue: 0
-  _defaultBoundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
-  _stringValue: 
-  _intValue: 0
-  _floatValue: 0
-  _boolValue: 1
-  _vector2Value: {x: 0, y: 0}
-  _vector3Value: {x: 0, y: 0, z: 0}
-  _rectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _colorValue: {r: 0, g: 0, b: 0, a: 1}
-  _objectValue: {fileID: 0}
-  _enumIntValue: 0
-  _enumCached: 0
-  _boundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
-  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _animationCurveValue:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  _readOnly: 1
-  _private: 1
-  _persistent: 0
-  _indirect: 0
-  _isVariant: 0
-  _showDescription: 1
-  _description: The current screen coordinates of the pointer.
-  _changeListeners: []
-  _hidden: 0
-  _display: 1
-  _label: Parameter
---- !u!114 &1925905931
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1925905914}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1119411192, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 1
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 1925905922}
-  editor: {fileID: 0}
-  _caption: Load Scene
-  _breakpoint: 0
-  _specifier: 0
-  _scene: 1
-  _sceneVar: {fileID: 0}
-  _sceneName: 
-  _sceneNameVar: {fileID: 0}
-  _additive: 0
-  _asynchronous: 0
---- !u!114 &1925905932
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1925905914}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1119411192, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 1
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 1925905925}
-  editor: {fileID: 0}
-  _caption: Load Scene
-  _breakpoint: 0
-  _specifier: 0
-  _scene: 2
-  _sceneVar: {fileID: 0}
-  _sceneName: 
-  _sceneNameVar: {fileID: 0}
-  _additive: 0
-  _asynchronous: 0
---- !u!114 &1925905933
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1925905914}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 253316175, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 1
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 1925905928}
-  editor: {fileID: 0}
-  _caption: Exit Game
-  _breakpoint: 0
 --- !u!114 &1925905934
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -8603,7 +8174,7 @@ MonoBehaviour:
   _id: Start2
   _code: 357
   _codeVar: {fileID: 0}
-  _enabledInPause: 0
+  _enabledInPause: 1
   _enabledInPauseVar: {fileID: 0}
 --- !u!114 &1925905935
 MonoBehaviour:
@@ -8628,7 +8199,7 @@ MonoBehaviour:
   _id: Start3
   _code: 377
   _codeVar: {fileID: 0}
-  _enabledInPause: 0
+  _enabledInPause: 1
   _enabledInPauseVar: {fileID: 0}
 --- !u!114 &1925905936
 MonoBehaviour:
