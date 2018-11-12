@@ -108,16 +108,17 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 224863438771647146}
+  - component: {fileID: 114938891666501038}
+  - component: {fileID: 114069328689669070}
+  - component: {fileID: 114096212752915856}
+  - component: {fileID: 114677695555753402}
+  - component: {fileID: 114700958313379908}
+  - component: {fileID: 114557391504050388}
   - component: {fileID: 114138191139702614}
   - component: {fileID: 114415273441950198}
-  - component: {fileID: 114700958313379908}
-  - component: {fileID: 114091669764074172}
-  - component: {fileID: 114677695555753402}
-  - component: {fileID: 114995902195920074}
-  - component: {fileID: 114096212752915856}
-  - component: {fileID: 114557391504050388}
-  - component: {fileID: 114069328689669070}
   - component: {fileID: 114135411810532494}
+  - component: {fileID: 114995902195920074}
+  - component: {fileID: 114091669764074172}
   - component: {fileID: 114249533574337938}
   - component: {fileID: 114603716516156240}
   - component: {fileID: 114265770780772092}
@@ -1537,6 +1538,7 @@ MonoBehaviour:
   _actions:
   - {fileID: 114096212752915856}
   - {fileID: 114069328689669070}
+  - {fileID: 114938891666501038}
   _elseActions: []
   _elseVisible: 0
 --- !u!114 &114252370070369918
@@ -4265,6 +4267,30 @@ MonoBehaviour:
   _variable: {fileID: 114034165704839442}
   _format: 
   _formatVar: {fileID: 0}
+--- !u!114 &114938891666501038
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1663586782299282}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -910385913, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114249533574337938}
+  editor: {fileID: 0}
+  _caption: Activate GameObject
+  _breakpoint: 0
+  _target: {fileID: 0}
+  _targetVar: {fileID: 0}
 --- !u!114 &114943247754356098
 MonoBehaviour:
   m_ObjectHideFlags: 3
