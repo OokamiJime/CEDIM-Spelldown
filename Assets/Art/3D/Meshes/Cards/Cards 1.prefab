@@ -36,41 +36,44 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4119970396212224}
-  - component: {fileID: 114501311264099126}
-  - component: {fileID: 114410602807875282}
-  - component: {fileID: 114117214561088158}
-  - component: {fileID: 114843565789164860}
-  - component: {fileID: 114027810036535804}
-  - component: {fileID: 114927087741108440}
   - component: {fileID: 114445475500991832}
-  - component: {fileID: 114519094309297148}
+  - component: {fileID: 114558727507700134}
   - component: {fileID: 114599343277572074}
-  - component: {fileID: 114996697945314170}
-  - component: {fileID: 114922450199132552}
-  - component: {fileID: 114555858208306150}
-  - component: {fileID: 114218149496088538}
-  - component: {fileID: 114628499667694150}
-  - component: {fileID: 114146483470683344}
-  - component: {fileID: 114994429730965620}
-  - component: {fileID: 114480264927301992}
   - component: {fileID: 114109617769992880}
   - component: {fileID: 114420903454520070}
-  - component: {fileID: 114083976990048256}
-  - component: {fileID: 114123890168347212}
-  - component: {fileID: 114067102669798446}
-  - component: {fileID: 114558727507700134}
-  - component: {fileID: 114165741590161116}
-  - component: {fileID: 114422109034289578}
   - component: {fileID: 114163426363364902}
-  - component: {fileID: 114116724474357426}
-  - component: {fileID: 114421033616081044}
+  - component: {fileID: 114480264927301992}
+  - component: {fileID: 114994429730965620}
+  - component: {fileID: 114501311264099126}
+  - component: {fileID: 114555858208306150}
+  - component: {fileID: 114218149496088538}
+  - component: {fileID: 114027810036535804}
+  - component: {fileID: 114922450199132552}
+  - component: {fileID: 114927087741108440}
   - component: {fileID: 114174055521845642}
-  - component: {fileID: 114421389218082414}
-  - component: {fileID: 114969549339016464}
-  - component: {fileID: 114947918174439148}
-  - component: {fileID: 114839721744978758}
   - component: {fileID: 114867968365058504}
+  - component: {fileID: 114165741590161116}
+  - component: {fileID: 114249993968022772}
+  - component: {fileID: 114421389218082414}
+  - component: {fileID: 114422109034289578}
+  - component: {fileID: 114123890168347212}
+  - component: {fileID: 114969549339016464}
+  - component: {fileID: 114146483470683344}
+  - component: {fileID: 114116724474357426}
+  - component: {fileID: 114410602807875282}
+  - component: {fileID: 114752641950646490}
+  - component: {fileID: 114117214561088158}
+  - component: {fileID: 114519094309297148}
+  - component: {fileID: 114947918174439148}
+  - component: {fileID: 114421033616081044}
   - component: {fileID: 114302871583076876}
+  - component: {fileID: 114628499667694150}
+  - component: {fileID: 114996697945314170}
+  - component: {fileID: 114843565789164860}
+  - component: {fileID: 114457979755901504}
+  - component: {fileID: 114083976990048256}
+  - component: {fileID: 114067102669798446}
+  - component: {fileID: 114839721744978758}
   - component: {fileID: 114852459075503056}
   m_Layer: 0
   m_Name: Code
@@ -662,11 +665,12 @@ MonoBehaviour:
   editor: {fileID: 0}
   _id: On Trigger Enter
   _actions:
+  - {fileID: 114249993968022772}
   - {fileID: 114480264927301992}
   _parameters:
   - {fileID: 114420903454520070}
   - {fileID: 114109617769992880}
-  _showParameters: 0
+  _showParameters: 1
   _showSettings: 1
   _actionsFoldout: 1
   _ignorePause: 0
@@ -771,7 +775,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114421389218082414}
@@ -1047,7 +1051,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114421389218082414}
@@ -1122,6 +1126,32 @@ MonoBehaviour:
   _vector4Value: {x: 0, y: 0, z: 0, w: 0}
   _valueVar: {fileID: 114302871583076876}
   _variable: {fileID: 0}
+--- !u!114 &114249993968022772
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1295760622111500}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1206960512, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114083976990048256}
+  editor: {fileID: 0}
+  _caption: Get GameObject Property
+  _breakpoint: 0
+  _output: {fileID: 114752641950646490}
+  _target: {fileID: 0}
+  _targetVar: {fileID: 114109617769992880}
+  _property: 4
 --- !u!114 &114302871583076876
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1381,7 +1411,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114421389218082414}
@@ -1405,13 +1435,14 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114852459075503056}
   editor: {fileID: 0}
   _id: Start Hazzard
   _actions:
+  - {fileID: 114457979755901504}
   - {fileID: 114174055521845642}
   - {fileID: 114421033616081044}
   - {fileID: 114116724474357426}
@@ -1532,6 +1563,32 @@ MonoBehaviour:
   _hidden: 0
   _display: 1
   _label: Parameter
+--- !u!114 &114457979755901504
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1295760622111500}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1125990795, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114421389218082414}
+  editor: {fileID: 0}
+  _caption: Play Sound
+  _breakpoint: 0
+  _audioClip: {fileID: 8300000, guid: 9f0517e388f408b43a370e1da1e05dc6, type: 3}
+  _audioClipVar: {fileID: 0}
+  _volume: 1
+  _volumeVar: {fileID: 0}
 --- !u!114 &114480264927301992
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1856,6 +1913,85 @@ MonoBehaviour:
   _hidden: 0
   _display: 1
   _label: Parameter
+--- !u!114 &114752641950646490
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1295760622111500}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 161578033, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114852459075503056}
+  editor: {fileID: 0}
+  _id: Enter Player 1
+  _dataType: 0
+  _typeName: 
+  _indirectDataType: 0
+  _indirectTypeName: 
+  _defaultStringValue: 
+  _defaultIntValue: 0
+  _defaultFloatValue: 0
+  _defaultBoolValue: 0
+  _defaultVector2Value: {x: 0, y: 0}
+  _defaultVector3Value: {x: 0, y: 0, z: 0}
+  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _defaultRectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+  _defaultEnumIntValue: 0
+  _defaultBoundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
+  _stringValue: 
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 1
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _colorValue: {r: 0, g: 0, b: 0, a: 1}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _enumCached: 0
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _animationCurveValue:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _readOnly: 0
+  _private: 0
+  _persistent: 0
+  _indirect: 0
+  _isVariant: 0
+  _showDescription: 0
+  _description: <Description>
+  _changeListeners: []
 --- !u!114 &114839721744978758
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1995,6 +2131,7 @@ MonoBehaviour:
   - {fileID: 114555858208306150}
   - {fileID: 114519094309297148}
   - {fileID: 114843565789164860}
+  - {fileID: 114752641950646490}
   editor: {fileID: 0}
   _showSettings: 0
   _displayMode: 0
@@ -2016,7 +2153,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114852459075503056}

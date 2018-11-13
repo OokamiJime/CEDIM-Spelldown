@@ -54,43 +54,42 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4728070563674952}
-  - component: {fileID: 114119140045812448}
-  - component: {fileID: 114673204921410690}
-  - component: {fileID: 114544412498836392}
-  - component: {fileID: 114418176373938064}
-  - component: {fileID: 114057841100747984}
-  - component: {fileID: 114682449852430546}
-  - component: {fileID: 114514392677639104}
-  - component: {fileID: 114816306386134042}
+  - component: {fileID: 114367679862209692}
+  - component: {fileID: 114262702472721710}
+  - component: {fileID: 114700722927466390}
   - component: {fileID: 114601674808554566}
-  - component: {fileID: 114213938756380220}
-  - component: {fileID: 114625558356605640}
-  - component: {fileID: 114835841803444664}
-  - component: {fileID: 114086928504675130}
+  - component: {fileID: 114410540252755686}
+  - component: {fileID: 114116766950897500}
+  - component: {fileID: 114057841100747984}
+  - component: {fileID: 114508319116991650}
+  - component: {fileID: 114645562649774802}
   - component: {fileID: 114709397442731758}
   - component: {fileID: 114613368317371468}
-  - component: {fileID: 114700722927466390}
-  - component: {fileID: 114097706317250170}
-  - component: {fileID: 114340808292336720}
+  - component: {fileID: 114795477358419006}
+  - component: {fileID: 114816306386134042}
+  - component: {fileID: 114716959958742226}
+  - component: {fileID: 114863199279171856}
   - component: {fileID: 114852541630808090}
-  - component: {fileID: 114645562649774802}
+  - component: {fileID: 114023161892919104}
   - component: {fileID: 114610717799139210}
+  - component: {fileID: 114544412498836392}
+  - component: {fileID: 114086928504675130}
+  - component: {fileID: 114119140045812448}
   - component: {fileID: 114091032666169150}
-  - component: {fileID: 114423634882359168}
-  - component: {fileID: 114116766950897500}
   - component: {fileID: 114185379865128494}
   - component: {fileID: 114301284801125876}
+  - component: {fileID: 114452800922323504}
+  - component: {fileID: 114340808292336720}
   - component: {fileID: 114463248370413022}
   - component: {fileID: 114129511395943536}
-  - component: {fileID: 114452800922323504}
-  - component: {fileID: 114336167816666936}
-  - component: {fileID: 114367679862209692}
-  - component: {fileID: 114410540252755686}
-  - component: {fileID: 114863199279171856}
-  - component: {fileID: 114508319116991650}
-  - component: {fileID: 114716959958742226}
-  - component: {fileID: 114023161892919104}
-  - component: {fileID: 114795477358419006}
+  - component: {fileID: 114625558356605640}
+  - component: {fileID: 114213938756380220}
+  - component: {fileID: 114423634882359168}
+  - component: {fileID: 114418176373938064}
+  - component: {fileID: 114097706317250170}
+  - component: {fileID: 114835841803444664}
+  - component: {fileID: 114682449852430546}
+  - component: {fileID: 114514392677639104}
   - component: {fileID: 114768983489799250}
   m_Layer: 0
   m_Name: Code
@@ -919,7 +918,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114410540252755686}
@@ -1009,6 +1008,32 @@ MonoBehaviour:
   _listeningRange: 0
   _listeningTarget: {fileID: 1117482655404014}
   _listeningList: {fileID: 0}
+--- !u!114 &114262702472721710
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1125990795, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114410540252755686}
+  editor: {fileID: 0}
+  _caption: Play Sound
+  _breakpoint: 0
+  _audioClip: {fileID: 8300000, guid: 9f0517e388f408b43a370e1da1e05dc6, type: 3}
+  _audioClipVar: {fileID: 0}
+  _volume: 1
+  _volumeVar: {fileID: 0}
 --- !u!114 &114301284801125876
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1033,30 +1058,6 @@ MonoBehaviour:
   _breakpoint: 0
   _target: {fileID: 65180387039098146}
   _targetVar: {fileID: 0}
---- !u!114 &114336167816666936
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1088202011527994}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1419637094, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 0
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 114410540252755686}
-  editor: {fileID: 0}
-  _caption: Wait
-  _breakpoint: 0
-  _duration: 3.5
-  _durationVar: {fileID: 0}
 --- !u!114 &114340808292336720
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1145,17 +1146,16 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 0
+  _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114768983489799250}
   editor: {fileID: 0}
   _id: Start Hazzard
   _actions:
+  - {fileID: 114262702472721710}
   - {fileID: 114367679862209692}
   - {fileID: 114119140045812448}
-  - {fileID: 114673204921410690}
-  - {fileID: 114336167816666936}
   - {fileID: 114452800922323504}
   - {fileID: 114129511395943536}
   - {fileID: 114463248370413022}
@@ -1869,32 +1869,6 @@ MonoBehaviour:
   _hidden: 0
   _display: 1
   _label: Parameter
---- !u!114 &114673204921410690
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1088202011527994}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1125990795, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 1
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 114410540252755686}
-  editor: {fileID: 0}
-  _caption: Play Sound
-  _breakpoint: 0
-  _audioClip: {fileID: 0}
-  _audioClipVar: {fileID: 0}
-  _volume: 1
-  _volumeVar: {fileID: 0}
 --- !u!114 &114682449852430546
 MonoBehaviour:
   m_ObjectHideFlags: 3

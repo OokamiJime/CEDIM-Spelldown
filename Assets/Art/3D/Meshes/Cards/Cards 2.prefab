@@ -108,36 +108,37 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4425935194397532}
-  - component: {fileID: 114380145053555010}
-  - component: {fileID: 114099727372145628}
-  - component: {fileID: 114317870906095378}
-  - component: {fileID: 114282211244967406}
-  - component: {fileID: 114765657387460922}
-  - component: {fileID: 114881762963820518}
-  - component: {fileID: 114951958581436526}
-  - component: {fileID: 114601106517759846}
-  - component: {fileID: 114153347368816268}
-  - component: {fileID: 114849534778651528}
-  - component: {fileID: 114199791815616888}
-  - component: {fileID: 114045534074507090}
-  - component: {fileID: 114133541243424496}
-  - component: {fileID: 114968592476698182}
-  - component: {fileID: 114592268955876026}
-  - component: {fileID: 114577547747952176}
   - component: {fileID: 114178688444305632}
-  - component: {fileID: 114697925368213416}
-  - component: {fileID: 114278256953772080}
-  - component: {fileID: 114048514778816174}
+  - component: {fileID: 114592268955876026}
+  - component: {fileID: 114317870906095378}
+  - component: {fileID: 114968592476698182}
+  - component: {fileID: 114045534074507090}
   - component: {fileID: 114808122437716628}
-  - component: {fileID: 114868595398432878}
-  - component: {fileID: 114641162795731574}
-  - component: {fileID: 114268510899840442}
-  - component: {fileID: 114431850478742932}
+  - component: {fileID: 114601106517759846}
+  - component: {fileID: 114881762963820518}
   - component: {fileID: 114220926640980802}
-  - component: {fileID: 114523665310167504}
-  - component: {fileID: 114987083741397812}
+  - component: {fileID: 114199791815616888}
+  - component: {fileID: 114849534778651528}
+  - component: {fileID: 114765657387460922}
+  - component: {fileID: 114268510899840442}
+  - component: {fileID: 114099727372145628}
+  - component: {fileID: 114785972936990056}
   - component: {fileID: 114255010253211828}
   - component: {fileID: 114842952581894890}
+  - component: {fileID: 114153347368816268}
+  - component: {fileID: 114133541243424496}
+  - component: {fileID: 114641162795731574}
+  - component: {fileID: 114868595398432878}
+  - component: {fileID: 114282211244967406}
+  - component: {fileID: 114431850478742932}
+  - component: {fileID: 114987083741397812}
+  - component: {fileID: 114380145053555010}
+  - component: {fileID: 114278256953772080}
+  - component: {fileID: 114951958581436526}
+  - component: {fileID: 114048514778816174}
+  - component: {fileID: 114523665310167504}
+  - component: {fileID: 114577547747952176}
+  - component: {fileID: 114697925368213416}
   - component: {fileID: 114594466091613858}
   m_Layer: 0
   m_Name: Code
@@ -1123,13 +1124,14 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 0
+  _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114594466091613858}
   editor: {fileID: 0}
   _id: Start Hazzard
   _actions:
+  - {fileID: 114785972936990056}
   - {fileID: 114268510899840442}
   - {fileID: 114641162795731574}
   - {fileID: 114868595398432878}
@@ -1501,6 +1503,32 @@ MonoBehaviour:
   _vector4Value: {x: 0, y: 0, z: 0, w: 0}
   _valueVar: {fileID: 114842952581894890}
   _variable: {fileID: 0}
+--- !u!114 &114785972936990056
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1723292488693268}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1125990795, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114431850478742932}
+  editor: {fileID: 0}
+  _caption: Play Sound
+  _breakpoint: 0
+  _audioClip: {fileID: 8300000, guid: 9f0517e388f408b43a370e1da1e05dc6, type: 3}
+  _audioClipVar: {fileID: 0}
+  _volume: 1
+  _volumeVar: {fileID: 0}
 --- !u!114 &114808122437716628
 MonoBehaviour:
   m_ObjectHideFlags: 3
