@@ -66,9 +66,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4927644252869694}
+  - component: {fileID: 114725576888967836}
   - component: {fileID: 114666759720370264}
   - component: {fileID: 114030385288515288}
-  - component: {fileID: 114725576888967836}
   - component: {fileID: 114807842054694980}
   m_Layer: 0
   m_Name: Keys

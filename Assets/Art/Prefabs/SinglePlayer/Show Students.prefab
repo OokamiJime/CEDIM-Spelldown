@@ -19,18 +19,18 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4726452805071758}
-  - component: {fileID: 114119475812057348}
-  - component: {fileID: 114659138077279622}
-  - component: {fileID: 114982230535185412}
   - component: {fileID: 114037548418600368}
   - component: {fileID: 114954755094642328}
-  - component: {fileID: 114272615364714676}
-  - component: {fileID: 114932591663375062}
-  - component: {fileID: 114639292336818428}
   - component: {fileID: 114531261753394464}
-  - component: {fileID: 114176509360440938}
   - component: {fileID: 114324348590752282}
+  - component: {fileID: 114982230535185412}
+  - component: {fileID: 114176509360440938}
+  - component: {fileID: 114272615364714676}
+  - component: {fileID: 114119475812057348}
+  - component: {fileID: 114932591663375062}
   - component: {fileID: 114819530006756022}
+  - component: {fileID: 114639292336818428}
+  - component: {fileID: 114659138077279622}
   - component: {fileID: 114085727505838718}
   - component: {fileID: 65909028556646806}
   - component: {fileID: 114964308416129658}

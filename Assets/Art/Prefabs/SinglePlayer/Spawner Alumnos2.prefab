@@ -19,26 +19,24 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4508125348919398}
-  - component: {fileID: 114705276701174468}
-  - component: {fileID: 114050828464615082}
-  - component: {fileID: 114466866662833450}
-  - component: {fileID: 114915785733442222}
+  - component: {fileID: 114796361604971092}
   - component: {fileID: 114235315651222004}
-  - component: {fileID: 114820994186321230}
-  - component: {fileID: 114773063629606518}
+  - component: {fileID: 114968888144980746}
+  - component: {fileID: 114915785733442222}
+  - component: {fileID: 114746545468193542}
+  - component: {fileID: 114067108814154324}
+  - component: {fileID: 114050828464615082}
   - component: {fileID: 114907806729573190}
   - component: {fileID: 114783028575993936}
-  - component: {fileID: 114409176567658544}
-  - component: {fileID: 114826587694358726}
-  - component: {fileID: 114968888144980746}
-  - component: {fileID: 114772815983011304}
-  - component: {fileID: 114067108814154324}
-  - component: {fileID: 114794622866059084}
-  - component: {fileID: 114291828295909588}
   - component: {fileID: 114611165514742024}
+  - component: {fileID: 114826587694358726}
   - component: {fileID: 114052304592460016}
-  - component: {fileID: 114746545468193542}
+  - component: {fileID: 114721931455362984}
+  - component: {fileID: 114283583089504812}
+  - component: {fileID: 114409176567658544}
   - component: {fileID: 114372684238817396}
+  - component: {fileID: 114794622866059084}
+  - component: {fileID: 114820994186321230}
   - component: {fileID: 114646193570902294}
   - component: {fileID: 65930873933434702}
   - component: {fileID: 114889098015786952}
@@ -89,7 +87,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 0
+  _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114889098015786952}
@@ -98,6 +96,8 @@ MonoBehaviour:
   _actions:
   - {fileID: 114915785733442222}
   - {fileID: 114052304592460016}
+  - {fileID: 114409176567658544}
+  - {fileID: 114968888144980746}
   - {fileID: 114783028575993936}
   _parameters: []
   _showParameters: 0
@@ -250,20 +250,19 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 0
+  _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114889098015786952}
   editor: {fileID: 0}
   _id: On Start
-  _actions:
-  - {fileID: 114794622866059084}
+  _actions: []
   _parameters: []
   _showParameters: 0
   _showSettings: 1
   _actionsFoldout: 1
   _ignorePause: 0
---- !u!114 &114291828295909588
+--- !u!114 &114283583089504812
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -271,7 +270,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1882352671942130}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1611744707, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Script: {fileID: 131294560, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _initialized: 1
@@ -281,12 +280,18 @@ MonoBehaviour:
   _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
-  container: {fileID: 114646193570902294}
+  container: {fileID: 114889098015786952}
   editor: {fileID: 0}
-  _caption: Restart Program
-  _breakpoint: 0
-  _target: {fileID: 114050828464615082}
-  _targetVar: {fileID: 0}
+  _id: FStudent
+  _actions:
+  - {fileID: 114794622866059084}
+  - {fileID: 114646193570902294}
+  - {fileID: 114611165514742024}
+  _parameters: []
+  _showParameters: 0
+  _showSettings: 1
+  _actionsFoldout: 1
+  _ignorePause: 0
 --- !u!114 &114372684238817396
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -381,10 +386,10 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 0
+  _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
-  container: {fileID: 114646193570902294}
+  container: {fileID: 114050828464615082}
   editor: {fileID: 0}
   _caption: Remove Item From List
   _breakpoint: 0
@@ -420,30 +425,6 @@ MonoBehaviour:
   _index: 0
   _indexVar: {fileID: 114826587694358726}
   _removal: 0
---- !u!114 &114466866662833450
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1882352671942130}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1781552213, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 0
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 114646193570902294}
-  editor: {fileID: 0}
-  _caption: Start Program
-  _breakpoint: 0
-  _target: {fileID: 114050828464615082}
-  _targetVar: {fileID: 0}
 --- !u!114 &114611165514742024
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -459,10 +440,10 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
-  container: {fileID: 114773063629606518}
+  container: {fileID: 114283583089504812}
   editor: {fileID: 0}
   _caption: Destroy
   _breakpoint: 0
@@ -487,20 +468,18 @@ MonoBehaviour:
   _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
-  container: {fileID: 114773063629606518}
+  container: {fileID: 114283583089504812}
   editor: {fileID: 0}
   _caption: Repeat
   _breakpoint: 0
   _conditions: []
   _actions:
-  - {fileID: 114466866662833450}
+  - {fileID: 114721931455362984}
   - {fileID: 114907806729573190}
-  - {fileID: 114968888144980746}
-  - {fileID: 114409176567658544}
-  - {fileID: 114291828295909588}
+  - {fileID: 114796361604971092}
   _times: 2
   _timesVar: {fileID: 114067108814154324}
---- !u!114 &114705276701174468
+--- !u!114 &114721931455362984
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -508,7 +487,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1882352671942130}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 280294710, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Script: {fileID: 920257448, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _initialized: 1
@@ -518,71 +497,16 @@ MonoBehaviour:
   _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
-  container: {fileID: 114773063629606518}
+  container: {fileID: 114646193570902294}
   editor: {fileID: 0}
-  _id: Other
-  _dataType: 8
-  _typeName: UnityEngine.GameObject
-  _indirectDataType: 0
-  _indirectTypeName: 
-  _defaultStringValue: 
-  _defaultIntValue: 0
-  _defaultFloatValue: 0
-  _defaultBoolValue: 0
-  _defaultVector2Value: {x: 0, y: 0}
-  _defaultVector3Value: {x: 0, y: 0, z: 0}
-  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _defaultRectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
-  _defaultEnumIntValue: 0
-  _defaultBoundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
-  _stringValue: 
-  _intValue: 0
-  _floatValue: 0
-  _boolValue: 1
-  _vector2Value: {x: 0, y: 0}
-  _vector3Value: {x: 0, y: 0, z: 0}
-  _rectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _colorValue: {r: 0, g: 0, b: 0, a: 1}
-  _objectValue: {fileID: 0}
-  _enumIntValue: 0
-  _enumCached: 0
-  _boundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
-  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _animationCurveValue:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  _readOnly: 1
-  _private: 1
-  _persistent: 0
-  _indirect: 0
-  _isVariant: 0
-  _showDescription: 1
-  _description: The GameObject containing the Collider or Rigidbody that touched the
-    <Source> trigger Collider.
-  _changeListeners: []
-  _hidden: 0
-  _display: 1
-  _label: Parameter
+  _caption: Execute Program
+  _breakpoint: 0
+  _program: {fileID: 114050828464615082}
+  _programVar: {fileID: 0}
+  _wait: 1
+  _waitVar: {fileID: 0}
+  _ignorePause: 0
+  _ignorePauseVar: {fileID: 0}
 --- !u!114 &114746545468193542
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -662,122 +586,6 @@ MonoBehaviour:
   _showDescription: 0
   _description: <Description>
   _changeListeners: []
---- !u!114 &114772815983011304
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1882352671942130}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 280294710, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 1
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 114773063629606518}
-  editor: {fileID: 0}
-  _id: Source
-  _dataType: 8
-  _typeName: UnityEngine.GameObject
-  _indirectDataType: 0
-  _indirectTypeName: 
-  _defaultStringValue: 
-  _defaultIntValue: 0
-  _defaultFloatValue: 0
-  _defaultBoolValue: 0
-  _defaultVector2Value: {x: 0, y: 0}
-  _defaultVector3Value: {x: 0, y: 0, z: 0}
-  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _defaultRectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
-  _defaultEnumIntValue: 0
-  _defaultBoundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
-  _stringValue: 
-  _intValue: 0
-  _floatValue: 0
-  _boolValue: 1
-  _vector2Value: {x: 0, y: 0}
-  _vector3Value: {x: 0, y: 0, z: 0}
-  _rectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _colorValue: {r: 0, g: 0, b: 0, a: 1}
-  _objectValue: {fileID: 0}
-  _enumIntValue: 0
-  _enumCached: 0
-  _boundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
-  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _animationCurveValue:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  _readOnly: 1
-  _private: 1
-  _persistent: 0
-  _indirect: 0
-  _isVariant: 0
-  _showDescription: 1
-  _description: The GameObject containing the Collider that originated the event.
-  _changeListeners: []
-  _hidden: 0
-  _display: 1
-  _label: Parameter
---- !u!114 &114773063629606518
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1882352671942130}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 47791481, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 1
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 114889098015786952}
-  editor: {fileID: 0}
-  _id: On Trigger Enter
-  _actions:
-  - {fileID: 114646193570902294}
-  - {fileID: 114611165514742024}
-  _parameters:
-  - {fileID: 114772815983011304}
-  - {fileID: 114705276701174468}
-  _showParameters: 0
-  _showSettings: 1
-  _actionsFoldout: 1
-  _ignorePause: 0
-  _listeningRange: 0
-  _listeningTarget: {fileID: 1882352671942130}
-  _listeningList: {fileID: 0}
 --- !u!114 &114783028575993936
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -830,7 +638,7 @@ MonoBehaviour:
   _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
-  container: {fileID: 114235315651222004}
+  container: {fileID: 114283583089504812}
   editor: {fileID: 0}
   _caption: Get Random Number
   _breakpoint: 0
@@ -840,6 +648,64 @@ MonoBehaviour:
   _minVar: {fileID: 0}
   _max: 7
   _maxVar: {fileID: 0}
+--- !u!114 &114796361604971092
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1882352671942130}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 663829295, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114646193570902294}
+  editor: {fileID: 0}
+  _caption: Rotate Randomly
+  _breakpoint: 0
+  _duration: 1
+  _durationVar: {fileID: 0}
+  _target: {fileID: 4508125348919398}
+  _targetVar: {fileID: 0}
+  _min: {x: 0, y: 0, z: 0}
+  _minVar: {fileID: 0}
+  _max: {x: 0, y: 350, z: 0}
+  _maxVar: {fileID: 0}
+  _relative: 0
+  _space: 0
+  _easingType: 0
+  _easingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _easingCurveVar: {fileID: 0}
 --- !u!114 &114820994186321230
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -855,7 +721,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 0
+  _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114889098015786952}
@@ -1000,7 +866,7 @@ MonoBehaviour:
   - {fileID: 114746545468193542}
   - {fileID: 114826587694358726}
   - {fileID: 114235315651222004}
-  - {fileID: 114773063629606518}
+  - {fileID: 114283583089504812}
   - {fileID: 114050828464615082}
   editor: {fileID: 0}
   _showSettings: 0
@@ -1086,7 +952,7 @@ MonoBehaviour:
   _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
-  container: {fileID: 114646193570902294}
+  container: {fileID: 114050828464615082}
   editor: {fileID: 0}
   _caption: Clone
   _breakpoint: 0
