@@ -36,13 +36,17 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 224739236390309234}
-  - component: {fileID: 114078998647883554}
+  - component: {fileID: 114746895134924594}
   - component: {fileID: 114276532447337162}
+  - component: {fileID: 114372528870596312}
+  - component: {fileID: 114216335853396608}
   - component: {fileID: 114658211328833356}
-  - component: {fileID: 114878676498204764}
+  - component: {fileID: 114387886100474178}
   - component: {fileID: 114412041089076250}
   - component: {fileID: 114101017815541500}
-  - component: {fileID: 114372528870596312}
+  - component: {fileID: 114878676498204764}
+  - component: {fileID: 114078998647883554}
+  - component: {fileID: 114239832217795074}
   - component: {fileID: 222137226957495960}
   - component: {fileID: 114078276793660562}
   - component: {fileID: 114914422605475486}
@@ -198,6 +202,61 @@ MonoBehaviour:
   _showDescription: 0
   _description: <Description>
   _changeListeners: []
+--- !u!114 &114216335853396608
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1704664538145234}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1860362291, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114239832217795074}
+  editor: {fileID: 0}
+  _caption: 
+  _connective: 0
+  _animator: {fileID: 0}
+  _animatorVar: {fileID: 0}
+  _comparison: 0
+  _state: 
+  _stateVar: {fileID: 0}
+--- !u!114 &114239832217795074
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1704664538145234}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 999285341, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114746895134924594}
+  editor: {fileID: 0}
+  _caption: If
+  _breakpoint: 0
+  _conditions:
+  - {fileID: 114216335853396608}
+  _actions:
+  - {fileID: 114387886100474178}
+  _elseActions: []
+  _elseVisible: 0
 --- !u!114 &114276532447337162
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -274,6 +333,38 @@ MonoBehaviour:
   _vector4Value: {x: 0, y: 0, z: 0, w: 0}
   _valueVar: {fileID: 114101017815541500}
   _variable: {fileID: 114878676498204764}
+--- !u!114 &114387886100474178
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1704664538145234}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -95290510, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114239832217795074}
+  editor: {fileID: 0}
+  _caption: Freeze
+  _breakpoint: 0
+  _duration: 0
+  _durationVar: {fileID: 0}
+  _target: {fileID: 224739236390309234}
+  _targetVar: {fileID: 0}
+  _freezePosition: 1
+  _freezePositionVar: {fileID: 0}
+  _freezeRotation: 1
+  _freezeRotationVar: {fileID: 0}
+  _freezeScale: 1
+  _freezeScaleVar: {fileID: 0}
 --- !u!114 &114412041089076250
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -372,6 +463,34 @@ MonoBehaviour:
   _timer: {fileID: 114454967122133390, guid: 2ccd92c85a17ea34092c0db7293568e0, type: 2}
   _timerVar: {fileID: 0}
   _property: 2
+--- !u!114 &114746895134924594
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1704664538145234}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2147088620, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114914422605475486}
+  editor: {fileID: 0}
+  _id: On Update
+  _actions:
+  - {fileID: 114239832217795074}
+  _parameters: []
+  _showParameters: 0
+  _showSettings: 0
+  _actionsFoldout: 1
+  _ignorePause: 0
 --- !u!114 &114878676498204764
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -470,6 +589,7 @@ MonoBehaviour:
   - {fileID: 114878676498204764}
   - {fileID: 114101017815541500}
   - {fileID: 114078998647883554}
+  - {fileID: 114746895134924594}
   editor: {fileID: 0}
   _showSettings: 0
   _displayMode: 0
