@@ -19,25 +19,30 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 224000987727545206}
-  - component: {fileID: 114490280963540272}
-  - component: {fileID: 114356996774549772}
-  - component: {fileID: 114198923842014860}
-  - component: {fileID: 114553144551770838}
+  - component: {fileID: 114617069965227626}
+  - component: {fileID: 114987470052358282}
+  - component: {fileID: 114091618718051880}
+  - component: {fileID: 114307445443388942}
   - component: {fileID: 114675821343599006}
   - component: {fileID: 114042631239909394}
-  - component: {fileID: 114211251624991718}
-  - component: {fileID: 114112658202394148}
-  - component: {fileID: 114619057384426838}
-  - component: {fileID: 114393254754412986}
-  - component: {fileID: 114091618718051880}
-  - component: {fileID: 114617069965227626}
-  - component: {fileID: 114002968507805708}
   - component: {fileID: 114033403896387488}
-  - component: {fileID: 114307445443388942}
+  - component: {fileID: 114211251624991718}
+  - component: {fileID: 114002968507805708}
+  - component: {fileID: 114040237075340200}
+  - component: {fileID: 114553144551770838}
+  - component: {fileID: 114112658202394148}
+  - component: {fileID: 114356996774549772}
+  - component: {fileID: 114198923842014860}
+  - component: {fileID: 114619057384426838}
+  - component: {fileID: 114490280963540272}
+  - component: {fileID: 114862413319407082}
+  - component: {fileID: 114259416394083438}
+  - component: {fileID: 114393254754412986}
   - component: {fileID: 114081099474663550}
   - component: {fileID: 114728678718436000}
   - component: {fileID: 114280411370876210}
   - component: {fileID: 114624502976635076}
+  - component: {fileID: 81112491528041664}
   m_Layer: 5
   m_Name: Pause
   m_TagString: Untagged
@@ -101,16 +106,16 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 224411089737759706}
-  - component: {fileID: 114472201183974628}
-  - component: {fileID: 114334760971559296}
-  - component: {fileID: 114524305802967584}
-  - component: {fileID: 114711137698582932}
-  - component: {fileID: 114601159670607638}
-  - component: {fileID: 114308203421635622}
-  - component: {fileID: 114855087917443062}
-  - component: {fileID: 114602299228883766}
-  - component: {fileID: 114400370069130732}
   - component: {fileID: 114753558441481532}
+  - component: {fileID: 114308203421635622}
+  - component: {fileID: 114601159670607638}
+  - component: {fileID: 114855087917443062}
+  - component: {fileID: 114524305802967584}
+  - component: {fileID: 114334760971559296}
+  - component: {fileID: 114602299228883766}
+  - component: {fileID: 114711137698582932}
+  - component: {fileID: 114400370069130732}
+  - component: {fileID: 114472201183974628}
   - component: {fileID: 114257931967820694}
   - component: {fileID: 222192932882449606}
   - component: {fileID: 114198025804266452}
@@ -122,6 +127,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!81 &81112491528041664
+AudioListener:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1534511116901560}
+  m_Enabled: 0
 --- !u!114 &114002968507805708
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -172,6 +184,30 @@ MonoBehaviour:
   _codeVar: {fileID: 0}
   _enabledInPause: 1
   _enabledInPauseVar: {fileID: 0}
+--- !u!114 &114040237075340200
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1534511116901560}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1419637094, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114042631239909394}
+  editor: {fileID: 0}
+  _caption: Wait
+  _breakpoint: 0
+  _duration: 1
+  _durationVar: {fileID: 0}
 --- !u!114 &114042631239909394
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -187,16 +223,21 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 0
+  _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114624502976635076}
   editor: {fileID: 0}
   _id: On Game Pause
   _actions:
+  - {fileID: 114987470052358282}
   - {fileID: 114675821343599006}
   - {fileID: 114553144551770838}
+  - {fileID: 114905104234767300, guid: 97e8ba2d1b7654f7ba3e6d0798fb917c, type: 2}
   - {fileID: 114198923842014860}
+  - {fileID: 114862413319407082}
+  - {fileID: 114040237075340200}
+  - {fileID: 114259416394083438}
   _parameters: []
   _showParameters: 0
   _showSettings: 1
@@ -449,6 +490,32 @@ MonoBehaviour:
   - {fileID: 114602299228883766}
   _elseActions: []
   _elseVisible: 0
+--- !u!114 &114259416394083438
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1534511116901560}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1125990795, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114042631239909394}
+  editor: {fileID: 0}
+  _caption: Play Sound
+  _breakpoint: 0
+  _audioClip: {fileID: 8300000, guid: ec0c9ed0151771b42a55ca116c95909c, type: 3}
+  _audioClipVar: {fileID: 0}
+  _volume: 1
+  _volumeVar: {fileID: 0}
 --- !u!114 &114280411370876210
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1252,6 +1319,30 @@ MonoBehaviour:
   _showSettings: 0
   _actionsFoldout: 1
   _ignorePause: 0
+--- !u!114 &114862413319407082
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1534511116901560}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 558452672, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114042631239909394}
+  editor: {fileID: 0}
+  _caption: Enable Component
+  _breakpoint: 0
+  _component: {fileID: 81112491528041664}
+  _componentVar: {fileID: 0}
 --- !u!114 &114887161155532616
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1289,6 +1380,30 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+--- !u!114 &114987470052358282
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1534511116901560}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1327693136, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114042631239909394}
+  editor: {fileID: 0}
+  _caption: Disable Component
+  _breakpoint: 0
+  _component: {fileID: 0}
+  _componentVar: {fileID: 0}
 --- !u!222 &222192932882449606
 CanvasRenderer:
   m_ObjectHideFlags: 1
