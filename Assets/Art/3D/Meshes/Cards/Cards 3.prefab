@@ -54,42 +54,85 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4728070563674952}
-  - component: {fileID: 114367679862209692}
-  - component: {fileID: 114262702472721710}
-  - component: {fileID: 114700722927466390}
-  - component: {fileID: 114601674808554566}
-  - component: {fileID: 114410540252755686}
-  - component: {fileID: 114116766950897500}
-  - component: {fileID: 114057841100747984}
-  - component: {fileID: 114508319116991650}
-  - component: {fileID: 114645562649774802}
-  - component: {fileID: 114709397442731758}
-  - component: {fileID: 114613368317371468}
-  - component: {fileID: 114795477358419006}
-  - component: {fileID: 114816306386134042}
+  - component: {fileID: 114851527782023674}
+  - component: {fileID: 114619105441150224}
   - component: {fileID: 114716959958742226}
-  - component: {fileID: 114863199279171856}
-  - component: {fileID: 114852541630808090}
-  - component: {fileID: 114023161892919104}
-  - component: {fileID: 114610717799139210}
-  - component: {fileID: 114544412498836392}
-  - component: {fileID: 114086928504675130}
-  - component: {fileID: 114119140045812448}
-  - component: {fileID: 114091032666169150}
-  - component: {fileID: 114185379865128494}
-  - component: {fileID: 114301284801125876}
-  - component: {fileID: 114452800922323504}
-  - component: {fileID: 114340808292336720}
-  - component: {fileID: 114463248370413022}
+  - component: {fileID: 114384834175768084}
+  - component: {fileID: 114500690887116890}
+  - component: {fileID: 114984724715979746}
   - component: {fileID: 114129511395943536}
-  - component: {fileID: 114625558356605640}
-  - component: {fileID: 114213938756380220}
+  - component: {fileID: 114760694337325514}
+  - component: {fileID: 114795477358419006}
+  - component: {fileID: 114267675116408248}
+  - component: {fileID: 114111813774707868}
+  - component: {fileID: 114889633023677032}
+  - component: {fileID: 114483964176992242}
+  - component: {fileID: 114658339369191176}
+  - component: {fileID: 114329001932657162}
+  - component: {fileID: 114196770649115612}
+  - component: {fileID: 114868934962806380}
+  - component: {fileID: 114365308940144642}
+  - component: {fileID: 114322687703485966}
+  - component: {fileID: 114691084540337686}
+  - component: {fileID: 114882090971582946}
+  - component: {fileID: 114452800922323504}
+  - component: {fileID: 114770404739586026}
+  - component: {fileID: 114091032666169150}
+  - component: {fileID: 114410540252755686}
+  - component: {fileID: 114125366346815488}
+  - component: {fileID: 114508319116991650}
+  - component: {fileID: 114596026638202074}
+  - component: {fileID: 114852541630808090}
+  - component: {fileID: 114824951813750826}
+  - component: {fileID: 114480966764126098}
+  - component: {fileID: 114645562649774802}
+  - component: {fileID: 114508660578639970}
+  - component: {fileID: 114023161892919104}
+  - component: {fileID: 114878056338872086}
+  - component: {fileID: 114204386091890032}
+  - component: {fileID: 114463248370413022}
+  - component: {fileID: 114139369199275284}
+  - component: {fileID: 114116766950897500}
+  - component: {fileID: 114794041661121132}
+  - component: {fileID: 114301284801125876}
+  - component: {fileID: 114610717799139210}
+  - component: {fileID: 114162655075654452}
+  - component: {fileID: 114241530969059302}
+  - component: {fileID: 114185379865128494}
+  - component: {fileID: 114393251294978122}
+  - component: {fileID: 114681612926324402}
+  - component: {fileID: 114081340612526738}
+  - component: {fileID: 114388451408707660}
+  - component: {fileID: 114262702472721710}
+  - component: {fileID: 114999475797578434}
+  - component: {fileID: 114704250245415060}
+  - component: {fileID: 114367679862209692}
+  - component: {fileID: 114863199279171856}
+  - component: {fileID: 114752526211971046}
+  - component: {fileID: 114269576908225236}
+  - component: {fileID: 114604825787187238}
+  - component: {fileID: 114119140045812448}
   - component: {fileID: 114423634882359168}
-  - component: {fileID: 114418176373938064}
-  - component: {fileID: 114097706317250170}
-  - component: {fileID: 114835841803444664}
-  - component: {fileID: 114682449852430546}
-  - component: {fileID: 114514392677639104}
+  - component: {fileID: 114479246761176938}
+  - component: {fileID: 114902893361510586}
+  - component: {fileID: 114212701533795934}
+  - component: {fileID: 114528218336897140}
+  - component: {fileID: 114010397333241392}
+  - component: {fileID: 114598781734129830}
+  - component: {fileID: 114239092900909572}
+  - component: {fileID: 114473890884402034}
+  - component: {fileID: 114208980720327244}
+  - component: {fileID: 114376162332740768}
+  - component: {fileID: 114677152842404256}
+  - component: {fileID: 114225836622351190}
+  - component: {fileID: 114499718586348976}
+  - component: {fileID: 114736120760212326}
+  - component: {fileID: 114316171226415904}
+  - component: {fileID: 114861686465973852}
+  - component: {fileID: 114124046384288150}
+  - component: {fileID: 114060627945769636}
+  - component: {fileID: 114785714607745654}
+  - component: {fileID: 114230658605331388}
   - component: {fileID: 114768983489799250}
   m_Layer: 0
   m_Name: Code
@@ -567,6 +610,30 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114010397333241392
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1029514218, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114410540252755686}
+  editor: {fileID: 0}
+  _caption: Enable Collider
+  _breakpoint: 0
+  _target: {fileID: 65180387039098146}
+  _targetVar: {fileID: 0}
 --- !u!114 &114023161892919104
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -600,7 +667,7 @@ MonoBehaviour:
   _listeningRange: 0
   _listeningTarget: {fileID: 1059571537745274}
   _listeningList: {fileID: 0}
---- !u!114 &114057841100747984
+--- !u!114 &114060627945769636
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -608,7 +675,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1088202011527994}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 280294710, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Script: {fileID: 999285341, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _initialized: 1
@@ -618,71 +685,17 @@ MonoBehaviour:
   _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
-  container: {fileID: 114682449852430546}
+  container: {fileID: 114204386091890032}
   editor: {fileID: 0}
-  _id: Source
-  _dataType: 8
-  _typeName: UnityEngine.GameObject
-  _indirectDataType: 0
-  _indirectTypeName: 
-  _defaultStringValue: 
-  _defaultIntValue: 0
-  _defaultFloatValue: 0
-  _defaultBoolValue: 0
-  _defaultVector2Value: {x: 0, y: 0}
-  _defaultVector3Value: {x: 0, y: 0, z: 0}
-  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _defaultRectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
-  _defaultEnumIntValue: 0
-  _defaultBoundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
-  _stringValue: 
-  _intValue: 0
-  _floatValue: 0
-  _boolValue: 1
-  _vector2Value: {x: 0, y: 0}
-  _vector3Value: {x: 0, y: 0, z: 0}
-  _rectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _colorValue: {r: 0, g: 0, b: 0, a: 1}
-  _objectValue: {fileID: 0}
-  _enumIntValue: 0
-  _enumCached: 0
-  _boundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
-  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _animationCurveValue:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  _readOnly: 1
-  _private: 1
-  _persistent: 0
-  _indirect: 0
-  _isVariant: 0
-  _showDescription: 1
-  _description: The GameObject containing the Collider that originated the event.
-  _changeListeners: []
-  _hidden: 0
-  _display: 1
-  _label: Parameter
---- !u!114 &114086928504675130
+  _caption: If
+  _breakpoint: 0
+  _conditions:
+  - {fileID: 114794041661121132}
+  _actions:
+  - {fileID: 114508660578639970}
+  _elseActions: []
+  _elseVisible: 0
+--- !u!114 &114081340612526738
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -690,80 +703,49 @@ MonoBehaviour:
   m_GameObject: {fileID: 1088202011527994}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 280294710, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Script: {fileID: 1765562819, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _initialized: 1
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 0
+  _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
-  container: {fileID: 114709397442731758}
+  container: {fileID: 114861686465973852}
   editor: {fileID: 0}
-  _id: Source
-  _dataType: 8
-  _typeName: UnityEngine.GameObject
-  _indirectDataType: 0
-  _indirectTypeName: 
-  _defaultStringValue: 
-  _defaultIntValue: 0
-  _defaultFloatValue: 0
-  _defaultBoolValue: 0
-  _defaultVector2Value: {x: 0, y: 0}
-  _defaultVector3Value: {x: 0, y: 0, z: 0}
-  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _defaultRectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
-  _defaultEnumIntValue: 0
-  _defaultBoundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
+  _caption: Decrement Variable Value
+  _breakpoint: 0
   _stringValue: 
-  _intValue: 0
-  _floatValue: 0
-  _boolValue: 1
-  _vector2Value: {x: 0, y: 0}
-  _vector3Value: {x: 0, y: 0, z: 0}
+  _intValue: 1
+  _floatValue: 1
+  _boolValue: 0
   _rectValue:
     serializedVersion: 2
     x: 0
     y: 0
     width: 0
     height: 0
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
   _colorValue: {r: 0, g: 0, b: 0, a: 1}
   _objectValue: {fileID: 0}
   _enumIntValue: 0
-  _enumCached: 0
-  _boundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
-  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
   _animationCurveValue:
     serializedVersion: 2
     m_Curve: []
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _readOnly: 1
-  _private: 1
-  _persistent: 0
-  _indirect: 0
-  _isVariant: 0
-  _showDescription: 1
-  _description: The GameObject containing the Collider that originated the event.
-  _changeListeners: []
-  _hidden: 0
-  _display: 1
-  _label: Parameter
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _valueVar: {fileID: 114795477358419006}
+  _variable: {fileID: 114180533307345960, guid: 54ed5c0168b53cf4caf0a755a465bf34,
+    type: 2}
 --- !u!114 &114091032666169150
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -784,9 +766,11 @@ MonoBehaviour:
   enabledInEditor: 1
   container: {fileID: 114768983489799250}
   editor: {fileID: 0}
-  _id: On Trigger Enter
+  _id: C1
   _actions:
-  - {fileID: 114852541630808090}
+  - {fileID: 114658339369191176}
+  - {fileID: 114230658605331388}
+  - {fileID: 114785714607745654}
   _parameters:
   - {fileID: 114610717799139210}
   - {fileID: 114645562649774802}
@@ -797,7 +781,7 @@ MonoBehaviour:
   _listeningRange: 0
   _listeningTarget: {fileID: 1852381186073084}
   _listeningList: {fileID: 0}
---- !u!114 &114097706317250170
+--- !u!114 &114111813774707868
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -805,80 +789,49 @@ MonoBehaviour:
   m_GameObject: {fileID: 1088202011527994}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 280294710, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Script: {fileID: 1765562819, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _initialized: 1
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 0
+  _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
-  container: {fileID: 114340808292336720}
+  container: {fileID: 114316171226415904}
   editor: {fileID: 0}
-  _id: Source
-  _dataType: 8
-  _typeName: UnityEngine.GameObject
-  _indirectDataType: 0
-  _indirectTypeName: 
-  _defaultStringValue: 
-  _defaultIntValue: 0
-  _defaultFloatValue: 0
-  _defaultBoolValue: 0
-  _defaultVector2Value: {x: 0, y: 0}
-  _defaultVector3Value: {x: 0, y: 0, z: 0}
-  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _defaultRectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
-  _defaultEnumIntValue: 0
-  _defaultBoundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
+  _caption: Decrement Variable Value
+  _breakpoint: 0
   _stringValue: 
-  _intValue: 0
-  _floatValue: 0
-  _boolValue: 1
-  _vector2Value: {x: 0, y: 0}
-  _vector3Value: {x: 0, y: 0, z: 0}
+  _intValue: 1
+  _floatValue: 1
+  _boolValue: 0
   _rectValue:
     serializedVersion: 2
     x: 0
     y: 0
     width: 0
     height: 0
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
   _colorValue: {r: 0, g: 0, b: 0, a: 1}
   _objectValue: {fileID: 0}
   _enumIntValue: 0
-  _enumCached: 0
-  _boundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
-  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
   _animationCurveValue:
     serializedVersion: 2
     m_Curve: []
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _readOnly: 1
-  _private: 1
-  _persistent: 0
-  _indirect: 0
-  _isVariant: 0
-  _showDescription: 1
-  _description: The GameObject containing the Collider that originated the event.
-  _changeListeners: []
-  _hidden: 0
-  _display: 1
-  _label: Parameter
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _valueVar: {fileID: 114795477358419006}
+  _variable: {fileID: 114180533307345960, guid: 54ed5c0168b53cf4caf0a755a465bf34,
+    type: 2}
 --- !u!114 &114116766950897500
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -927,6 +880,83 @@ MonoBehaviour:
   _breakpoint: 0
   _duration: 0.5
   _durationVar: {fileID: 0}
+--- !u!114 &114124046384288150
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 999285341, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114204386091890032}
+  editor: {fileID: 0}
+  _caption: If
+  _breakpoint: 0
+  _conditions:
+  - {fileID: 114125366346815488}
+  _actions:
+  - {fileID: 114196770649115612}
+  _elseActions: []
+  _elseVisible: 0
+--- !u!114 &114125366346815488
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1804074231, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114124046384288150}
+  editor: {fileID: 0}
+  _caption: 
+  _connective: 0
+  _variable: {fileID: 114208980720327244}
+  _comparison: 0
+  _equalComparison: 0
+  _objectComparison: 0
+  _stringComparison: 0
+  _stringValue: Player2
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 0
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _colorValue: {r: 0, g: 0, b: 0, a: 0}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _valueVar: {fileID: 0}
+  _caseSensitive: 1
 --- !u!114 &114129511395943536
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -951,147 +981,7 @@ MonoBehaviour:
   _breakpoint: 0
   _target: {fileID: 65158762883902844}
   _targetVar: {fileID: 0}
---- !u!114 &114185379865128494
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1088202011527994}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -929030924, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 0
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 114410540252755686}
-  editor: {fileID: 0}
-  _caption: Disable Collider
-  _breakpoint: 0
-  _target: {fileID: 65643570955759144}
-  _targetVar: {fileID: 0}
---- !u!114 &114213938756380220
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1088202011527994}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 47791481, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 0
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 114768983489799250}
-  editor: {fileID: 0}
-  _id: On Trigger Enter
-  _actions:
-  - {fileID: 114514392677639104}
-  _parameters:
-  - {fileID: 114601674808554566}
-  - {fileID: 114816306386134042}
-  _showParameters: 0
-  _showSettings: 1
-  _actionsFoldout: 1
-  _ignorePause: 0
-  _listeningRange: 0
-  _listeningTarget: {fileID: 1117482655404014}
-  _listeningList: {fileID: 0}
---- !u!114 &114262702472721710
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1088202011527994}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1125990795, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 1
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 114410540252755686}
-  editor: {fileID: 0}
-  _caption: Play Sound
-  _breakpoint: 0
-  _audioClip: {fileID: 8300000, guid: 9f0517e388f408b43a370e1da1e05dc6, type: 3}
-  _audioClipVar: {fileID: 0}
-  _volume: 1
-  _volumeVar: {fileID: 0}
---- !u!114 &114301284801125876
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1088202011527994}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -929030924, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 0
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 114410540252755686}
-  editor: {fileID: 0}
-  _caption: Disable Collider
-  _breakpoint: 0
-  _target: {fileID: 65180387039098146}
-  _targetVar: {fileID: 0}
---- !u!114 &114340808292336720
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1088202011527994}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 47791481, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 0
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 114768983489799250}
-  editor: {fileID: 0}
-  _id: On Trigger Enter
-  _actions:
-  - {fileID: 114613368317371468}
-  _parameters:
-  - {fileID: 114097706317250170}
-  - {fileID: 114700722927466390}
-  _showParameters: 0
-  _showSettings: 1
-  _actionsFoldout: 1
-  _ignorePause: 0
-  _listeningRange: 0
-  _listeningTarget: {fileID: 1180390580459856}
-  _listeningList: {fileID: 0}
---- !u!114 &114367679862209692
+--- !u!114 &114139369199275284
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1125,13 +1015,13 @@ MonoBehaviour:
   _clipIndex: 0
   _animator: {fileID: 95488002171118532}
   _animatorVar: {fileID: 0}
-  _stateName: Attack
+  _stateName: Idle
   _stateNameVar: {fileID: 0}
   _transitionDuration: 0
   _transitionDurationVar: {fileID: 0}
   _restart: 0
   _restartVar: {fileID: 0}
---- !u!114 &114410540252755686
+--- !u!114 &114162655075654452
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1139,7 +1029,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1088202011527994}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1657164303, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Script: {fileID: -1804074231, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _initialized: 1
@@ -1149,26 +1039,227 @@ MonoBehaviour:
   _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
+  container: {fileID: 114861686465973852}
+  editor: {fileID: 0}
+  _caption: 
+  _connective: 0
+  _variable: {fileID: 114752526211971046}
+  _comparison: 0
+  _equalComparison: 0
+  _objectComparison: 0
+  _stringComparison: 0
+  _stringValue: Player1
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 0
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _colorValue: {r: 0, g: 0, b: 0, a: 0}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _valueVar: {fileID: 0}
+  _caseSensitive: 1
+--- !u!114 &114185379865128494
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -929030924, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114410540252755686}
+  editor: {fileID: 0}
+  _caption: Disable Collider
+  _breakpoint: 0
+  _target: {fileID: 65643570955759144}
+  _targetVar: {fileID: 0}
+--- !u!114 &114196770649115612
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1765562819, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114124046384288150}
+  editor: {fileID: 0}
+  _caption: Decrement Variable Value
+  _breakpoint: 0
+  _stringValue: 
+  _intValue: 1
+  _floatValue: 1
+  _boolValue: 0
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _colorValue: {r: 0, g: 0, b: 0, a: 1}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _animationCurveValue:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _valueVar: {fileID: 114795477358419006}
+  _variable: {fileID: 114180533307345960, guid: 54ed5c0168b53cf4caf0a755a465bf34,
+    type: 2}
+--- !u!114 &114204386091890032
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 47791481, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
   container: {fileID: 114768983489799250}
   editor: {fileID: 0}
-  _id: Start Hazzard
+  _id: C2
   _actions:
-  - {fileID: 114262702472721710}
-  - {fileID: 114367679862209692}
-  - {fileID: 114119140045812448}
-  - {fileID: 114452800922323504}
-  - {fileID: 114129511395943536}
-  - {fileID: 114463248370413022}
-  - {fileID: 114301284801125876}
-  - {fileID: 114185379865128494}
-  - {fileID: 114116766950897500}
-  - {fileID: 114423634882359168}
-  _parameters: []
-  _showParameters: 0
+  - {fileID: 114528218336897140}
+  - {fileID: 114060627945769636}
+  - {fileID: 114124046384288150}
+  _parameters:
+  - {fileID: 114691084540337686}
+  - {fileID: 114984724715979746}
+  _showParameters: 1
   _showSettings: 1
   _actionsFoldout: 1
   _ignorePause: 0
---- !u!114 &114418176373938064
+  _listeningRange: 0
+  _listeningTarget: {fileID: 1180390580459856}
+  _listeningList: {fileID: 0}
+--- !u!114 &114208980720327244
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 161578033, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114768983489799250}
+  editor: {fileID: 0}
+  _id: Enter p 2
+  _dataType: 0
+  _typeName: 
+  _indirectDataType: 0
+  _indirectTypeName: 
+  _defaultStringValue: 
+  _defaultIntValue: 0
+  _defaultFloatValue: 0
+  _defaultBoolValue: 0
+  _defaultVector2Value: {x: 0, y: 0}
+  _defaultVector3Value: {x: 0, y: 0, z: 0}
+  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _defaultRectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+  _defaultEnumIntValue: 0
+  _defaultBoundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
+  _stringValue: 
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 1
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _colorValue: {r: 0, g: 0, b: 0, a: 1}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _enumCached: 0
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _animationCurveValue:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _readOnly: 0
+  _private: 0
+  _persistent: 0
+  _indirect: 0
+  _isVariant: 0
+  _showDescription: 0
+  _description: <Description>
+  _changeListeners: []
+--- !u!114 &114212701533795934
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1186,7 +1277,450 @@ MonoBehaviour:
   _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
-  container: {fileID: 114682449852430546}
+  container: {fileID: 114483964176992242}
+  editor: {fileID: 0}
+  _id: Source
+  _dataType: 8
+  _typeName: UnityEngine.GameObject
+  _indirectDataType: 0
+  _indirectTypeName: 
+  _defaultStringValue: 
+  _defaultIntValue: 0
+  _defaultFloatValue: 0
+  _defaultBoolValue: 0
+  _defaultVector2Value: {x: 0, y: 0}
+  _defaultVector3Value: {x: 0, y: 0, z: 0}
+  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _defaultRectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+  _defaultEnumIntValue: 0
+  _defaultBoundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
+  _stringValue: 
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 1
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _colorValue: {r: 0, g: 0, b: 0, a: 1}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _enumCached: 0
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _animationCurveValue:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _readOnly: 1
+  _private: 1
+  _persistent: 0
+  _indirect: 0
+  _isVariant: 0
+  _showDescription: 1
+  _description: The GameObject containing the Collider that originated the event.
+  _changeListeners: []
+  _hidden: 0
+  _display: 1
+  _label: Parameter
+--- !u!114 &114225836622351190
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 999285341, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114473890884402034}
+  editor: {fileID: 0}
+  _caption: If
+  _breakpoint: 0
+  _conditions:
+  - {fileID: 114598781734129830}
+  _actions:
+  - {fileID: 114388451408707660}
+  _elseActions: []
+  _elseVisible: 0
+--- !u!114 &114230658605331388
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 999285341, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114091032666169150}
+  editor: {fileID: 0}
+  _caption: If
+  _breakpoint: 0
+  _conditions:
+  - {fileID: 114500690887116890}
+  _actions:
+  - {fileID: 114852541630808090}
+  _elseActions: []
+  _elseVisible: 0
+--- !u!114 &114239092900909572
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1206960512, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114889633023677032}
+  editor: {fileID: 0}
+  _caption: Get GameObject Property
+  _breakpoint: 0
+  _output: {fileID: 114596026638202074}
+  _target: {fileID: 0}
+  _targetVar: {fileID: 114365308940144642}
+  _property: 4
+--- !u!114 &114241530969059302
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1804074231, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114785714607745654}
+  editor: {fileID: 0}
+  _caption: 
+  _connective: 0
+  _variable: {fileID: 114604825787187238}
+  _comparison: 0
+  _equalComparison: 0
+  _objectComparison: 0
+  _stringComparison: 0
+  _stringValue: Player2
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 0
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _colorValue: {r: 0, g: 0, b: 0, a: 0}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _valueVar: {fileID: 0}
+  _caseSensitive: 1
+--- !u!114 &114262702472721710
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1125990795, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114410540252755686}
+  editor: {fileID: 0}
+  _caption: Play Sound
+  _breakpoint: 0
+  _audioClip: {fileID: 8300000, guid: 9f0517e388f408b43a370e1da1e05dc6, type: 3}
+  _audioClipVar: {fileID: 0}
+  _volume: 1
+  _volumeVar: {fileID: 0}
+--- !u!114 &114267675116408248
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1804074231, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114316171226415904}
+  editor: {fileID: 0}
+  _caption: 
+  _connective: 0
+  _variable: {fileID: 114752526211971046}
+  _comparison: 0
+  _equalComparison: 0
+  _objectComparison: 0
+  _stringComparison: 0
+  _stringValue: Player2
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 0
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _colorValue: {r: 0, g: 0, b: 0, a: 0}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _valueVar: {fileID: 0}
+  _caseSensitive: 1
+--- !u!114 &114269576908225236
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1206960512, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114473890884402034}
+  editor: {fileID: 0}
+  _caption: Get GameObject Property
+  _breakpoint: 0
+  _output: {fileID: 114393251294978122}
+  _target: {fileID: 0}
+  _targetVar: {fileID: 114376162332740768}
+  _property: 4
+--- !u!114 &114301284801125876
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -929030924, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114410540252755686}
+  editor: {fileID: 0}
+  _caption: Disable Collider
+  _breakpoint: 0
+  _target: {fileID: 65180387039098146}
+  _targetVar: {fileID: 0}
+--- !u!114 &114316171226415904
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 999285341, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114483964176992242}
+  editor: {fileID: 0}
+  _caption: If
+  _breakpoint: 0
+  _conditions:
+  - {fileID: 114267675116408248}
+  _actions:
+  - {fileID: 114111813774707868}
+  _elseActions: []
+  _elseVisible: 0
+--- !u!114 &114322687703485966
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1206960512, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114483964176992242}
+  editor: {fileID: 0}
+  _caption: Get GameObject Property
+  _breakpoint: 0
+  _output: {fileID: 114752526211971046}
+  _target: {fileID: 0}
+  _targetVar: {fileID: 114479246761176938}
+  _property: 4
+--- !u!114 &114329001932657162
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1765562819, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114785714607745654}
+  editor: {fileID: 0}
+  _caption: Decrement Variable Value
+  _breakpoint: 0
+  _stringValue: 
+  _intValue: 1
+  _floatValue: 1
+  _boolValue: 0
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _colorValue: {r: 0, g: 0, b: 0, a: 1}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _animationCurveValue:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _valueVar: {fileID: 114795477358419006}
+  _variable: {fileID: 114180533307345960, guid: 54ed5c0168b53cf4caf0a755a465bf34,
+    type: 2}
+--- !u!114 &114365308940144642
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 280294710, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114889633023677032}
   editor: {fileID: 0}
   _id: Other
   _dataType: 8
@@ -1251,6 +1785,386 @@ MonoBehaviour:
   _hidden: 0
   _display: 1
   _label: Parameter
+--- !u!114 &114367679862209692
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 777874982, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114410540252755686}
+  editor: {fileID: 0}
+  _caption: Play Animation
+  _breakpoint: 0
+  _targetType: 1
+  _anim: {fileID: 0}
+  _animVar: {fileID: 0}
+  _wrapMode: 0
+  _speed: 1
+  _speedVar: {fileID: 0}
+  _clip: {fileID: 0}
+  _clipVar: {fileID: 0}
+  _clipName: 
+  _clipIndex: 0
+  _animator: {fileID: 95488002171118532}
+  _animatorVar: {fileID: 0}
+  _stateName: Attack
+  _stateNameVar: {fileID: 0}
+  _transitionDuration: 0
+  _transitionDurationVar: {fileID: 0}
+  _restart: 0
+  _restartVar: {fileID: 0}
+--- !u!114 &114376162332740768
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 280294710, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114473890884402034}
+  editor: {fileID: 0}
+  _id: Other
+  _dataType: 8
+  _typeName: UnityEngine.GameObject
+  _indirectDataType: 0
+  _indirectTypeName: 
+  _defaultStringValue: 
+  _defaultIntValue: 0
+  _defaultFloatValue: 0
+  _defaultBoolValue: 0
+  _defaultVector2Value: {x: 0, y: 0}
+  _defaultVector3Value: {x: 0, y: 0, z: 0}
+  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _defaultRectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+  _defaultEnumIntValue: 0
+  _defaultBoundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
+  _stringValue: 
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 1
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _colorValue: {r: 0, g: 0, b: 0, a: 1}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _enumCached: 0
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _animationCurveValue:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _readOnly: 1
+  _private: 1
+  _persistent: 0
+  _indirect: 0
+  _isVariant: 0
+  _showDescription: 1
+  _description: The GameObject containing the Collider or Rigidbody that touched the
+    <Source> trigger Collider.
+  _changeListeners: []
+  _hidden: 0
+  _display: 1
+  _label: Parameter
+--- !u!114 &114384834175768084
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 280294710, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114889633023677032}
+  editor: {fileID: 0}
+  _id: Source
+  _dataType: 8
+  _typeName: UnityEngine.GameObject
+  _indirectDataType: 0
+  _indirectTypeName: 
+  _defaultStringValue: 
+  _defaultIntValue: 0
+  _defaultFloatValue: 0
+  _defaultBoolValue: 0
+  _defaultVector2Value: {x: 0, y: 0}
+  _defaultVector3Value: {x: 0, y: 0, z: 0}
+  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _defaultRectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+  _defaultEnumIntValue: 0
+  _defaultBoundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
+  _stringValue: 
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 1
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _colorValue: {r: 0, g: 0, b: 0, a: 1}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _enumCached: 0
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _animationCurveValue:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _readOnly: 1
+  _private: 1
+  _persistent: 0
+  _indirect: 0
+  _isVariant: 0
+  _showDescription: 1
+  _description: The GameObject containing the Collider that originated the event.
+  _changeListeners: []
+  _hidden: 0
+  _display: 1
+  _label: Parameter
+--- !u!114 &114388451408707660
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1765562819, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114225836622351190}
+  editor: {fileID: 0}
+  _caption: Decrement Variable Value
+  _breakpoint: 0
+  _stringValue: 
+  _intValue: 1
+  _floatValue: 1
+  _boolValue: 0
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _colorValue: {r: 0, g: 0, b: 0, a: 1}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _animationCurveValue:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _valueVar: {fileID: 114795477358419006}
+  _variable: {fileID: 114180533307345960, guid: 54ed5c0168b53cf4caf0a755a465bf34,
+    type: 2}
+--- !u!114 &114393251294978122
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 161578033, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114768983489799250}
+  editor: {fileID: 0}
+  _id: Enter 5
+  _dataType: 0
+  _typeName: 
+  _indirectDataType: 0
+  _indirectTypeName: 
+  _defaultStringValue: 
+  _defaultIntValue: 0
+  _defaultFloatValue: 0
+  _defaultBoolValue: 0
+  _defaultVector2Value: {x: 0, y: 0}
+  _defaultVector3Value: {x: 0, y: 0, z: 0}
+  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _defaultRectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+  _defaultEnumIntValue: 0
+  _defaultBoundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
+  _stringValue: 
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 1
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _colorValue: {r: 0, g: 0, b: 0, a: 1}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _enumCached: 0
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _animationCurveValue:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _readOnly: 0
+  _private: 0
+  _persistent: 0
+  _indirect: 0
+  _isVariant: 0
+  _showDescription: 0
+  _description: <Description>
+  _changeListeners: []
+--- !u!114 &114410540252755686
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1657164303, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114768983489799250}
+  editor: {fileID: 0}
+  _id: Start Hazzard
+  _actions:
+  - {fileID: 114262702472721710}
+  - {fileID: 114367679862209692}
+  - {fileID: 114119140045812448}
+  - {fileID: 114452800922323504}
+  - {fileID: 114129511395943536}
+  - {fileID: 114463248370413022}
+  - {fileID: 114301284801125876}
+  - {fileID: 114185379865128494}
+  - {fileID: 114116766950897500}
+  - {fileID: 114423634882359168}
+  - {fileID: 114480966764126098}
+  - {fileID: 114139369199275284}
+  - {fileID: 114619105441150224}
+  - {fileID: 114681612926324402}
+  - {fileID: 114010397333241392}
+  - {fileID: 114770404739586026}
+  - {fileID: 114882090971582946}
+  - {fileID: 114704250245415060}
+  _parameters: []
+  _showParameters: 0
+  _showSettings: 1
+  _actionsFoldout: 1
+  _ignorePause: 0
 --- !u!114 &114423634882359168
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1339,6 +2253,260 @@ MonoBehaviour:
   _breakpoint: 0
   _target: {fileID: 65868731684666124}
   _targetVar: {fileID: 0}
+--- !u!114 &114473890884402034
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 47791481, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114768983489799250}
+  editor: {fileID: 0}
+  _id: C5
+  _actions:
+  - {fileID: 114269576908225236}
+  - {fileID: 114225836622351190}
+  - {fileID: 114677152842404256}
+  _parameters:
+  - {fileID: 114878056338872086}
+  - {fileID: 114376162332740768}
+  _showParameters: 1
+  _showSettings: 1
+  _actionsFoldout: 1
+  _ignorePause: 0
+  _listeningRange: 0
+  _listeningTarget: {fileID: 1076461595081036}
+  _listeningList: {fileID: 0}
+--- !u!114 &114479246761176938
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 280294710, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114483964176992242}
+  editor: {fileID: 0}
+  _id: Other
+  _dataType: 8
+  _typeName: UnityEngine.GameObject
+  _indirectDataType: 0
+  _indirectTypeName: 
+  _defaultStringValue: 
+  _defaultIntValue: 0
+  _defaultFloatValue: 0
+  _defaultBoolValue: 0
+  _defaultVector2Value: {x: 0, y: 0}
+  _defaultVector3Value: {x: 0, y: 0, z: 0}
+  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _defaultRectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+  _defaultEnumIntValue: 0
+  _defaultBoundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
+  _stringValue: 
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 1
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _colorValue: {r: 0, g: 0, b: 0, a: 1}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _enumCached: 0
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _animationCurveValue:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _readOnly: 1
+  _private: 1
+  _persistent: 0
+  _indirect: 0
+  _isVariant: 0
+  _showDescription: 1
+  _description: The GameObject containing the Collider or Rigidbody that touched the
+    <Source> trigger Collider.
+  _changeListeners: []
+  _hidden: 0
+  _display: 1
+  _label: Parameter
+--- !u!114 &114480966764126098
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1419637094, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114410540252755686}
+  editor: {fileID: 0}
+  _caption: Wait
+  _breakpoint: 0
+  _duration: 6
+  _durationVar: {fileID: 0}
+--- !u!114 &114483964176992242
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 47791481, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114768983489799250}
+  editor: {fileID: 0}
+  _id: C3
+  _actions:
+  - {fileID: 114322687703485966}
+  - {fileID: 114861686465973852}
+  - {fileID: 114316171226415904}
+  _parameters:
+  - {fileID: 114212701533795934}
+  - {fileID: 114479246761176938}
+  _showParameters: 1
+  _showSettings: 1
+  _actionsFoldout: 1
+  _ignorePause: 0
+  _listeningRange: 0
+  _listeningTarget: {fileID: 1221758028779256}
+  _listeningList: {fileID: 0}
+--- !u!114 &114499718586348976
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 999285341, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114889633023677032}
+  editor: {fileID: 0}
+  _caption: If
+  _breakpoint: 0
+  _conditions:
+  - {fileID: 114851527782023674}
+  _actions:
+  - {fileID: 114824951813750826}
+  _elseActions: []
+  _elseVisible: 0
+--- !u!114 &114500690887116890
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1804074231, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114230658605331388}
+  editor: {fileID: 0}
+  _caption: 
+  _connective: 0
+  _variable: {fileID: 114604825787187238}
+  _comparison: 0
+  _equalComparison: 0
+  _objectComparison: 0
+  _stringComparison: 0
+  _stringValue: Player1
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 0
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _colorValue: {r: 0, g: 0, b: 0, a: 0}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _valueVar: {fileID: 0}
+  _caseSensitive: 1
 --- !u!114 &114508319116991650
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1422,7 +2590,7 @@ MonoBehaviour:
   _hidden: 0
   _display: 1
   _label: Parameter
---- !u!114 &114514392677639104
+--- !u!114 &114508660578639970
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1440,7 +2608,7 @@ MonoBehaviour:
   _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
-  container: {fileID: 114213938756380220}
+  container: {fileID: 114060627945769636}
   editor: {fileID: 0}
   _caption: Decrement Variable Value
   _breakpoint: 0
@@ -1471,8 +2639,9 @@ MonoBehaviour:
   _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
   _vector4Value: {x: 0, y: 0, z: 0, w: 0}
   _valueVar: {fileID: 114795477358419006}
-  _variable: {fileID: 0}
---- !u!114 &114544412498836392
+  _variable: {fileID: 114180533307345960, guid: 54ed5c0168b53cf4caf0a755a465bf34,
+    type: 2}
+--- !u!114 &114528218336897140
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1480,57 +2649,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1088202011527994}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1765562819, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 1
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 114682449852430546}
-  editor: {fileID: 0}
-  _caption: Decrement Variable Value
-  _breakpoint: 0
-  _stringValue: 
-  _intValue: 1
-  _floatValue: 1
-  _boolValue: 0
-  _rectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _vector2Value: {x: 0, y: 0}
-  _vector3Value: {x: 0, y: 0, z: 0}
-  _colorValue: {r: 0, g: 0, b: 0, a: 1}
-  _objectValue: {fileID: 0}
-  _enumIntValue: 0
-  _animationCurveValue:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  _boundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
-  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _valueVar: {fileID: 114795477358419006}
-  _variable: {fileID: 0}
---- !u!114 &114601674808554566
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1088202011527994}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 280294710, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Script: {fileID: -1206960512, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _initialized: 1
@@ -1540,11 +2659,37 @@ MonoBehaviour:
   _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
-  container: {fileID: 114213938756380220}
+  container: {fileID: 114204386091890032}
   editor: {fileID: 0}
-  _id: Source
-  _dataType: 8
-  _typeName: UnityEngine.GameObject
+  _caption: Get GameObject Property
+  _breakpoint: 0
+  _output: {fileID: 114208980720327244}
+  _target: {fileID: 0}
+  _targetVar: {fileID: 114984724715979746}
+  _property: 4
+--- !u!114 &114596026638202074
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 161578033, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114768983489799250}
+  editor: {fileID: 0}
+  _id: Enter 4
+  _dataType: 0
+  _typeName: 
   _indirectDataType: 0
   _indirectTypeName: 
   _defaultStringValue: 
@@ -1593,17 +2738,142 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _readOnly: 1
-  _private: 1
+  _readOnly: 0
+  _private: 0
   _persistent: 0
   _indirect: 0
   _isVariant: 0
-  _showDescription: 1
-  _description: The GameObject containing the Collider that originated the event.
+  _showDescription: 0
+  _description: <Description>
   _changeListeners: []
-  _hidden: 0
-  _display: 1
-  _label: Parameter
+--- !u!114 &114598781734129830
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1804074231, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114225836622351190}
+  editor: {fileID: 0}
+  _caption: 
+  _connective: 0
+  _variable: {fileID: 114393251294978122}
+  _comparison: 0
+  _equalComparison: 0
+  _objectComparison: 0
+  _stringComparison: 0
+  _stringValue: Player1
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 0
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _colorValue: {r: 0, g: 0, b: 0, a: 0}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _valueVar: {fileID: 0}
+  _caseSensitive: 1
+--- !u!114 &114604825787187238
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 161578033, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114768983489799250}
+  editor: {fileID: 0}
+  _id: Enter P 1
+  _dataType: 0
+  _typeName: 
+  _indirectDataType: 0
+  _indirectTypeName: 
+  _defaultStringValue: 
+  _defaultIntValue: 0
+  _defaultFloatValue: 0
+  _defaultBoolValue: 0
+  _defaultVector2Value: {x: 0, y: 0}
+  _defaultVector3Value: {x: 0, y: 0, z: 0}
+  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _defaultRectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+  _defaultEnumIntValue: 0
+  _defaultBoundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
+  _stringValue: 
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 1
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _colorValue: {r: 0, g: 0, b: 0, a: 1}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _enumCached: 0
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _animationCurveValue:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _readOnly: 0
+  _private: 0
+  _persistent: 0
+  _indirect: 0
+  _isVariant: 0
+  _showDescription: 0
+  _description: <Description>
+  _changeListeners: []
 --- !u!114 &114610717799139210
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1686,7 +2956,7 @@ MonoBehaviour:
   _hidden: 0
   _display: 1
   _label: Parameter
---- !u!114 &114613368317371468
+--- !u!114 &114619105441150224
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1694,98 +2964,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1088202011527994}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1765562819, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Script: {fileID: -1029514218, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _initialized: 1
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
-  container: {fileID: 114340808292336720}
+  container: {fileID: 114410540252755686}
   editor: {fileID: 0}
-  _caption: Decrement Variable Value
+  _caption: Enable Collider
   _breakpoint: 0
-  _stringValue: 
-  _intValue: 1
-  _floatValue: 1
-  _boolValue: 0
-  _rectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _vector2Value: {x: 0, y: 0}
-  _vector3Value: {x: 0, y: 0, z: 0}
-  _colorValue: {r: 0, g: 0, b: 0, a: 1}
-  _objectValue: {fileID: 0}
-  _enumIntValue: 0
-  _animationCurveValue:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  _boundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
-  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _valueVar: {fileID: 114795477358419006}
-  _variable: {fileID: 0}
---- !u!114 &114625558356605640
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1088202011527994}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1765562819, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 1
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 114709397442731758}
-  editor: {fileID: 0}
-  _caption: Decrement Variable Value
-  _breakpoint: 0
-  _stringValue: 
-  _intValue: 1
-  _floatValue: 1
-  _boolValue: 0
-  _rectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _vector2Value: {x: 0, y: 0}
-  _vector3Value: {x: 0, y: 0, z: 0}
-  _colorValue: {r: 0, g: 0, b: 0, a: 1}
-  _objectValue: {fileID: 0}
-  _enumIntValue: 0
-  _animationCurveValue:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  _boundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
-  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _valueVar: {fileID: 114795477358419006}
-  _variable: {fileID: 0}
+  _target: {fileID: 65158762883902844}
+  _targetVar: {fileID: 0}
 --- !u!114 &114645562649774802
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1869,7 +3063,7 @@ MonoBehaviour:
   _hidden: 0
   _display: 1
   _label: Parameter
---- !u!114 &114682449852430546
+--- !u!114 &114658339369191176
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1877,7 +3071,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1088202011527994}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 47791481, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Script: {fileID: -1206960512, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _initialized: 1
@@ -1887,22 +3081,67 @@ MonoBehaviour:
   _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
-  container: {fileID: 114768983489799250}
+  container: {fileID: 114091032666169150}
   editor: {fileID: 0}
-  _id: On Trigger Enter
+  _caption: Get GameObject Property
+  _breakpoint: 0
+  _output: {fileID: 114604825787187238}
+  _target: {fileID: 0}
+  _targetVar: {fileID: 114645562649774802}
+  _property: 4
+--- !u!114 &114677152842404256
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 999285341, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114473890884402034}
+  editor: {fileID: 0}
+  _caption: If
+  _breakpoint: 0
+  _conditions:
+  - {fileID: 114760694337325514}
   _actions:
-  - {fileID: 114544412498836392}
-  _parameters:
-  - {fileID: 114057841100747984}
-  - {fileID: 114418176373938064}
-  _showParameters: 0
-  _showSettings: 1
-  _actionsFoldout: 1
-  _ignorePause: 0
-  _listeningRange: 0
-  _listeningTarget: {fileID: 1076461595081036}
-  _listeningList: {fileID: 0}
---- !u!114 &114700722927466390
+  - {fileID: 114902893361510586}
+  _elseActions: []
+  _elseVisible: 0
+--- !u!114 &114681612926324402
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1029514218, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114410540252755686}
+  editor: {fileID: 0}
+  _caption: Enable Collider
+  _breakpoint: 0
+  _target: {fileID: 65868731684666124}
+  _targetVar: {fileID: 0}
+--- !u!114 &114691084540337686
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1920,9 +3159,9 @@ MonoBehaviour:
   _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
-  container: {fileID: 114340808292336720}
+  container: {fileID: 114204386091890032}
   editor: {fileID: 0}
-  _id: Other
+  _id: Source
   _dataType: 8
   _typeName: UnityEngine.GameObject
   _indirectDataType: 0
@@ -1979,13 +3218,12 @@ MonoBehaviour:
   _indirect: 0
   _isVariant: 0
   _showDescription: 1
-  _description: The GameObject containing the Collider or Rigidbody that touched the
-    <Source> trigger Collider.
+  _description: The GameObject containing the Collider that originated the event.
   _changeListeners: []
   _hidden: 0
   _display: 1
   _label: Parameter
---- !u!114 &114709397442731758
+--- !u!114 &114704250245415060
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1993,7 +3231,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1088202011527994}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 47791481, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Script: {fileID: -1029514218, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _initialized: 1
@@ -2003,21 +3241,12 @@ MonoBehaviour:
   _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
-  container: {fileID: 114768983489799250}
+  container: {fileID: 114410540252755686}
   editor: {fileID: 0}
-  _id: On Trigger Enter
-  _actions:
-  - {fileID: 114625558356605640}
-  _parameters:
-  - {fileID: 114086928504675130}
-  - {fileID: 114835841803444664}
-  _showParameters: 0
-  _showSettings: 1
-  _actionsFoldout: 1
-  _ignorePause: 0
-  _listeningRange: 0
-  _listeningTarget: {fileID: 1221758028779256}
-  _listeningList: {fileID: 0}
+  _caption: Enable Collider
+  _breakpoint: 0
+  _target: {fileID: 65456912372447732}
+  _targetVar: {fileID: 0}
 --- !u!114 &114716959958742226
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2100,6 +3329,162 @@ MonoBehaviour:
   _hidden: 0
   _display: 1
   _label: Parameter
+--- !u!114 &114736120760212326
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 999285341, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114889633023677032}
+  editor: {fileID: 0}
+  _caption: If
+  _breakpoint: 0
+  _conditions:
+  - {fileID: 114999475797578434}
+  _actions:
+  - {fileID: 114868934962806380}
+  _elseActions: []
+  _elseVisible: 0
+--- !u!114 &114752526211971046
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 161578033, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114768983489799250}
+  editor: {fileID: 0}
+  _id: Enter 3
+  _dataType: 0
+  _typeName: 
+  _indirectDataType: 0
+  _indirectTypeName: 
+  _defaultStringValue: 
+  _defaultIntValue: 0
+  _defaultFloatValue: 0
+  _defaultBoolValue: 0
+  _defaultVector2Value: {x: 0, y: 0}
+  _defaultVector3Value: {x: 0, y: 0, z: 0}
+  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _defaultRectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+  _defaultEnumIntValue: 0
+  _defaultBoundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
+  _stringValue: 
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 1
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _colorValue: {r: 0, g: 0, b: 0, a: 1}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _enumCached: 0
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _animationCurveValue:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _readOnly: 0
+  _private: 0
+  _persistent: 0
+  _indirect: 0
+  _isVariant: 0
+  _showDescription: 0
+  _description: <Description>
+  _changeListeners: []
+--- !u!114 &114760694337325514
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1804074231, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114677152842404256}
+  editor: {fileID: 0}
+  _caption: 
+  _connective: 0
+  _variable: {fileID: 114393251294978122}
+  _comparison: 0
+  _equalComparison: 0
+  _objectComparison: 0
+  _stringComparison: 0
+  _stringValue: Player2
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 0
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _colorValue: {r: 0, g: 0, b: 0, a: 0}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _valueVar: {fileID: 0}
+  _caseSensitive: 1
 --- !u!114 &114768983489799250
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2120,16 +3505,122 @@ MonoBehaviour:
   - {fileID: 114023161892919104}
   - {fileID: 114410540252755686}
   - {fileID: 114091032666169150}
-  - {fileID: 114340808292336720}
-  - {fileID: 114709397442731758}
-  - {fileID: 114213938756380220}
-  - {fileID: 114682449852430546}
+  - {fileID: 114204386091890032}
+  - {fileID: 114483964176992242}
+  - {fileID: 114889633023677032}
+  - {fileID: 114473890884402034}
+  - {fileID: 114604825787187238}
+  - {fileID: 114208980720327244}
+  - {fileID: 114752526211971046}
+  - {fileID: 114596026638202074}
+  - {fileID: 114393251294978122}
   editor: {fileID: 0}
   _showSettings: 0
   _displayMode: 0
   _windowTitle: GameFlow
   _windowMinSize: {x: 240, y: 64}
   _windowMaxSize: {x: 600, y: 400}
+--- !u!114 &114770404739586026
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1029514218, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114410540252755686}
+  editor: {fileID: 0}
+  _caption: Enable Collider
+  _breakpoint: 0
+  _target: {fileID: 65643570955759144}
+  _targetVar: {fileID: 0}
+--- !u!114 &114785714607745654
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 999285341, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114091032666169150}
+  editor: {fileID: 0}
+  _caption: If
+  _breakpoint: 0
+  _conditions:
+  - {fileID: 114241530969059302}
+  _actions:
+  - {fileID: 114329001932657162}
+  _elseActions: []
+  _elseVisible: 0
+--- !u!114 &114794041661121132
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1804074231, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114060627945769636}
+  editor: {fileID: 0}
+  _caption: 
+  _connective: 0
+  _variable: {fileID: 114208980720327244}
+  _comparison: 0
+  _equalComparison: 0
+  _objectComparison: 0
+  _stringComparison: 0
+  _stringValue: Player1
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 0
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _colorValue: {r: 0, g: 0, b: 0, a: 0}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _valueVar: {fileID: 0}
+  _caseSensitive: 1
 --- !u!114 &114795477358419006
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2209,173 +3700,7 @@ MonoBehaviour:
   _showDescription: 0
   _description: <Description>
   _changeListeners: []
---- !u!114 &114816306386134042
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1088202011527994}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 280294710, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 0
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 114213938756380220}
-  editor: {fileID: 0}
-  _id: Other
-  _dataType: 8
-  _typeName: UnityEngine.GameObject
-  _indirectDataType: 0
-  _indirectTypeName: 
-  _defaultStringValue: 
-  _defaultIntValue: 0
-  _defaultFloatValue: 0
-  _defaultBoolValue: 0
-  _defaultVector2Value: {x: 0, y: 0}
-  _defaultVector3Value: {x: 0, y: 0, z: 0}
-  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _defaultRectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
-  _defaultEnumIntValue: 0
-  _defaultBoundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
-  _stringValue: 
-  _intValue: 0
-  _floatValue: 0
-  _boolValue: 1
-  _vector2Value: {x: 0, y: 0}
-  _vector3Value: {x: 0, y: 0, z: 0}
-  _rectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _colorValue: {r: 0, g: 0, b: 0, a: 1}
-  _objectValue: {fileID: 0}
-  _enumIntValue: 0
-  _enumCached: 0
-  _boundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
-  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _animationCurveValue:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  _readOnly: 1
-  _private: 1
-  _persistent: 0
-  _indirect: 0
-  _isVariant: 0
-  _showDescription: 1
-  _description: The GameObject containing the Collider or Rigidbody that touched the
-    <Source> trigger Collider.
-  _changeListeners: []
-  _hidden: 0
-  _display: 1
-  _label: Parameter
---- !u!114 &114835841803444664
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1088202011527994}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 280294710, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 0
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 114709397442731758}
-  editor: {fileID: 0}
-  _id: Other
-  _dataType: 8
-  _typeName: UnityEngine.GameObject
-  _indirectDataType: 0
-  _indirectTypeName: 
-  _defaultStringValue: 
-  _defaultIntValue: 0
-  _defaultFloatValue: 0
-  _defaultBoolValue: 0
-  _defaultVector2Value: {x: 0, y: 0}
-  _defaultVector3Value: {x: 0, y: 0, z: 0}
-  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _defaultRectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
-  _defaultEnumIntValue: 0
-  _defaultBoundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
-  _stringValue: 
-  _intValue: 0
-  _floatValue: 0
-  _boolValue: 1
-  _vector2Value: {x: 0, y: 0}
-  _vector3Value: {x: 0, y: 0, z: 0}
-  _rectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _colorValue: {r: 0, g: 0, b: 0, a: 1}
-  _objectValue: {fileID: 0}
-  _enumIntValue: 0
-  _enumCached: 0
-  _boundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
-  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _animationCurveValue:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  _readOnly: 1
-  _private: 1
-  _persistent: 0
-  _indirect: 0
-  _isVariant: 0
-  _showDescription: 1
-  _description: The GameObject containing the Collider or Rigidbody that touched the
-    <Source> trigger Collider.
-  _changeListeners: []
-  _hidden: 0
-  _display: 1
-  _label: Parameter
---- !u!114 &114852541630808090
+--- !u!114 &114824951813750826
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2393,7 +3718,7 @@ MonoBehaviour:
   _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
-  container: {fileID: 114091032666169150}
+  container: {fileID: 114499718586348976}
   editor: {fileID: 0}
   _caption: Decrement Variable Value
   _breakpoint: 0
@@ -2426,6 +3751,134 @@ MonoBehaviour:
   _valueVar: {fileID: 114795477358419006}
   _variable: {fileID: 114180533307345960, guid: 54ed5c0168b53cf4caf0a755a465bf34,
     type: 2}
+--- !u!114 &114851527782023674
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1804074231, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114499718586348976}
+  editor: {fileID: 0}
+  _caption: 
+  _connective: 0
+  _variable: {fileID: 114596026638202074}
+  _comparison: 0
+  _equalComparison: 0
+  _objectComparison: 0
+  _stringComparison: 0
+  _stringValue: Player2
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 0
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _colorValue: {r: 0, g: 0, b: 0, a: 0}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _valueVar: {fileID: 0}
+  _caseSensitive: 1
+--- !u!114 &114852541630808090
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1765562819, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114230658605331388}
+  editor: {fileID: 0}
+  _caption: Decrement Variable Value
+  _breakpoint: 0
+  _stringValue: 
+  _intValue: 1
+  _floatValue: 1
+  _boolValue: 0
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _colorValue: {r: 0, g: 0, b: 0, a: 1}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _animationCurveValue:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _valueVar: {fileID: 114795477358419006}
+  _variable: {fileID: 114180533307345960, guid: 54ed5c0168b53cf4caf0a755a465bf34,
+    type: 2}
+--- !u!114 &114861686465973852
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 999285341, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114483964176992242}
+  editor: {fileID: 0}
+  _caption: If
+  _breakpoint: 0
+  _conditions:
+  - {fileID: 114162655075654452}
+  _actions:
+  - {fileID: 114081340612526738}
+  _elseActions: []
+  _elseVisible: 0
 --- !u!114 &114863199279171856
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2450,3 +3903,378 @@ MonoBehaviour:
   _breakpoint: 0
   _target: {fileID: 114410540252755686}
   _targetVar: {fileID: 0}
+--- !u!114 &114868934962806380
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1765562819, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114736120760212326}
+  editor: {fileID: 0}
+  _caption: Decrement Variable Value
+  _breakpoint: 0
+  _stringValue: 
+  _intValue: 1
+  _floatValue: 1
+  _boolValue: 0
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _colorValue: {r: 0, g: 0, b: 0, a: 1}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _animationCurveValue:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _valueVar: {fileID: 114795477358419006}
+  _variable: {fileID: 114180533307345960, guid: 54ed5c0168b53cf4caf0a755a465bf34,
+    type: 2}
+--- !u!114 &114878056338872086
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 280294710, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114473890884402034}
+  editor: {fileID: 0}
+  _id: Source
+  _dataType: 8
+  _typeName: UnityEngine.GameObject
+  _indirectDataType: 0
+  _indirectTypeName: 
+  _defaultStringValue: 
+  _defaultIntValue: 0
+  _defaultFloatValue: 0
+  _defaultBoolValue: 0
+  _defaultVector2Value: {x: 0, y: 0}
+  _defaultVector3Value: {x: 0, y: 0, z: 0}
+  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _defaultRectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+  _defaultEnumIntValue: 0
+  _defaultBoundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
+  _stringValue: 
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 1
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _colorValue: {r: 0, g: 0, b: 0, a: 1}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _enumCached: 0
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _animationCurveValue:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _readOnly: 1
+  _private: 1
+  _persistent: 0
+  _indirect: 0
+  _isVariant: 0
+  _showDescription: 1
+  _description: The GameObject containing the Collider that originated the event.
+  _changeListeners: []
+  _hidden: 0
+  _display: 1
+  _label: Parameter
+--- !u!114 &114882090971582946
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1029514218, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114410540252755686}
+  editor: {fileID: 0}
+  _caption: Enable Collider
+  _breakpoint: 0
+  _target: {fileID: 65379964578119322}
+  _targetVar: {fileID: 0}
+--- !u!114 &114889633023677032
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 47791481, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114768983489799250}
+  editor: {fileID: 0}
+  _id: C4
+  _actions:
+  - {fileID: 114239092900909572}
+  - {fileID: 114736120760212326}
+  - {fileID: 114499718586348976}
+  _parameters:
+  - {fileID: 114384834175768084}
+  - {fileID: 114365308940144642}
+  _showParameters: 1
+  _showSettings: 1
+  _actionsFoldout: 1
+  _ignorePause: 0
+  _listeningRange: 0
+  _listeningTarget: {fileID: 1117482655404014}
+  _listeningList: {fileID: 0}
+--- !u!114 &114902893361510586
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1765562819, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114677152842404256}
+  editor: {fileID: 0}
+  _caption: Decrement Variable Value
+  _breakpoint: 0
+  _stringValue: 
+  _intValue: 1
+  _floatValue: 1
+  _boolValue: 0
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _colorValue: {r: 0, g: 0, b: 0, a: 1}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _animationCurveValue:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _valueVar: {fileID: 114795477358419006}
+  _variable: {fileID: 114180533307345960, guid: 54ed5c0168b53cf4caf0a755a465bf34,
+    type: 2}
+--- !u!114 &114984724715979746
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 280294710, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 0
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114204386091890032}
+  editor: {fileID: 0}
+  _id: Other
+  _dataType: 8
+  _typeName: UnityEngine.GameObject
+  _indirectDataType: 0
+  _indirectTypeName: 
+  _defaultStringValue: 
+  _defaultIntValue: 0
+  _defaultFloatValue: 0
+  _defaultBoolValue: 0
+  _defaultVector2Value: {x: 0, y: 0}
+  _defaultVector3Value: {x: 0, y: 0, z: 0}
+  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _defaultRectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
+  _defaultEnumIntValue: 0
+  _defaultBoundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
+  _stringValue: 
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 1
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _colorValue: {r: 0, g: 0, b: 0, a: 1}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _enumCached: 0
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _animationCurveValue:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _readOnly: 1
+  _private: 1
+  _persistent: 0
+  _indirect: 0
+  _isVariant: 0
+  _showDescription: 1
+  _description: The GameObject containing the Collider or Rigidbody that touched the
+    <Source> trigger Collider.
+  _changeListeners: []
+  _hidden: 0
+  _display: 1
+  _label: Parameter
+--- !u!114 &114999475797578434
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1088202011527994}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1804074231, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114736120760212326}
+  editor: {fileID: 0}
+  _caption: 
+  _connective: 0
+  _variable: {fileID: 114596026638202074}
+  _comparison: 0
+  _equalComparison: 0
+  _objectComparison: 0
+  _stringComparison: 0
+  _stringValue: Player1
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 0
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _colorValue: {r: 0, g: 0, b: 0, a: 0}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 0}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _valueVar: {fileID: 0}
+  _caseSensitive: 1
