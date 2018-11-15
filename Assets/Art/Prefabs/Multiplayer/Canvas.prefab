@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 114280411370876210}
   - component: {fileID: 114624502976635076}
   - component: {fileID: 81112491528041664}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Pause
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,7 +58,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 224524529355403012}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: EmptyP2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 224461357012738498}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: EmptyP1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 223806783066821258}
   - component: {fileID: 114937298498009810}
   - component: {fileID: 114887161155532616}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,22 +106,22 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 224411089737759706}
-  - component: {fileID: 114753558441481532}
-  - component: {fileID: 114308203421635622}
-  - component: {fileID: 114601159670607638}
-  - component: {fileID: 114855087917443062}
-  - component: {fileID: 114524305802967584}
-  - component: {fileID: 114334760971559296}
   - component: {fileID: 114602299228883766}
-  - component: {fileID: 114711137698582932}
-  - component: {fileID: 114400370069130732}
   - component: {fileID: 114472201183974628}
+  - component: {fileID: 114711137698582932}
+  - component: {fileID: 114524305802967584}
+  - component: {fileID: 114400370069130732}
+  - component: {fileID: 114308203421635622}
+  - component: {fileID: 114855087917443062}
+  - component: {fileID: 114753558441481532}
+  - component: {fileID: 114601159670607638}
+  - component: {fileID: 114334760971559296}
   - component: {fileID: 114257931967820694}
   - component: {fileID: 222192932882449606}
   - component: {fileID: 114198025804266452}
   - component: {fileID: 114625133024367334}
-  m_Layer: 5
-  m_Name: Gameflow Timer
+  m_Layer: 9
+  m_Name: Level Timer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -340,7 +340,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114624502976635076}
@@ -352,7 +352,7 @@ MonoBehaviour:
   _showParameters: 0
   _showSettings: 1
   _actionsFoldout: 1
-  _ignorePause: 1
+  _ignorePause: 0
 --- !u!114 &114112658202394148
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -616,7 +616,7 @@ MonoBehaviour:
   _id: Timer
   _type: 1
   _typeVar: {fileID: 0}
-  _duration: 150
+  _duration: 210
   _durationVar: {fileID: 0}
   _ignorePause: 0
   _ignorePauseVar: {fileID: 0}
@@ -965,7 +965,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114624502976635076}
@@ -1419,7 +1419,7 @@ Canvas:
   m_GameObject: {fileID: 1635286362685306}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -1486,7 +1486,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 9, y: -89}
+  m_AnchoredPosition: {x: 0, y: -116}
   m_SizeDelta: {x: 500, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224461357012738498
