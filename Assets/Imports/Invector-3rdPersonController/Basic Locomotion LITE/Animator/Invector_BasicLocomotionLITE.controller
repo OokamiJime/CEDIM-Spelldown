@@ -4008,22 +4008,22 @@ BlendTree:
     m_Motion: {fileID: 7400002, guid: ccad39defc46ad04f97ef34173e7a703, type: 3}
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
-    m_TimeScale: 1
+    m_TimeScale: 1.5
     m_CycleOffset: 0
     m_DirectBlendParameter: InputHorizontal
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 4bb7386b80981fc4ba8e701ff7b5a1ba, type: 3}
-    m_Threshold: 1.5
+    m_Threshold: 2
     m_Position: {x: 0, y: 0}
-    m_TimeScale: 1.5
+    m_TimeScale: 2
     m_CycleOffset: 0
     m_DirectBlendParameter: InputHorizontal
     m_Mirror: 0
   m_BlendParameter: InputVertical
   m_BlendParameterY: Speed
   m_MinThreshold: 0
-  m_MaxThreshold: 1.5
+  m_MaxThreshold: 2
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 0
@@ -8283,9 +8283,6 @@ AnimatorStateMachine:
   - {fileID: 110136518}
   m_EntryTransitions: []
   m_StateMachineTransitions:
-  - first: {fileID: 1107839626636876544}
-    second:
-    - {fileID: 1109170203763102244}
   - first: {fileID: 0}
     second: []
   - first: {fileID: 110718853}
@@ -8295,6 +8292,9 @@ AnimatorStateMachine:
     second:
     - {fileID: 110921692}
     - {fileID: 1109116894007086112}
+  - first: {fileID: 1107839626636876544}
+    second:
+    - {fileID: 1109170203763102244}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: -528, y: -204, z: 0}
   m_EntryPosition: {x: -528, y: -168, z: 0}
