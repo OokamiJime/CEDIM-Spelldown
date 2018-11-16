@@ -6,6 +6,9 @@ TextureImporter:
     21300002: Sprite_Sheet_Logo_TiemStamp_Buttons_1
     21300004: Sprite_Sheet_Logo_TiemStamp_Buttons_5
     21300006: Sprite_Sheet_Logo_TiemStamp_Buttons_30
+    21300008: Sprite_Sheet_Logo_TiemStamp_Buttons_2
+    21300010: Sprite_Sheet_Logo_TiemStamp_Buttons_3
+    21300012: Sprite_Sheet_Logo_TiemStamp_Buttons_4
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -96,7 +99,7 @@ TextureImporter:
         width: 474
         height: 149
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -116,33 +119,13 @@ TextureImporter:
         width: 474
         height: 149
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 35d4a37558b46c04ebaf245520ab1f74
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite_Sheet_Logo_TiemStamp_Buttons_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 655
-        width: 1000
-        height: 324
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b829fa1c0e77feb438a9ab74457f6431
       vertices: []
       indices: 
       edges: []
@@ -156,13 +139,73 @@ TextureImporter:
         width: 421
         height: 420
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 6d63e7e056c4e7047ae8994cff05c78c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Logo_TiemStamp_Buttons_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 663
+        width: 153
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2ee17230881314aabce417b0110fca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Logo_TiemStamp_Buttons_3
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 668
+        width: 153
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b88e85f017db641b6da907f2d70199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_Logo_TiemStamp_Buttons_4
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 703
+        width: 673
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10f8b5a64029604d87b9fbd3fa41cf5
       vertices: []
       indices: 
       edges: []
