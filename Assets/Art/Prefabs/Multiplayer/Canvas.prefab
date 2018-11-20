@@ -328,45 +328,45 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 224411089737759706}
-  - component: {fileID: 114441793470803422}
-  - component: {fileID: 114334760971559296}
-  - component: {fileID: 114162845124274010}
-  - component: {fileID: 114844909235471282}
-  - component: {fileID: 114258265892617256}
   - component: {fileID: 114995213482026722}
-  - component: {fileID: 114454031737717662}
-  - component: {fileID: 114855087917443062}
-  - component: {fileID: 114414248499004132}
-  - component: {fileID: 114308203421635622}
-  - component: {fileID: 114573812190941370}
-  - component: {fileID: 114870009315947372}
   - component: {fileID: 114758987139556080}
-  - component: {fileID: 114986298928521994}
+  - component: {fileID: 114104063246744444}
+  - component: {fileID: 114747190870780250}
+  - component: {fileID: 114162845124274010}
+  - component: {fileID: 114601159670607638}
+  - component: {fileID: 114258265892617256}
+  - component: {fileID: 114753558441481532}
   - component: {fileID: 114080165830321968}
+  - component: {fileID: 114844909235471282}
+  - component: {fileID: 114218127452681404}
+  - component: {fileID: 114711137698582932}
+  - component: {fileID: 114511917454719480}
+  - component: {fileID: 114441793470803422}
+  - component: {fileID: 114433974079559754}
+  - component: {fileID: 114334760971559296}
+  - component: {fileID: 114855087917443062}
+  - component: {fileID: 114457395201366918}
+  - component: {fileID: 114960402247396014}
+  - component: {fileID: 114057398541627280}
   - component: {fileID: 114001920393038124}
   - component: {fileID: 114027845595361878}
-  - component: {fileID: 114511917454719480}
-  - component: {fileID: 114711137698582932}
-  - component: {fileID: 114000986089503550}
-  - component: {fileID: 114104063246744444}
-  - component: {fileID: 114524305802967584}
-  - component: {fileID: 114267494418254950}
   - component: {fileID: 114652753611558796}
-  - component: {fileID: 114601159670607638}
-  - component: {fileID: 114960402247396014}
-  - component: {fileID: 114629634385046166}
-  - component: {fileID: 114523831794049312}
-  - component: {fileID: 114010564049761420}
-  - component: {fileID: 114756083553154560}
-  - component: {fileID: 114821240560736544}
-  - component: {fileID: 114218127452681404}
-  - component: {fileID: 114747190870780250}
-  - component: {fileID: 114457395201366918}
-  - component: {fileID: 114433974079559754}
+  - component: {fileID: 114267494418254950}
+  - component: {fileID: 114573812190941370}
+  - component: {fileID: 114870009315947372}
   - component: {fileID: 114400370069130732}
-  - component: {fileID: 114057398541627280}
-  - component: {fileID: 114753558441481532}
+  - component: {fileID: 114010564049761420}
+  - component: {fileID: 114308203421635622}
+  - component: {fileID: 114523831794049312}
+  - component: {fileID: 114000986089503550}
   - component: {fileID: 114119194895045410}
+  - component: {fileID: 114629634385046166}
+  - component: {fileID: 114986298928521994}
+  - component: {fileID: 114524305802967584}
+  - component: {fileID: 114414248499004132}
+  - component: {fileID: 114454031737717662}
+  - component: {fileID: 114821240560736544}
+  - component: {fileID: 114756083553154560}
   - component: {fileID: 114298940652129638}
   - component: {fileID: 114839937338924418}
   - component: {fileID: 114454836199160296}
@@ -480,7 +480,7 @@ MonoBehaviour:
   editor: {fileID: 0}
   _caption: Play Sound
   _breakpoint: 0
-  _audioClip: {fileID: 8300000, guid: 97ff5f1cb7fbb0541909da6875f83d2a, type: 3}
+  _audioClip: {fileID: 8300000, guid: b6eafa8f320ea0b46a115a982d1312f6, type: 3}
   _audioClipVar: {fileID: 0}
   _volume: 1
   _volumeVar: {fileID: 0}
@@ -531,7 +531,7 @@ MonoBehaviour:
   editor: {fileID: 0}
   _caption: Play Sound
   _breakpoint: 0
-  _audioClip: {fileID: 8300000, guid: 97ff5f1cb7fbb0541909da6875f83d2a, type: 3}
+  _audioClip: {fileID: 0}
   _audioClipVar: {fileID: 0}
   _volume: 1
   _volumeVar: {fileID: 0}
@@ -895,7 +895,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114298940652129638}
@@ -1084,7 +1084,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114298940652129638}
@@ -1287,7 +1287,7 @@ MonoBehaviour:
   editor: {fileID: 0}
   _caption: Play Sound
   _breakpoint: 0
-  _audioClip: {fileID: 8300000, guid: 97ff5f1cb7fbb0541909da6875f83d2a, type: 3}
+  _audioClip: {fileID: 0}
   _audioClipVar: {fileID: 0}
   _volume: 1
   _volumeVar: {fileID: 0}
@@ -1338,7 +1338,7 @@ MonoBehaviour:
   editor: {fileID: 0}
   _caption: Play Sound
   _breakpoint: 0
-  _audioClip: {fileID: 8300000, guid: 97ff5f1cb7fbb0541909da6875f83d2a, type: 3}
+  _audioClip: {fileID: 0}
   _audioClipVar: {fileID: 0}
   _volume: 1
   _volumeVar: {fileID: 0}
@@ -1866,7 +1866,7 @@ MonoBehaviour:
   editor: {fileID: 0}
   _caption: Play Sound
   _breakpoint: 0
-  _audioClip: {fileID: 8300000, guid: 97ff5f1cb7fbb0541909da6875f83d2a, type: 3}
+  _audioClip: {fileID: 0}
   _audioClipVar: {fileID: 0}
   _volume: 1
   _volumeVar: {fileID: 0}
@@ -1977,7 +1977,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 0
+  _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114855087917443062}
@@ -2049,7 +2049,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 0
+  _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114855087917443062}
@@ -3152,7 +3152,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 0
+  _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114855087917443062}
@@ -3254,7 +3254,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 0
+  _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114855087917443062}
@@ -3603,7 +3603,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 0
+  _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 114855087917443062}

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.20820424, g: 0.26775166, b: 0.40129805, a: 1}
+  m_IndirectSpecularColor: {r: 0.20819384, g: 0.26775593, b: 0.40133366, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2656,21 +2656,21 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 496662031}
-  - component: {fileID: 496662052}
-  - component: {fileID: 496662051}
-  - component: {fileID: 496662050}
-  - component: {fileID: 496662049}
-  - component: {fileID: 496662048}
   - component: {fileID: 496662047}
   - component: {fileID: 496662046}
   - component: {fileID: 496662045}
   - component: {fileID: 496662044}
   - component: {fileID: 496662043}
+  - component: {fileID: 496662050}
   - component: {fileID: 496662042}
   - component: {fileID: 496662041}
   - component: {fileID: 496662040}
   - component: {fileID: 496662039}
+  - component: {fileID: 496662048}
+  - component: {fileID: 496662051}
+  - component: {fileID: 496662049}
   - component: {fileID: 496662038}
+  - component: {fileID: 496662052}
   - component: {fileID: 496662037}
   - component: {fileID: 496662036}
   - component: {fileID: 496662035}
@@ -3547,6 +3547,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 508907999}
+  - component: {fileID: 508907993}
   - component: {fileID: 508907996}
   - component: {fileID: 508907995}
   - component: {fileID: 508907998}
@@ -3559,6 +3560,50 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &508907993
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 508907992}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 89517478, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 508907995}
+  editor: {fileID: 0}
+  _caption: Set Text Property
+  _breakpoint: 0
+  _target: {fileID: 253213261}
+  _targetVar: {fileID: 0}
+  _property: 13
+  _alignmentValue: 0
+  _colorValue: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  _fontValue: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  _fontSizeValue: 14
+  _fontStyleValue: 0
+  _horizontalOverflowValue: 0
+  _lineSpacingValue: 1
+  _maskableValue: 1
+  _materialValue: {fileID: 0}
+  _resizeTextForBestFitValue: 0
+  _resizeTextMaxSizeValue: 40
+  _resizeTextMinSizeValue: 10
+  _supportRichTextValue: 1
+  _textValue: New Text
+  _verticalOverflowValue: 0
+  _valueVar: {fileID: 114582826273631928, guid: d283a42316c9d4f4b9d18df3af5bf66a,
+    type: 2}
+  _format: 
+  _formatVar: {fileID: 0}
 --- !u!114 &508907994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3607,6 +3652,7 @@ MonoBehaviour:
   _id: On Start
   _actions:
   - {fileID: 508907996}
+  - {fileID: 508907993}
   _parameters: []
   _showParameters: 0
   _showSettings: 1
@@ -3887,6 +3933,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 673387049}
+  - component: {fileID: 673387060}
+  - component: {fileID: 673387059}
   - component: {fileID: 673387037}
   - component: {fileID: 673387036}
   - component: {fileID: 673387040}
@@ -4050,6 +4098,8 @@ MonoBehaviour:
   editor: {fileID: 0}
   _id: On Demand
   _actions:
+  - {fileID: 673387060}
+  - {fileID: 673387059}
   - {fileID: 673387037}
   _parameters: []
   _showParameters: 0
@@ -4867,6 +4917,112 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 673387033}
   m_CullTransparentMesh: 0
+--- !u!114 &673387059
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 673387033}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553565607, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 673387036}
+  editor: {fileID: 0}
+  _caption: Set Variable Value
+  _breakpoint: 0
+  _stringValue: 
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 0
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _colorValue: {r: 0, g: 0, b: 0, a: 1}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _animationCurveValue:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _valueVar: {fileID: 0}
+  _variable: {fileID: 114508545616568606, guid: d77d5068fd181c347940968c3f8d477b,
+    type: 2}
+  _format: 
+  _formatVar: {fileID: 0}
+--- !u!114 &673387060
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 673387033}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -553565607, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 673387036}
+  editor: {fileID: 0}
+  _caption: Set Variable Value
+  _breakpoint: 0
+  _stringValue: 
+  _intValue: 0
+  _floatValue: 0
+  _boolValue: 0
+  _rectValue:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  _vector2Value: {x: 0, y: 0}
+  _vector3Value: {x: 0, y: 0, z: 0}
+  _colorValue: {r: 0, g: 0, b: 0, a: 1}
+  _objectValue: {fileID: 0}
+  _enumIntValue: 0
+  _animationCurveValue:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _boundsValue:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
+  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
+  _valueVar: {fileID: 0}
+  _variable: {fileID: 114582826273631928, guid: d283a42316c9d4f4b9d18df3af5bf66a,
+    type: 2}
+  _format: 
+  _formatVar: {fileID: 0}
 --- !u!1 &707736512
 GameObject:
   m_ObjectHideFlags: 0
