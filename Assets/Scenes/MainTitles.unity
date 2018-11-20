@@ -32158,6 +32158,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1925905921}
+  - component: {fileID: 1925905933}
+  - component: {fileID: 1925905932}
   - component: {fileID: 1925905928}
   - component: {fileID: 1925905929}
   - component: {fileID: 1925905927}
@@ -32445,6 +32447,7 @@ MonoBehaviour:
   - {fileID: 1925905920}
   - {fileID: 1925905931}
   - {fileID: 1925905930}
+  - {fileID: 1925905933}
   _parameters: []
   _showParameters: 0
   _showSettings: 1
@@ -32541,7 +32544,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 1925905915}
@@ -32550,6 +32553,7 @@ MonoBehaviour:
   _actions:
   - {fileID: 1925905929}
   - {fileID: 1925905928}
+  - {fileID: 1925905932}
   _parameters: []
   _showParameters: 0
   _showSettings: 1
@@ -32651,6 +32655,54 @@ MonoBehaviour:
   _breakpoint: 0
   _duration: 0.08
   _durationVar: {fileID: 0}
+--- !u!114 &1925905932
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1925905914}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1327693136, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 1925905927}
+  editor: {fileID: 0}
+  _caption: Disable Component
+  _breakpoint: 0
+  _component: {fileID: 611443024}
+  _componentVar: {fileID: 0}
+--- !u!114 &1925905933
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1925905914}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 558452672, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 1925905923}
+  editor: {fileID: 0}
+  _caption: Enable Component
+  _breakpoint: 0
+  _component: {fileID: 611443024}
+  _componentVar: {fileID: 0}
 --- !u!114 &1925905934
 MonoBehaviour:
   m_ObjectHideFlags: 3

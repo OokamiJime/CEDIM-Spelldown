@@ -3990,9 +3990,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 673387049}
-  - component: {fileID: 673387060}
-  - component: {fileID: 673387059}
+  - component: {fileID: 673387048}
+  - component: {fileID: 673387051}
   - component: {fileID: 673387037}
+  - component: {fileID: 673387059}
+  - component: {fileID: 673387060}
   - component: {fileID: 673387036}
   - component: {fileID: 673387040}
   - component: {fileID: 673387041}
@@ -4001,9 +4003,7 @@ GameObject:
   - component: {fileID: 673387044}
   - component: {fileID: 673387045}
   - component: {fileID: 673387038}
-  - component: {fileID: 673387048}
   - component: {fileID: 673387050}
-  - component: {fileID: 673387051}
   - component: {fileID: 673387052}
   - component: {fileID: 673387053}
   - component: {fileID: 673387046}
@@ -4526,19 +4526,18 @@ MonoBehaviour:
   - {fileID: 673387052}
   - {fileID: 673387051}
   _elseActions:
-  - {fileID: 673387050}
   - {fileID: 673387048}
+  - {fileID: 673387050}
   _elseVisible: 1
 --- !u!114 &673387048
 MonoBehaviour:
   m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 114078653811246660, guid: a5b83f7c65a2d5d41a3127af6048038a,
-    type: 2}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 673387033}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 89517478, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Script: {fileID: -1433472636, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _initialized: 1
@@ -4550,29 +4549,25 @@ MonoBehaviour:
   enabledInEditor: 1
   container: {fileID: 673387047}
   editor: {fileID: 0}
-  _caption: Set Text Property
+  _caption: Set Image Property
   _breakpoint: 0
-  _target: {fileID: 1004298689}
+  _target: {fileID: 673387057}
   _targetVar: {fileID: 0}
-  _property: 1
-  _alignmentValue: 0
-  _colorValue: {r: 0.38431376, g: 0.28235295, b: 0.16078432, a: 1}
-  _fontValue: {fileID: 0}
-  _fontSizeValue: 0
-  _fontStyleValue: 0
-  _horizontalOverflowValue: 0
-  _lineSpacingValue: 0
+  _property: 11
+  _colorValue: {r: 0, g: 0, b: 0, a: 0}
+  _eventAlphaThresholdValue: 0
+  _fillAmountValue: 0
+  _fillCenterValue: 0
+  _fillClockwiseValue: 0
+  _fillMethodValue: 0
+  _fillOriginValue: 0
   _maskableValue: 0
   _materialValue: {fileID: 0}
-  _resizeTextForBestFitValue: 0
-  _resizeTextMaxSizeValue: 0
-  _resizeTextMinSizeValue: 0
-  _supportRichTextValue: 0
-  _textValue: 
-  _verticalOverflowValue: 0
+  _overrideSpriteValue: {fileID: 0}
+  _preserveAspectValue: 0
+  _spriteValue: {fileID: 21300002, guid: 5bbaf5cf07f7c4c459fdbecf5efda497, type: 3}
+  _typeValue: 0
   _valueVar: {fileID: 0}
-  _format: 
-  _formatVar: {fileID: 0}
 --- !u!224 &673387049
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4591,7 +4586,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 25.1, y: -43.1}
-  m_SizeDelta: {x: 486, y: 178}
+  m_SizeDelta: {x: 474, y: 149}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &673387050
 MonoBehaviour:
@@ -4649,13 +4644,12 @@ MonoBehaviour:
 --- !u!114 &673387051
 MonoBehaviour:
   m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 114762578484957008, guid: a5b83f7c65a2d5d41a3127af6048038a,
-    type: 2}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 673387033}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 89517478, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Script: {fileID: -1433472636, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _initialized: 1
@@ -4667,29 +4661,25 @@ MonoBehaviour:
   enabledInEditor: 1
   container: {fileID: 673387047}
   editor: {fileID: 0}
-  _caption: Set Text Property
+  _caption: Set Image Property
   _breakpoint: 0
-  _target: {fileID: 1004298689}
+  _target: {fileID: 673387057}
   _targetVar: {fileID: 0}
-  _property: 1
-  _alignmentValue: 0
-  _colorValue: {r: 0.7411765, g: 0.6156863, b: 0.38823533, a: 1}
-  _fontValue: {fileID: 0}
-  _fontSizeValue: 0
-  _fontStyleValue: 0
-  _horizontalOverflowValue: 0
-  _lineSpacingValue: 0
+  _property: 11
+  _colorValue: {r: 0, g: 0, b: 0, a: 0}
+  _eventAlphaThresholdValue: 0
+  _fillAmountValue: 0
+  _fillCenterValue: 0
+  _fillClockwiseValue: 0
+  _fillMethodValue: 0
+  _fillOriginValue: 0
   _maskableValue: 0
   _materialValue: {fileID: 0}
-  _resizeTextForBestFitValue: 0
-  _resizeTextMaxSizeValue: 0
-  _resizeTextMinSizeValue: 0
-  _supportRichTextValue: 0
-  _textValue: 
-  _verticalOverflowValue: 0
+  _overrideSpriteValue: {fileID: 0}
+  _preserveAspectValue: 0
+  _spriteValue: {fileID: 21300000, guid: 5bbaf5cf07f7c4c459fdbecf5efda497, type: 3}
+  _typeValue: 0
   _valueVar: {fileID: 0}
-  _format: 
-  _formatVar: {fileID: 0}
 --- !u!114 &673387052
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -4958,7 +4948,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 082c11a3fc8cc344d89d307b55dc4c38, type: 3}
+  m_Sprite: {fileID: 21300002, guid: 5bbaf5cf07f7c4c459fdbecf5efda497, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9884,7 +9874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.37647063, g: 0.27058825, b: 0.15294118, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -9997,7 +9987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.37647063, g: 0.27058825, b: 0.15294118, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -10294,7 +10284,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 64, y: 14}
+  m_AnchoredPosition: {x: 64, y: -3}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1790483246
@@ -10532,24 +10522,24 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1884038145}
-  - component: {fileID: 1884038136}
-  - component: {fileID: 1884038150}
-  - component: {fileID: 1884038139}
-  - component: {fileID: 1884038137}
-  - component: {fileID: 1884038140}
-  - component: {fileID: 1884038142}
-  - component: {fileID: 1884038130}
-  - component: {fileID: 1884038148}
-  - component: {fileID: 1884038146}
+  - component: {fileID: 1884038144}
   - component: {fileID: 1884038147}
   - component: {fileID: 1884038133}
-  - component: {fileID: 1884038144}
+  - component: {fileID: 1884038132}
+  - component: {fileID: 1884038136}
+  - component: {fileID: 1884038137}
   - component: {fileID: 1884038138}
-  - component: {fileID: 1884038149}
-  - component: {fileID: 1884038151}
+  - component: {fileID: 1884038139}
+  - component: {fileID: 1884038140}
   - component: {fileID: 1884038141}
   - component: {fileID: 1884038134}
-  - component: {fileID: 1884038132}
+  - component: {fileID: 1884038146}
+  - component: {fileID: 1884038148}
+  - component: {fileID: 1884038149}
+  - component: {fileID: 1884038142}
+  - component: {fileID: 1884038150}
+  - component: {fileID: 1884038151}
+  - component: {fileID: 1884038130}
   - component: {fileID: 1884038135}
   - component: {fileID: 1884038143}
   - component: {fileID: 1884038154}
@@ -11022,7 +11012,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 0
+  _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 1884038131}
@@ -11064,19 +11054,18 @@ MonoBehaviour:
   - {fileID: 1884038148}
   - {fileID: 1884038147}
   _elseActions:
-  - {fileID: 1884038146}
   - {fileID: 1884038144}
+  - {fileID: 1884038146}
   _elseVisible: 1
 --- !u!114 &1884038144
 MonoBehaviour:
   m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 114552527839343012, guid: a5b83f7c65a2d5d41a3127af6048038a,
-    type: 2}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1884038129}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 89517478, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Script: {fileID: -1433472636, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _initialized: 1
@@ -11088,29 +11077,25 @@ MonoBehaviour:
   enabledInEditor: 1
   container: {fileID: 1884038143}
   editor: {fileID: 0}
-  _caption: Set Text Property
+  _caption: Set Image Property
   _breakpoint: 0
-  _target: {fileID: 1297889764}
+  _target: {fileID: 1884038153}
   _targetVar: {fileID: 0}
-  _property: 1
-  _alignmentValue: 0
-  _colorValue: {r: 0.38431376, g: 0.28235295, b: 0.16078432, a: 1}
-  _fontValue: {fileID: 0}
-  _fontSizeValue: 0
-  _fontStyleValue: 0
-  _horizontalOverflowValue: 0
-  _lineSpacingValue: 0
+  _property: 11
+  _colorValue: {r: 0, g: 0, b: 0, a: 0}
+  _eventAlphaThresholdValue: 0
+  _fillAmountValue: 0
+  _fillCenterValue: 0
+  _fillClockwiseValue: 0
+  _fillMethodValue: 0
+  _fillOriginValue: 0
   _maskableValue: 0
   _materialValue: {fileID: 0}
-  _resizeTextForBestFitValue: 0
-  _resizeTextMaxSizeValue: 0
-  _resizeTextMinSizeValue: 0
-  _supportRichTextValue: 0
-  _textValue: 
-  _verticalOverflowValue: 0
+  _overrideSpriteValue: {fileID: 0}
+  _preserveAspectValue: 0
+  _spriteValue: {fileID: 21300002, guid: 5bbaf5cf07f7c4c459fdbecf5efda497, type: 3}
+  _typeValue: 0
   _valueVar: {fileID: 0}
-  _format: 
-  _formatVar: {fileID: 0}
 --- !u!224 &1884038145
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11129,7 +11114,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 25.2, y: -110.5}
-  m_SizeDelta: {x: 486, y: 178}
+  m_SizeDelta: {x: 474, y: 149}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1884038146
 MonoBehaviour:
@@ -11187,13 +11172,12 @@ MonoBehaviour:
 --- !u!114 &1884038147
 MonoBehaviour:
   m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 114775174993937702, guid: a5b83f7c65a2d5d41a3127af6048038a,
-    type: 2}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1884038129}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 89517478, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Script: {fileID: -1433472636, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _initialized: 1
@@ -11205,29 +11189,25 @@ MonoBehaviour:
   enabledInEditor: 1
   container: {fileID: 1884038143}
   editor: {fileID: 0}
-  _caption: Set Text Property
+  _caption: Set Image Property
   _breakpoint: 0
-  _target: {fileID: 1297889764}
+  _target: {fileID: 1884038153}
   _targetVar: {fileID: 0}
-  _property: 1
-  _alignmentValue: 0
-  _colorValue: {r: 0.7411765, g: 0.6156863, b: 0.38823533, a: 1}
-  _fontValue: {fileID: 0}
-  _fontSizeValue: 0
-  _fontStyleValue: 0
-  _horizontalOverflowValue: 0
-  _lineSpacingValue: 0
+  _property: 11
+  _colorValue: {r: 0, g: 0, b: 0, a: 0}
+  _eventAlphaThresholdValue: 0
+  _fillAmountValue: 0
+  _fillCenterValue: 0
+  _fillClockwiseValue: 0
+  _fillMethodValue: 0
+  _fillOriginValue: 0
   _maskableValue: 0
   _materialValue: {fileID: 0}
-  _resizeTextForBestFitValue: 0
-  _resizeTextMaxSizeValue: 0
-  _resizeTextMinSizeValue: 0
-  _supportRichTextValue: 0
-  _textValue: 
-  _verticalOverflowValue: 0
+  _overrideSpriteValue: {fileID: 0}
+  _preserveAspectValue: 0
+  _spriteValue: {fileID: 21300000, guid: 5bbaf5cf07f7c4c459fdbecf5efda497, type: 3}
+  _typeValue: 0
   _valueVar: {fileID: 0}
-  _format: 
-  _formatVar: {fileID: 0}
 --- !u!114 &1884038148
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -11496,7 +11476,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 082c11a3fc8cc344d89d307b55dc4c38, type: 3}
+  m_Sprite: {fileID: 21300002, guid: 5bbaf5cf07f7c4c459fdbecf5efda497, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11554,7 +11534,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 58, y: 14}
+  m_AnchoredPosition: {x: 58, y: -1}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &2003235648
