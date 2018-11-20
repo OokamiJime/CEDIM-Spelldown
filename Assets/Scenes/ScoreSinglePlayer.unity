@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.20819384, g: 0.26775593, b: 0.40133366, a: 1}
+  m_IndirectSpecularColor: {r: 0.20820424, g: 0.26775166, b: 0.40129805, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2656,6 +2656,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 496662031}
+  - component: {fileID: 496662054}
+  - component: {fileID: 496662053}
   - component: {fileID: 496662047}
   - component: {fileID: 496662046}
   - component: {fileID: 496662045}
@@ -2887,6 +2889,8 @@ MonoBehaviour:
   - {fileID: 496662049}
   - {fileID: 496662051}
   - {fileID: 496662048}
+  - {fileID: 496662053}
+  - {fileID: 496662054}
   - {fileID: 496662035}
   - {fileID: 496662036}
   - {fileID: 496662037}
@@ -3476,6 +3480,59 @@ MonoBehaviour:
   _showDescription: 0
   _description: <Description>
   _changeListeners: []
+--- !u!114 &496662053
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 496662030}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1237206220, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 496662038}
+  editor: {fileID: 0}
+  _caption: Log Message
+  _breakpoint: 0
+  _messageType: 0
+  _messageTypeVar: {fileID: 0}
+  _message: 
+  _messageVar: {fileID: 496662052}
+--- !u!114 &496662054
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 496662030}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1237206220, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 496662038}
+  editor: {fileID: 0}
+  _caption: Log Message
+  _breakpoint: 0
+  _messageType: 0
+  _messageTypeVar: {fileID: 0}
+  _message: 
+  _messageVar: {fileID: 114582826273631928, guid: d283a42316c9d4f4b9d18df3af5bf66a,
+    type: 2}
 --- !u!1 &507663371
 GameObject:
   m_ObjectHideFlags: 0
