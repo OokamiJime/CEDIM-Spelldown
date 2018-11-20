@@ -1218,7 +1218,7 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 0
+  _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
   container: {fileID: 133232787}
@@ -1228,7 +1228,7 @@ MonoBehaviour:
   _specifier: 1
   _scene: 1
   _sceneVar: {fileID: 0}
-  _sceneName: LevelSinglePlayer
+  _sceneName: CinematicSinglePlayer
   _sceneNameVar: {fileID: 0}
   _additive: 0
   _asynchronous: 0
