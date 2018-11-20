@@ -6,23 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Credits.unity
-    guid: ad2a2a45acd34a94cb3b04c195907f8e
-  - enabled: 1
-    path: Assets/Scenes/GameOver.unity
-    guid: 71b8e0e0cb5037541b4f1a89ac461d07
-  - enabled: 0
-    path: Assets/__DELETED_GUID_Trash/1d27da2527988df47a34ea26f2d2c271
-    guid: 1d27da2527988df47a34ea26f2d2c271
-  - enabled: 1
-    path: Assets/Scenes/LevelMultiPlayer.unity
-    guid: 392b70f3014d6774fac3bb6188091425
-  - enabled: 1
     path: Assets/Scenes/MainTitles.unity
     guid: 993369b4edd297249a65431ba7809d7f
-  - enabled: 1
-    path: Assets/Scenes/Score.unity
-    guid: eab3d1d5d765b2944a0450bc3c7ab6b6
   - enabled: 1
     path: Assets/Scenes/CinematicSinglePlayer.unity
     guid: 36883aad2757b7d43a58f89fdd75f916
@@ -30,6 +15,18 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelSinglePlayer.unity
     guid: cc22c34565b252443897e85e6c0420b8
   - enabled: 1
+    path: Assets/Scenes/LevelMultiPlayer.unity
+    guid: 392b70f3014d6774fac3bb6188091425
+  - enabled: 1
     path: Assets/Scenes/ScoreSinglePlayer.unity
     guid: 0217136f614af584288f6d7794c83e94
+  - enabled: 1
+    path: Assets/Scenes/Score.unity
+    guid: eab3d1d5d765b2944a0450bc3c7ab6b6
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 71b8e0e0cb5037541b4f1a89ac461d07
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: ad2a2a45acd34a94cb3b04c195907f8e
   m_configObjects: {}
