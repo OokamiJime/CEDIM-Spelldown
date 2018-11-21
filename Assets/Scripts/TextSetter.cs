@@ -54,21 +54,22 @@ public class TextSetter : MonoBehaviour {
         
         if (gm.scoreP1 < gm.scoreP2)
         { //player 2 wins
-            rangos[4].SetActive(true);
-            rangos[5].SetActive(true);
+            MPrangos[2].SetActive(true);
+            MPrangos[3].SetActive(true);
         }
 
         else
         {
             if (gm.scoreP1 > gm.scoreP2)
             { //player 1 wins
-                rangos[2].SetActive(true);
-                rangos[3].SetActive(true);
+                MPrangos[0].SetActive(true);
+                MPrangos[1].SetActive(true);
             }
             else
             { //tie
-                rangos[1].SetActive(true);
-                rangos[0].SetActive(true);
+                MPrangos[4].SetActive(true);
+                MPrangos[5].SetActive(true);
+                MPrangos[6].SetActive(true);
             }
         }
     }
