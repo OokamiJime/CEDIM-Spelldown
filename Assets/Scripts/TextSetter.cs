@@ -18,6 +18,7 @@ public class TextSetter : MonoBehaviour {
     public void SetScores ()
     {
         GameManager gm = FindObjectOfType<GameManager>();
+        gm.totalStudents = gm.totalStudents + 4;
         totalStudentsText.text = gm.totalStudents.ToString("00");
         scoreText.text = gm.score.ToString("00");
 
