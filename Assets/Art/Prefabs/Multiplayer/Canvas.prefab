@@ -155,26 +155,27 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 224344129357945880}
+  - component: {fileID: 114069796865697370}
+  - component: {fileID: 114164341374232992}
+  - component: {fileID: 114237508633963866}
+  - component: {fileID: 114543982967296044}
+  - component: {fileID: 114945799488861308}
+  - component: {fileID: 114664203148800810}
+  - component: {fileID: 114975977703717468}
+  - component: {fileID: 114404207782524564}
+  - component: {fileID: 114379423981631600}
+  - component: {fileID: 114803884374247208}
+  - component: {fileID: 114177201264325056}
   - component: {fileID: 114435668554238644}
+  - component: {fileID: 114845982245082056}
   - component: {fileID: 114062145221077556}
+  - component: {fileID: 114585005992872376}
   - component: {fileID: 114555715490979650}
-  - component: {fileID: 114947326491431784}
+  - component: {fileID: 114067598492234754}
   - component: {fileID: 114204292308551396}
   - component: {fileID: 114313024259466868}
-  - component: {fileID: 114845982245082056}
-  - component: {fileID: 114945799488861308}
-  - component: {fileID: 114067598492234754}
-  - component: {fileID: 114404207782524564}
-  - component: {fileID: 114177201264325056}
-  - component: {fileID: 114803884374247208}
-  - component: {fileID: 114975977703717468}
   - component: {fileID: 114536369138440462}
-  - component: {fileID: 114379423981631600}
-  - component: {fileID: 114585005992872376}
-  - component: {fileID: 114543982967296044}
-  - component: {fileID: 114237508633963866}
-  - component: {fileID: 114164341374232992}
-  - component: {fileID: 114664203148800810}
+  - component: {fileID: 114947326491431784}
   - component: {fileID: 114128470012928200}
   - component: {fileID: 222819067667301860}
   - component: {fileID: 114433904374853796}
@@ -747,6 +748,32 @@ MonoBehaviour:
   _timer: {fileID: 114947326491431784}
   _timerVar: {fileID: 0}
   _property: 1
+--- !u!114 &114069796865697370
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1514940648691100}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1125990795, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114128470012928200}
+  editor: {fileID: 0}
+  _caption: Play Sound
+  _breakpoint: 0
+  _audioClip: {fileID: 8300000, guid: 97ff5f1cb7fbb0541909da6875f83d2a, type: 3}
+  _audioClipVar: {fileID: 0}
+  _volume: 1
+  _volumeVar: {fileID: 0}
 --- !u!114 &114080165830321968
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1010,6 +1037,7 @@ MonoBehaviour:
   - {fileID: 114435668554238644}
   _actions:
   - {fileID: 114177201264325056}
+  - {fileID: 114069796865697370}
   - {fileID: 114803884374247208}
   _elseActions: []
   _elseVisible: 0
