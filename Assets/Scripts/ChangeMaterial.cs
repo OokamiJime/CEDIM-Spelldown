@@ -33,4 +33,6 @@ public class ChangeMaterial : MonoBehaviour {
         materials[1] = neutral;
         myRend.materials = materials;
     }
+
+   
 }
