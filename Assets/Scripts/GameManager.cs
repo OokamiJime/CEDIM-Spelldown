@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour {
     public int score;
     public int scoreP1;
     public int scoreP2;
+ 
 
     public void IncreaseTotal ()
     {
@@ -20,23 +21,25 @@ public class GameManager : MonoBehaviour {
         score++;
     }
 
-    public void IncreaseScoreP1()
+    public void P1Increase()
     {
         scoreP1++;
     }
 
-    public void IncreaseScoreP2()
+    public void P2Increase()
     {
         scoreP2++;
     }
-    public void DecreaseScoreP1()
+
+    public void P1Decrease()
     {
         scoreP1--;
-
     }
-    public void DecreaseScoreP2()
+    public void P2Decrease()
     {
         scoreP2--;
-
     }
+
+
+
 }

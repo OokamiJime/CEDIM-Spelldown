@@ -9,9 +9,11 @@ public class TextSetter : MonoBehaviour {
     public Text scoreText;
     public Text scoreP1Text;
     public Text scoreP2Text;
+  
 
     public GameObject[] rangos;
     public GameObject[] MPrangos;
+   
 
     public void SetScores ()
     {
@@ -48,9 +50,9 @@ public class TextSetter : MonoBehaviour {
         scoreP1Text.text = gm.scoreP1.ToString("00");
         scoreP2Text.text = gm.scoreP2.ToString("00");
 
+        
         if (gm.scoreP1 < gm.scoreP2)
-        {
-            //player 2 wins
+        { //player 2 wins
             rangos[4].SetActive(true);
             rangos[5].SetActive(true);
         }
@@ -58,8 +60,7 @@ public class TextSetter : MonoBehaviour {
         else
         {
             if (gm.scoreP1 > gm.scoreP2)
-            {
-                //player 1 wins
+            { //player 1 wins
                 rangos[2].SetActive(true);
                 rangos[3].SetActive(true);
             }
@@ -70,4 +71,5 @@ public class TextSetter : MonoBehaviour {
             }
         }
     }
+
 }

@@ -2656,28 +2656,27 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 496662031}
-  - component: {fileID: 496662056}
-  - component: {fileID: 496662053}
-  - component: {fileID: 496662054}
+  - component: {fileID: 496662058}
   - component: {fileID: 496662057}
+  - component: {fileID: 496662063}
+  - component: {fileID: 496662047}
+  - component: {fileID: 496662046}
+  - component: {fileID: 496662045}
+  - component: {fileID: 496662044}
+  - component: {fileID: 496662043}
+  - component: {fileID: 496662050}
+  - component: {fileID: 496662042}
+  - component: {fileID: 496662041}
+  - component: {fileID: 496662040}
+  - component: {fileID: 496662039}
+  - component: {fileID: 496662056}
+  - component: {fileID: 496662054}
+  - component: {fileID: 496662053}
+  - component: {fileID: 496662048}
+  - component: {fileID: 496662051}
   - component: {fileID: 496662055}
   - component: {fileID: 496662038}
   - component: {fileID: 496662052}
-  - component: {fileID: 496662060}
-  - component: {fileID: 496662039}
-  - component: {fileID: 496662045}
-  - component: {fileID: 496662051}
-  - component: {fileID: 496662046}
-  - component: {fileID: 496662063}
-  - component: {fileID: 496662050}
-  - component: {fileID: 496662042}
-  - component: {fileID: 496662048}
-  - component: {fileID: 496662040}
-  - component: {fileID: 496662047}
-  - component: {fileID: 496662043}
-  - component: {fileID: 496662041}
-  - component: {fileID: 496662044}
-  - component: {fileID: 496662059}
   - component: {fileID: 496662037}
   - component: {fileID: 496662036}
   - component: {fileID: 496662035}
@@ -2731,8 +2730,6 @@ MonoBehaviour:
   - {fileID: 496662052}
   - {fileID: 496662038}
   - {fileID: 496662057}
-  - {fileID: 496662059}
-  - {fileID: 496662060}
   editor: {fileID: 0}
   _showSettings: 0
   _displayMode: 0
@@ -2799,7 +2796,7 @@ MonoBehaviour:
   _moved: 0
   _foldout: 0
   _drawSeparator: 0
-  enabledInEditor: 1
+  enabledInEditor: 0
   container: {fileID: 496662038}
   editor: {fileID: 0}
   _caption: If(0)
@@ -2829,7 +2826,7 @@ MonoBehaviour:
   _moved: 0
   _foldout: 0
   _drawSeparator: 0
-  enabledInEditor: 1
+  enabledInEditor: 0
   container: {fileID: 496662038}
   editor: {fileID: 0}
   _caption: If(50)
@@ -2860,7 +2857,7 @@ MonoBehaviour:
   _moved: 0
   _foldout: 0
   _drawSeparator: 0
-  enabledInEditor: 1
+  enabledInEditor: 0
   container: {fileID: 496662038}
   editor: {fileID: 0}
   _caption: If (100)
@@ -2895,6 +2892,7 @@ MonoBehaviour:
   editor: {fileID: 0}
   _id: On Start
   _actions:
+  - {fileID: 496662058}
   - {fileID: 496662055}
   - {fileID: 496662051}
   - {fileID: 496662048}
@@ -3229,9 +3227,9 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
-  enabledInEditor: 1
+  enabledInEditor: 0
   container: {fileID: 496662038}
   editor: {fileID: 0}
   _caption: Divide Variable Value
@@ -3350,9 +3348,9 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
-  enabledInEditor: 1
+  enabledInEditor: 0
   container: {fileID: 496662038}
   editor: {fileID: 0}
   _caption: Set Variable Value
@@ -3481,9 +3479,9 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
-  enabledInEditor: 1
+  enabledInEditor: 0
   container: {fileID: 496662038}
   editor: {fileID: 0}
   _caption: Log Message
@@ -3507,9 +3505,9 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
-  enabledInEditor: 1
+  enabledInEditor: 0
   container: {fileID: 496662038}
   editor: {fileID: 0}
   _caption: Log Message
@@ -3574,9 +3572,9 @@ MonoBehaviour:
   _reset: 0
   _version: 1.1
   _moved: 0
-  _foldout: 1
+  _foldout: 0
   _drawSeparator: 0
-  enabledInEditor: 1
+  enabledInEditor: 0
   container: {fileID: 496662038}
   editor: {fileID: 0}
   _caption: Log Message
@@ -3606,7 +3604,7 @@ MonoBehaviour:
   enabledInEditor: 1
   container: {fileID: 496662032}
   editor: {fileID: 0}
-  _id: gameManager
+  _id: GameManager
   _dataType: 8
   _typeName: UnityEngine.GameObject
   _indirectDataType: 0
@@ -3665,7 +3663,7 @@ MonoBehaviour:
   _showDescription: 0
   _description: <Description>
   _changeListeners: []
---- !u!114 &496662059
+--- !u!114 &496662058
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3673,7 +3671,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 496662030}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 161578033, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Script: {fileID: 411502820, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _initialized: 1
@@ -3683,146 +3681,16 @@ MonoBehaviour:
   _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
-  container: {fileID: 496662032}
+  container: {fileID: 496662038}
   editor: {fileID: 0}
-  _id: totalAlumnos
-  _dataType: 1
-  _typeName: 
-  _indirectDataType: 0
-  _indirectTypeName: 
-  _defaultStringValue: 
-  _defaultIntValue: 0
-  _defaultFloatValue: 0
-  _defaultBoolValue: 0
-  _defaultVector2Value: {x: 0, y: 0}
-  _defaultVector3Value: {x: 0, y: 0, z: 0}
-  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _defaultRectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
-  _defaultEnumIntValue: 0
-  _defaultBoundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
-  _stringValue: 
-  _intValue: 0
-  _floatValue: 0
-  _boolValue: 1
-  _vector2Value: {x: 0, y: 0}
-  _vector3Value: {x: 0, y: 0, z: 0}
-  _rectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _colorValue: {r: 0, g: 0, b: 0, a: 1}
-  _objectValue: {fileID: 0}
-  _enumIntValue: 0
-  _enumCached: 0
-  _boundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
-  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _animationCurveValue:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  _readOnly: 0
-  _private: 0
-  _persistent: 0
-  _indirect: 0
-  _isVariant: 0
-  _showDescription: 0
-  _description: <Description>
-  _changeListeners: []
---- !u!114 &496662060
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 496662030}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 161578033, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 1
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 496662032}
-  editor: {fileID: 0}
-  _id: despiertos
-  _dataType: 1
-  _typeName: 
-  _indirectDataType: 0
-  _indirectTypeName: 
-  _defaultStringValue: 
-  _defaultIntValue: 0
-  _defaultFloatValue: 0
-  _defaultBoolValue: 0
-  _defaultVector2Value: {x: 0, y: 0}
-  _defaultVector3Value: {x: 0, y: 0, z: 0}
-  _defaultVector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _defaultRectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _defaultColorValue: {r: 0, g: 0, b: 0, a: 0}
-  _defaultEnumIntValue: 0
-  _defaultBoundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
-  _stringValue: 
-  _intValue: 0
-  _floatValue: 0
-  _boolValue: 1
-  _vector2Value: {x: 0, y: 0}
-  _vector3Value: {x: 0, y: 0, z: 0}
-  _rectValue:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  _colorValue: {r: 0, g: 0, b: 0, a: 1}
-  _objectValue: {fileID: 0}
-  _enumIntValue: 0
-  _enumCached: 0
-  _boundsValue:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  _quaternionValue: {x: 0, y: 0, z: 0, w: 1}
-  _vector4Value: {x: 0, y: 0, z: 0, w: 0}
-  _animationCurveValue:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  _readOnly: 0
-  _private: 0
-  _persistent: 0
-  _indirect: 0
-  _isVariant: 0
-  _showDescription: 0
-  _description: <Description>
-  _changeListeners: []
+  _caption: Find GameObject
+  _breakpoint: 0
+  _output: {fileID: 496662057}
+  _queryType: 0
+  _tag: gameManager
+  _tagVar: {fileID: 0}
+  _name: GameObject
+  _nameVar: {fileID: 0}
 --- !u!114 &496662063
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -3840,7 +3708,7 @@ MonoBehaviour:
   _moved: 0
   _foldout: 1
   _drawSeparator: 0
-  enabledInEditor: 0
+  enabledInEditor: 1
   container: {fileID: 496662038}
   editor: {fileID: 0}
   _caption: Destroy
