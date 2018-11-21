@@ -58,9 +58,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 224938612304225144}
-  - component: {fileID: 114755416859041656}
-  - component: {fileID: 114190929558012026}
   - component: {fileID: 114046212827780786}
+  - component: {fileID: 114270680087308202}
+  - component: {fileID: 114190929558012026}
   - component: {fileID: 222522877660148048}
   - component: {fileID: 114895942207922326}
   - component: {fileID: 114907658308810276}
@@ -283,8 +283,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 224103861634386424}
-  - component: {fileID: 114002255498470136}
   - component: {fileID: 114845845350534674}
+  - component: {fileID: 114085159291899282}
   - component: {fileID: 114502153358543378}
   - component: {fileID: 222574814828073198}
   - component: {fileID: 114812336054792114}
@@ -348,34 +348,6 @@ MonoBehaviour:
   _variable: {fileID: 0}
   _format: 
   _formatVar: {fileID: 0}
---- !u!114 &114002255498470136
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1955809405635180}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -2147088620, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 1
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 114808299699547930}
-  editor: {fileID: 0}
-  _id: On Start
-  _actions:
-  - {fileID: 114845845350534674}
-  _parameters: []
-  _showParameters: 0
-  _showSettings: 0
-  _actionsFoldout: 1
-  _ignorePause: 0
 --- !u!114 &114026173306313540
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -717,6 +689,34 @@ MonoBehaviour:
   _breakpoint: 0
   _target: {fileID: 0}
   _targetVar: {fileID: 0}
+--- !u!114 &114085159291899282
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1955809405635180}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 131294560, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114808299699547930}
+  editor: {fileID: 0}
+  _id: On Start
+  _actions:
+  - {fileID: 114845845350534674}
+  _parameters: []
+  _showParameters: 0
+  _showSettings: 1
+  _actionsFoldout: 1
+  _ignorePause: 0
 --- !u!114 &114091669764074172
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1194,7 +1194,7 @@ MonoBehaviour:
   _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
-  container: {fileID: 114755416859041656}
+  container: {fileID: 114270680087308202}
   editor: {fileID: 0}
   _caption: Set Text Property
   _breakpoint: 0
@@ -1663,6 +1663,34 @@ MonoBehaviour:
   - {fileID: 114502117459271648}
   _elseActions: []
   _elseVisible: 0
+--- !u!114 &114270680087308202
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1311393439514550}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 131294560, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 114907658308810276}
+  editor: {fileID: 0}
+  _id: On Start
+  _actions:
+  - {fileID: 114190929558012026}
+  _parameters: []
+  _showParameters: 0
+  _showSettings: 1
+  _actionsFoldout: 1
+  _ignorePause: 0
 --- !u!114 &114271994442393876
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2676,7 +2704,7 @@ MonoBehaviour:
     m_Extent: {x: 0, y: 0, z: 0}
   _defaultQuaternionValue: {x: 0, y: 0, z: 0, w: 0}
   _stringValue: 
-  _intValue: 0
+  _intValue: 4
   _floatValue: 0
   _boolValue: 1
   _vector2Value: {x: 0, y: 0}
@@ -3799,34 +3827,6 @@ MonoBehaviour:
   _windowTitle: GameFlow
   _windowMinSize: {x: 240, y: 64}
   _windowMaxSize: {x: 600, y: 400}
---- !u!114 &114755416859041656
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1311393439514550}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -2147088620, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _initialized: 1
-  _reset: 0
-  _version: 1.1
-  _moved: 0
-  _foldout: 1
-  _drawSeparator: 0
-  enabledInEditor: 1
-  container: {fileID: 114907658308810276}
-  editor: {fileID: 0}
-  _id: On Start
-  _actions:
-  - {fileID: 114190929558012026}
-  _parameters: []
-  _showParameters: 0
-  _showSettings: 0
-  _actionsFoldout: 1
-  _ignorePause: 0
 --- !u!114 &114770037559876728
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -4075,7 +4075,7 @@ MonoBehaviour:
   _moved: 0
   _blocks:
   - {fileID: 114502153358543378}
-  - {fileID: 114002255498470136}
+  - {fileID: 114085159291899282}
   editor: {fileID: 0}
   _showSettings: 0
   _displayMode: 0
@@ -4311,7 +4311,7 @@ MonoBehaviour:
   _foldout: 1
   _drawSeparator: 0
   enabledInEditor: 1
-  container: {fileID: 114002255498470136}
+  container: {fileID: 114085159291899282}
   editor: {fileID: 0}
   _caption: Set Text Property
   _breakpoint: 0
@@ -4622,7 +4622,7 @@ MonoBehaviour:
   _moved: 0
   _blocks:
   - {fileID: 114046212827780786}
-  - {fileID: 114755416859041656}
+  - {fileID: 114270680087308202}
   editor: {fileID: 0}
   _showSettings: 0
   _displayMode: 0
