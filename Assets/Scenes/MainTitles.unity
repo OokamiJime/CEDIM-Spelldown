@@ -6181,7 +6181,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1861426586}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -14301,8 +14301,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1245635192}
   - {fileID: 896919331}
+  - {fileID: 1245635192}
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15151,6 +15151,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2115155336}
+  - component: {fileID: 2115155371}
+  - component: {fileID: 2115155370}
   - component: {fileID: 2115155368}
   - component: {fileID: 2115155367}
   - component: {fileID: 2115155365}
@@ -15407,6 +15409,7 @@ MonoBehaviour:
   - {fileID: 2115155361}
   - {fileID: 2115155362}
   - {fileID: 2115155369}
+  - {fileID: 2115155371}
   _elseActions: []
   _elseVisible: 0
 --- !u!114 &2115155344
@@ -16346,6 +16349,7 @@ MonoBehaviour:
   _actions:
   - {fileID: 2115155367}
   - {fileID: 2115155368}
+  - {fileID: 2115155370}
   _elseActions: []
   _elseVisible: 0
 --- !u!114 &2115155365
@@ -16473,6 +16477,54 @@ MonoBehaviour:
   _breakpoint: 0
   _target: {fileID: 2115155363}
   _targetVar: {fileID: 0}
+--- !u!114 &2115155370
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2115155335}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 558452672, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 2115155364}
+  editor: {fileID: 0}
+  _caption: Enable Component
+  _breakpoint: 0
+  _component: {fileID: 611443024}
+  _componentVar: {fileID: 0}
+--- !u!114 &2115155371
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2115155335}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1327693136, guid: 20990ec6b45e544b0b5f28b1e0c1c96b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _initialized: 1
+  _reset: 0
+  _version: 1.1
+  _moved: 0
+  _foldout: 1
+  _drawSeparator: 0
+  enabledInEditor: 1
+  container: {fileID: 2115155343}
+  editor: {fileID: 0}
+  _caption: Disable Component
+  _breakpoint: 0
+  _component: {fileID: 611443024}
+  _componentVar: {fileID: 0}
 --- !u!1 &2125013249
 GameObject:
   m_ObjectHideFlags: 0
