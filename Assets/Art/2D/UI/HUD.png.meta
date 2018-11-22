@@ -7,6 +7,7 @@ TextureImporter:
     21300004: HUD_3
     21300006: HUD_4
     21300008: HUD_5
+    21300010: HUD_1
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -186,6 +187,46 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a9496028f8ef6fe44bb4fa1f9a367e3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD_1
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 221
+        width: 289
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8638a474bbc364da063f1ae88f2959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HUD_2
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 152
+        width: 248
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3092524825fa8f44e90b2a38e9074708
       vertices: []
       indices: 
       edges: []
